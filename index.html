@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/structure-logo_header.png">
+    <title>Fourth Cover</title>
+    <link type="text/css" rel="stylesheet" href="css/structure.css">
+    <link type="text/css" rel="stylesheet" href="css/home.css">
+    <script language="javascript" src="js/home.js"></script>
+    <script language="javascript" src="js/search.js"></script>
+    <script language="javascript" src="js/books.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar-color fixed-top">
+            <div class="center">
+                <a href="index.html">
+                    <img src="images/structure-logo_header.png" alt="logo-site" class="logo">
+                    <span>Fourth Cover</span>
+                </a>
+                <a class="shuffle" href="#"><img src="images/structure-shuffle-button.png"></a>
+            </div>
+        </nav>
+        <div class="nav-cont fixed-top">
+            <div class="search fixed-top">
+                    <form class="input-group form-inline my-2 my-lg-0" action="search.html" method="get">
+                        <input type="search" class="form-control" id="search" name="search" aria-label="book-name" placeholder="Qual título você está procurando?">
+                        <button type="submit" class="btn btn-purple">search  <img src="/images/structure-search.png"></button>
+                    </form>
+            </div>
+            <div class="titles fixed-top">
+                <div class="row">
+                    <div class="col-4 col-md-2"><a href="#">Romance</a></div>
+                    <div class="col-4 col-md-2"><a href="#">Ficção</a></div>
+                    <div class="col-4 col-md-2"><a href="#">LGBTQIA+</a></div>
+                    <div class="col-4 col-md-2"><a href="#">Suspense</a></div>
+                    <div class="col-4 col-md-2"><a href="#">Drama</a></div>
+                    <div class="col-4 col-md-2"><a href="#">Guerra</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="division">
+    <section>
+        <div id="carousel" class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img"src="/images/Home/carrossel-ppt1.jpg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="#sagas"><button type="button" class="btn btn-purple btn-sm">Explorar</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img" src="/images/Home/carrossel-ppt2.png" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="#"><button type="button" class="btn btn-purple btn-sm">Shuffle</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img" src="/images/Home/carrossel-ppt3.png" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="#start-carousel-1"><button type="button" class="btn btn-purple btn-sm">Nacionais</button></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="efeito-zoom">
+        <div class="show-md" id="carousel-home">
+            <h4 class="tittle">Aclamados pela crítica</h4>
+            <hr class="division">
+            <div id="start-carousel-1" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-anne" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'anne')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-anne.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-blood" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'blood')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-acclaimed-blood.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-two" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'two')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-two.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-collector" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'collector')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-collector.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-verity" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'verity')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-verity.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-evelyn" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'evelyn')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-evelyn.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-looking" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'looking')"class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-looking.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-hansen" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'hansen')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-acclaimed-hansen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-girl" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'girl')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-girl.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-lying" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'lying')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-lying.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-lake" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'lake')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-lake.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-boys" class="element">
+                                <a href="#start-carousel-1">
+                                    <img onclick="showInfo(1, 'boys')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-boys.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-1" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-1" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+        <div class="show-sm" id="carousel-home">
+            <h4 class="tittle">Aclamados pela crítica</h4>
+            <hr class="division">
+            <div id="start-carousel-1-sm" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-anne" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'anne')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-anne.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-blood" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'blood')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-acclaimed-blood.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters ">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-two" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'two')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-two.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-collector" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'collector')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-collector.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters ">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-verity" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'verity')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-verity.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-evelyn" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'evelyn')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-evelyn.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-looking" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'looking')"class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-looking.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-hansen" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'hansen')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-acclaimed-hansen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters ">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-girl" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'girl')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-girl.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-lying" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'lying')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-lying.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters ">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-lake" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'lake')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-acclaimed-lake.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-boys" class="element">
+                                <a href="#start-carousel-1-sm">
+                                    <img onclick="showInfo(1, 'boys')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-acclaimed-boys.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-1-sm" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-1-sm" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+
+
+        <div style="display: none;" id="carousel-first" class="text row">
+            <div class="col-12 col-xs-10 col-sm-3">
+                <img id="carousel1-img" style="width: 100%;"class="img-fluid mx-auto img-selected" alt="img01" src="#">
+            </div>
+            <div class="col-12 col-xs-10 col-sm-9">
+                <h3 id="carousel1-title"></h3>
+                <p><strong>Autor(a):</strong> <a id="carousel1-author"></a></p>
+                <p ><strong>Genêro:</strong>
+                    <span id="carousel1-genre" href="#"></span>. 
+                </p>
+                <p id="carousel1-sino"></p>
+                <form action="book.html" method="get">
+                    <button id="carousel1-link" value="" id="input" name="input" type="submit" class="btn btn-purple">Saber mais +</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="efeito-zoom">
+        <div class="show-md" id="carousel-home">
+            <h4 class="tittle">Nacionais</h4>
+            <hr class="division">
+            <div id="start-carousel-2" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-memories" class="element">
+                                <a href="#start-carousel-2" >
+                                    <img onclick="showInfo(2, 'memories')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-brazil-memories.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'sertoes')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-brazil-sertoes.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'folhas')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-folhas.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'muralha')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-muralha.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'salto')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-salto.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'encontro')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-encontro.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'obvio')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-brazil-obvio.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'engolir')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-brazil-engolir.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'contos')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-contos.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'quero')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-quero.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'querido')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-ex.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-2">
+                                    <img onclick="showInfo(2, 'finais')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-finais.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-2" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-2" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+        <div class="show-sm" id="carousel-home">
+            <h4 class="tittle">Nacionais</h4>
+            <hr class="division">
+            <div id="start-carousel-2-sm" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-memories" class="element">
+                                <a href="#start-carousel-2-sm" >
+                                    <img onclick="showInfo(2, 'memories')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-brazil-memories.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'sertoes')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-brazil-sertoes.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'folhas')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-folhas.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'muralha')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-muralha.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'salto')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-salto.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'encontro')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-encontro.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'obvio')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-brazil-obvio.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'engolir')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-brazil-engolir.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'contos')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-contos.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'quero')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-quero.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'querido')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-brazil-ex.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-2-sm">
+                                    <img onclick="showInfo(2, 'finais')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-brazil-finais.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-2-sm" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-2-sm" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+
+        <div style="display: none;"  id="carousel-second" class="text row">
+            <div class="col-12 col-xs-10 col-sm-3">
+                <img id="carousel2-img" style="width: 100%;"class="img-fluid mx-auto img-selected" alt="img01" src="#">
+            </div>
+            <div class="col-12 col-xs-10 col-sm-9">
+                <h3 id="carousel2-title"></h3>
+                <p><strong>Autor(a):</strong> <a id="carousel2-author"></a></p>
+                <p ><strong>Genêro:</strong>
+                    <span id="carousel2-genre" href="#"></span>. 
+                </p>
+                <p id="carousel2-sino"></p>
+                <form action="book.html" method="get">
+                    <button id="carousel2-link" value="" id="input" name="input" type="submit" class="btn btn-purple">Saber mais +</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="efeito-zoom">
+        <div class="show-md"id="carousel-home">
+            <h4 class="tittle">Populares nas redes sociais</h4>
+            <hr class="division">
+            <div id="start-carousel-3" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'aurora')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-aurora.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'mundo')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-popullar-mundo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'royal')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-royal.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'gelato')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-gelato.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'acaba')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-acaba.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'silenciosa')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-silenciosa.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'giz')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-giz.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'tortoarado')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-popullar-tortoarado.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'imperfeicoes')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-imperfeicoes.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'lobos')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-lobos.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'rio')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-rio.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-3">
+                                    <img onclick="showInfo(3, 'hipotese')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-hipotese.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-3" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-3" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+        <div class="show-sm"id="carousel-home">
+            <h4 class="tittle">Populares nas redes sociais</h4>
+            <hr class="division">
+            <div id="start-carousel-3-sm" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'aurora')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-aurora.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'mundo')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-popullar-mundo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'royal')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-royal.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'gelato')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-gelato.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'acaba')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-acaba.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'silenciosa')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-silenciosa.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'giz')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-giz.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'tortoarado')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-popullar-tortoarado.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'imperfeicoes')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-imperfeicoes.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'lobos')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-lobos.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'rio')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-popullar-rio.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-3-sm">
+                                    <img onclick="showInfo(3, 'hipotese')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-popullar-hipotese.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-3-sm" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-3-sm" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+
+        <div style="display: none;" id="carousel-third"class="text row">
+            <div class="col-12 col-xs-10 col-sm-3">
+                <img id="carousel3-img" style="width: 100%;"class="img-fluid mx-auto img-selected" alt="img01" src="#">
+            </div>
+            <div class="col-12 col-xs-10 col-sm-9">
+                <h3 id="carousel3-title"></h3>
+                <p><strong>Autor(a):</strong> <a id="carousel3-author"></a></p>
+                <p ><strong>Genêro:</strong>
+                    <span id="carousel3-genre" href="#"></span>. 
+                </p>
+                <p id="carousel3-sino"></p>
+                <p class="redes-imagens"><strong>Redes Sociais referentes:</strong><a target="_blank" href="#" id="carousel3-tiktok"><img src="images/Home/tiktok-adptation.png"></a><a target="_blank" href="#" id="carousel3-instagram"><img src="images/Home/insta-adptation.png"></a><a target="_blank" href="#" id="carousel3-twitter"><img src="images/Home/twitter-adptation.png"></a></p>
+                <form action="book.html" method="get">
+                    <button id="carousel3-link" value="" id="input" name="input" type="submit" class="btn btn-purple">Saber mais +</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="efeito-zoom">
+        <div class="show-md" id="carousel-home">
+            <h4 class="tittle">Adaptados para telinhas</h4>
+            <hr class="division">
+            <div id="start-carousel-4" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'simon')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-adptation-simon.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'stars')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-adptation-stars.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'callme')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-callme.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'orgulho')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-orgulho.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'duna')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-duna.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'bird')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-bird.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'cinco')"class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-adptation-cinco.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'it')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-adptation-it.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, '50')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-50.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a  href="#start-carousel-4">
+                                    <img onclick="showInfo(4, '1')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'fallen')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-fallen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-4">
+                                    <img onclick="showInfo(4, 'vinci')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-vinci.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-4" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-4" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+        <div class="show-sm"id="carousel-home">
+            <h4 class="tittle">Adaptados para telinhas</h4>
+            <hr class="division">
+            <div id="start-carousel-4-sm" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner container">
+                    <div class="row carousel-item no-gutters active">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'simon')" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-adptation-simon.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'stars')" class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-adptation-stars.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'callme')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-callme.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'orgulho')" class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-orgulho.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'duna')" class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-duna.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'bird')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-bird.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row carousel-item no-gutters second-slide">
+                        <div  class="col-6 col-md-2 float-left">
+                            <div id="book-1" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'cinco')"class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-adptation-cinco.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 float-left">
+                            <div id="book-2" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'it')"class="img-thumbnail img-fluid mx-auto" alt="img02" src="images/Home/home-adptation-it.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, '50')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-50.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a  href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, '1')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row carousel-item no-gutters">
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-3" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'fallen')"class="img-thumbnail img-fluid mx-auto" alt="img03"  src="images/Home/home-adptation-fallen.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div  class="col-6 col-md-2 float-left ">
+                            <div id="book-4" class="element">
+                                <a href="#start-carousel-4-sm">
+                                    <img onclick="showInfo(4, 'vinci')"class="img-thumbnail img-fluid mx-auto" alt="img04"  src="images/Home/home-adptation-vinci.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#start-carousel-4-sm" role="button" data-slide="prev">
+                    <img src="/images/Home/caroussel-prev.png">
+                </a>
+                <a class="carousel-control-next" href="#start-carousel-4-sm" role="button" data-slide="next">
+                    <img src="/images/Home/caroussel-next.png">
+                </a>
+            </div>
+        </div>
+        
+        <div  style="display: none;" id="carousel-fourth"class="text row">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img id="carousel4-img" style="width: 100%;"class="img-fluid mx-auto img-selected" alt="img01" src="#">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3 id="carousel4-title"></h3>
+                    <p><strong>Autor(a):</strong> <a id="carousel4-author"></a></p>
+                    <p ><strong>Adaptação:</strong>
+                        <span id="carousel4-genre" href="#"></span>. 
+                    </p>
+                    <p id="carousel4-sino"></p>
+                    <form action="book.html" method="get">
+                        <button id="carousel4-link" style="width: 100%;" value="" id="input" name="input" type="submit" class="btn btn-purple">Saber mais +</button>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="streaming"><strong>Streaming:</strong>
+                        <a target="_blank" href="#" id="carousel4-star"><img id="carousel4-star-show" style="display: none;" src="/images/Home/star-movie.png"></a>
+                        <a target="_blank" href="#" id="carousel4-netflix"><img id="carousel4-netflix-show" style="display: none;" src="/images/Home/netflix-movie.png"></a>
+                        <a target="_blank" href="#" id="carousel4-disney"><img id="carousel4-disney-show" style="display: none;" src="/images/Home/disney-movie.png"></a>
+                        <a target="_blank" href="#" id="carousel4-prime"><img id="carousel4-prime-show" style="display: none;" src="/images/Home/prime-movie.png"></a>
+                        <a target="_blank" href="#" id="carousel4-hbo"><img id="carousel4-hbo-show" style="display: none;" src="/images/Home/hbo-movie.png"></a>
+                        <a target="_blank" href="#" id="carousel4-tele"><img id="carousel4-tele-show" style="display: none;" src="/images/Home/tele-movie.png"></a>
+                    </p>
+                    <iframe width="320" height="185" src=" " id="carousel-iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div id="carousel-home">
+            <h4 class="tittle">Autores Famosos</h4>
+            <hr class="division">
+            <div class="rainbow-rowell">
+                <h5>Obras</h5>
+                <div class="show-md">
+                    <div class="row">
+                        <div class="col-12 col-xs-10 col-sm-7">
+                            <div id="start-carousel-5" class="carousel slide" data-ride="carousel">
+                                <div  class="carousel-inner">
+                                    <div class="row carousel-item no-gutters active">
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div id="book-1" class="element img1">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO1" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO1.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div id="book-2" class="element img2">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO2" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO2.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div  class="col-6 col-md-3 float-left ">
+                                            <div id="book-3" class="element img3">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO3" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO3.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row carousel-item no-gutters">
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img4">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="EP" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-EP.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img5">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="FG" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-FG.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div class="element img6">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="A" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-A.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#start-carousel-5" role="button" data-slide="prev">
+                                        <img src="/images/Home/caroussel-prev.png">
+                                    </a>
+                                    <a class="carousel-control-next" href="#start-carousel-5" role="button" data-slide="next">
+                                        <img src="/images/Home/caroussel-next.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-author col-12 col-xs-10 col-sm-4">
+                            <img class="author"src="/images/Home/home-autor-rainbow.jpg">
+                            <figcaption>Rainbow Rowell</figcaption>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-sm">
+                    <div class="row ">
+                        <div class="col-12 col-xs-10 col-sm-7">
+                            <div id="start-carousel-5-sm" class="carousel slide" data-ride="carousel">
+                                <div  class="carousel-inner">
+                                    <div class="row carousel-item no-gutters active">
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div id="book-1" class="element img1">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO1" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO1.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div id="book-2" class="element img2">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO2" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO2.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row carousel-item no-gutters">
+                                        <div  class="col-6 col-md-3 float-left ">
+                                            <div id="book-3" class="element img3">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="CO3" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-CO3.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img4">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="EP" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-EP.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row carousel-item no-gutters">
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img5">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="FG" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-FG.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div class="element img6">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="A" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-A.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#start-carousel-5-sm" role="button" data-slide="prev">
+                                        <img src="/images/Home/caroussel-prev.png">
+                                    </a>
+                                    <a class="carousel-control-next" href="#start-carousel-5-sm" role="button" data-slide="next">
+                                        <img src="/images/Home/caroussel-next.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-author col-12 col-xs-10 col-sm-4">
+                            <img class="author"src="/images/Home/home-autor-rainbow.jpg">
+                            <figcaption>Rainbow Rowell</figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="carousel-home">
+            <hr class="division">
+            <div class="colleen">
+                <h5>Obras</h5>
+                <div class="show-md">
+                    <div class="row">
+                        <div class="col-12 col-xs-10 col-sm-7">
+                            <div id="start-carousel-6" class="carousel slide" data-ride="carousel">
+                                <div  class="carousel-inner">
+                                    <div class="row carousel-item no-gutters active">
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div id="book-1" class="element img1">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="V" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-verity.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div id="book-2" class="element img2">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="EAQA" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-acaba.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div  class="col-6 col-md-3 float-left ">
+                                            <div id="book-3" class="element img3">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="TASI" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-imperfeicoes.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row carousel-item no-gutters">
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img4">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="9N" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-9.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3 float-left">
+                                            <div class="element img5">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="AOVT" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-verao.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div  class="col-6 col-md-3 float-left">
+                                            <div class="element img6">
+                                                <a href="#">
+                                                    <form action="book.html" method="get">
+                                                        <button value="AMPDMC" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-mil.jpg"></button>
+                                                    </form>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#start-carousel-6" role="button" data-slide="prev">
+                                        <img src="/images/Home/caroussel-prev.png">
+                                    </a>
+                                    <a class="carousel-control-next" href="#start-carousel-6" role="button" data-slide="next" id="sagas">
+                                        <img src="/images/Home/caroussel-next.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-author col-12 col-xs-10 col-sm-4">
+                            <img class="author"src="/images/Home/home-autor-colleen.jpg">
+                            <figcaption>Colleen Hoover</figcaption>
+                        </div>
+                    </div>
+                </div>
+            <div class="show-sm">
+                <div class="row">
+                    <div class="col-12 col-xs-10 col-sm-7">
+                        <div id="start-carousel-6-sm" class="carousel slide" data-ride="carousel">
+                            <div  class="carousel-inner">
+                                <div class="row carousel-item no-gutters active">
+                                    <div  class="col-6 col-md-3 float-left">
+                                        <div id="book-1" class="element img1">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="V" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-acclaimed-verity.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 float-left">
+                                        <div id="book-2" class="element img2">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="EAQA" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-acaba.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row carousel-item no-gutters">
+                                    <div  class="col-6 col-md-3 float-left ">
+                                        <div id="book-3" class="element img3">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="TASI" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-popullar-imperfeicoes.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 float-left">
+                                        <div class="element img4">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="9N" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-9.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row carousel-item no-gutters">
+                                    <div class="col-6 col-md-3 float-left">
+                                        <div class="element img5">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="AOVT" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-verao.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div  class="col-6 col-md-3 float-left">
+                                        <div class="element img6">
+                                            <a href="#">
+                                                <form action="book.html" method="get">
+                                                    <button value="AMPDMC" id="input" name="input" type="submit" class="btn"><img style="width:100%" class="img-thumbnail img-fluid mx-auto" alt="img01" src="images/Home/home-autor-mil.jpg"></button>
+                                                </form>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#start-carousel-6-sm" role="button" data-slide="prev">
+                                    <img src="/images/Home/caroussel-prev.png">
+                                </a>
+                                <a class="carousel-control-next" href="#start-carousel-6-sm" role="button" data-slide="next" id="sagas">
+                                    <img src="/images/Home/caroussel-next.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-author col-12 col-xs-10 col-sm-4">
+                            <img class="author"src="/images/Home/home-autor-colleen.jpg">
+                            <figcaption>Colleen Hoover</figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="efeito-zoom">
+        <h4 class="tittle">Sagas inesquecíveis</h4>
+        <hr class="division">
+        <div class="hearstopper container">
+        <div><img class="saga-tittle" src="/images/Home/background-hearstopper-tittle.png"></div>
+            
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <form action="book.html" method="get">
+                        <button value="HT1" id="input" name="input" type="submit" class="btn-saga-ht btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-H1.jpg"></button>
+                    </form>
+                </div>
+                <div class="col-6 col-md-3">
+                    <form action="book.html" method="get">
+                        <button value="HT2" id="input" name="input" type="submit" class="btn-saga-ht btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-H2.jpg"></button>
+                    </form>
+                </div>
+                <div class="col-6 col-md-3">
+                    <form action="book.html" method="get">
+                        <button value="HT3" id="input" name="input" type="submit" class="btn-saga-ht btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-H3.jpg"></button>
+                    </form>
+                </div>
+                <div class="col-6 col-md-3">
+                    <form action="book.html" method="get">
+                        <button value="HT4" id="input" name="input" type="submit" class="btn-saga-ht btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-H4.jpg"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="harry-potter container">
+            <div><img class="saga-tittle" src="/images/Home/background-harry-title.svg"></div>
+                
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP1" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP1.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP2" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP2.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP3" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP3.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP4" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP4.jpg"></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP5" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP5.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP6" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP6.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP7" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP7.jpg"></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <form action="book.html" method="get">
+                            <button value="HP8" id="input" name="input" type="submit" class="btn-saga-hp btn" href="#"><img class="img-fluid mx-auto" src="images/Home/home-saga-HP8.jpg"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <a href="#header"><img src="images/structure-logo_footer.png" class="logo-footer" alt="logo"></a>
+        <div class="text row">
+            <div class="contact col-10 col-md-6">
+                <h4>Contatos</h4>
+                <p>telefones:</p>
+                <ul>
+                    <li>(11) 9990-9990</li>
+                    <li>(11) 9990-8890</li>
+                </ul>
+                <p>e-mal:</p>
+                <ul>
+                    <li>fourth.cover@gmail.com</li>
+                </ul>
+            </div>
+            <div class="business-partner col-10 col-md-6">
+                <h4>Parceiros</h4>
+                <ul>
+                    <li><a target="_blank" href="https://www.amazon.com.br/"><img alt="amazon logo" class="amazon-logo"src="/images/Book/book-amazon.png"></a></li>
+                    <li><a target="_blank" href="https://www.saraiva.com.br/"><img alt="saraiva logo" class="saraiva-logo"src="/images/Book/book-saraiva.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-ele">
+            <div class="row">
+                <div class="col-6">
+                    <p>powered by</p>
+                </div>
+                <div class="col-6">
+                    <img class="logo-comp" src="/images/footer-company.png" alt="company logo">
+                </div>
+            </div>
+            
+            <p>Fourth Cover  |  todos os direitos reservados a &copyTGCompany  |  Avenida Paulista, 1439 - Bela Vista, São Paulo - SP</p>
+        </div>
+    </footer>
+
+    <script src="/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

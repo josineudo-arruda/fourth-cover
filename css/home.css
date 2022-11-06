@@ -1,0 +1,328 @@
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+section div.carousel img.img {
+  width: 100%;
+  height: auto;
+}
+
+section div.carousel-item button.btn-purple {
+  background-color: #c6a9e1;
+  color: white;
+}
+
+section div#carousel-home .tittle, .tittle{
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bolder;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+}
+
+/*seções */
+section div#carousel-home .row, section div#movie .row{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+div#carousel-home a.carousel-control-prev img, div#carousel-home a.carousel-control-next img{
+  width: 60px;
+}
+
+button.btn-purple {
+  background-color: #c6a9e1;
+  color: white;
+}
+
+div#carousel-home div.text p, div#movie p{
+  font-size: 14px;
+  text-align: justify;
+}
+
+div#carousel-home div.element img {
+  width: 80%;
+  margin-right: 15px;
+}
+
+div#carousel-home a.carousel-control-prev {
+  margin-left: 50px;
+}
+
+section div.text {
+  margin-top: 40px;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section div.text img.img-selected{
+  margin-left: 40px;
+}
+
+div.rainbow-rowell h5, div.colleen h5 {
+  margin-left: 150px;
+  font-weight: bolder;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-bottom: -40px;
+}
+
+
+div.rainbow-rowell img.author, div.colleen img.author {
+  width: 320px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+div.rainbow-rowell figcaption {
+  position: absolute;
+  font-weight: bolder;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  top: 290px;
+  margin-left: 15%;
+  margin-right: 5%;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+div.colleen figcaption {
+  position: absolute;
+  font-weight: bolder;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  top: 290px;
+  margin-left: 15%;
+  margin-right: 5%;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+#start-carousel-5 div.row, #start-carousel-6 div.row{
+  margin-top: 40px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+section .hearstopper {
+  background-image: url(/images/Home/background-hearstopper.png);
+  border: 10px solid #8fe0e0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+section .harry-potter {
+  background-image: url(/images/Home/background-harrypotter.jpg) ;
+  margin-top: 30px;
+  border: 10px solid #302c5c;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+section .hearstopper .row, section .harry-potter .row {
+  margin-top: 20px;
+}
+
+section.efeito-zoom img.saga-tittle{
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+
+section.efeito-zoom .row img{
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+
+section.efeito-zoom .row div:hover img.img-selected{
+  -webkit-transform: none;
+}
+
+section.efeito-zoom .row div:hover img{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.streaming {
+  margin-top: 100px;
+}
+
+.btn-saga-ht {
+  background-color: #8fe0e0;
+  padding: 0px;
+}
+
+.btn-saga-hp {
+  background-color: #09112e;
+  padding: 0px;
+}
+
+div#carousel-home div#start-carousel-5, div#carousel-home div#start-carousel-5-sm, div#carousel-home div#start-carousel-6, div#carousel-home div#start-carousel-6-sm{
+  margin-top: 65px;
+}
+
+div#carousel-home div#start-carousel-5 div.element,div#carousel-home div#start-carousel-5-sm div.element, div#carousel-home div#start-carousel-6 div.element, div#carousel-home div#start-carousel-6-sm div.element {
+  margin-left: 10px;
+
+}
+div#carousel-home div#start-carousel-5 div:first-child, div#carousel-home div#start-carousel-5-sm div:first-child, div#carousel-home div#start-carousel-6 div:first-child, div#carousel-home div#start-carousel-6-sm div:first-child{
+  margin-left: 50px !important;
+}
+
+div#carousel-home div.col-sm-4 {
+  margin-top: 20px;
+}
+
+section #carousel-first, #carousel-second, #carousel-third, #carousel-fourth {
+  box-shadow: 1px 0.5px 15px 3px #b8b8b8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section div#carousel-third p.redes-imagens img, div#carousel-fourth .streaming img{
+  width: 50px;
+  padding:8px;
+}
+
+section div#carousel-third p.redes-imagens strong, div#carousel-fourth .streaming strong{
+  margin-right: 10px;
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1400px){
+  section div.text {
+    font-size: 13px;
+  }
+  div.rainbow-rowell img.author {
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  div.rainbow-rowell figcaption {
+    position: absolute;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 12px;
+    top: 230px;
+  }
+  div.colleen img.author {
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  div.colleen figcaption {
+    position: absolute;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 12px;
+    top: 215px;
+  }
+  div#carousel-home div#start-carousel-5 div:first-child, div#carousel-home div#start-carousel-5-sm div:first-child, div#carousel-home div#start-carousel-6 div:first-child, div#carousel-home div#start-carousel-6-sm div:first-child{
+    margin-left: 40px !important;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .streaming {
+    margin-top: 0px;
+  }
+  #carousel-iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 750px){
+  div#carousel-home h5 {
+    margin-left: 50px;
+  }
+  div#carousel-home div#start-carousel-5 a.carousel-control-next img, div#carousel-home div#start-carousel-5-sm a.carousel-control-next img {
+    margin-right: 0px;
+  }
+  div#carousel-home a.carousel-control-next img {
+    margin-right: 150px;
+  }
+  div#carousel-home div.element img {
+    width: 100%;
+  }
+  div#carousel-home div.element img {
+    width: 80%;
+    margin-right: 15px;
+  }
+  section div.text {
+    font-size: 12px;
+  }
+  section div.text h3{
+    margin-top: 15px;
+  }
+  section div.text button{
+    width: 100%;
+  }
+  div#carousel-home div#start-carousel-5 div:first-child,div#carousel-home div#start-carousel-5-sm div:first-child, div#carousel-home div#start-carousel-6 div:first-child, div#carousel-home div#start-carousel-6-sm div:first-child{
+    margin-left: 0px !important;
+  }
+  div#carousel-home div#start-carousel-5 div.element, div#carousel-home div#start-carousel-5-sm div.element, div#carousel-home div#start-carousel-6 div.element, div#carousel-home div#start-carousel-6-sm div.element{
+    margin-left: 10px !important;
+  }
+  #start-carousel-5 div.row, #start-carousel-6 div.row{
+    margin-top: 0px;
+  }
+  .hearstopper .row div, .harry-potter .row div{
+    margin-top: 30px;
+  }
+  section .harry-potter .row {
+    margin-top: 0px;
+  }
+
+  #carousel-iframe {
+    width: 100%;
+    height: 200px;
+  }
+  div#start-carousel-5-sm a.carousel-control-next {
+    margin-right: 20px;
+  }
+  div#start-carousel-6-sm a.carousel-control-next {
+    margin-right: -50px;
+  }
+}
+
+@media (max-width: 550px){
+  section .hearstopper, section .harry-potter {
+    border-radius: 0px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 760px){
+  .show-md {
+    display: none;
+  }
+}
+
+@media (min-width: 760px){
+  .show-sm {
+    display: none;
+  }
+}

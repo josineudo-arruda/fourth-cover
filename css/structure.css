@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+body {
+    background-color: #f7f8fc;
+}
+
+/* header */
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header nav.navbar-color {
+    background-color: #175563;
+    padding-bottom: 10px;
+    position: fixed;
+}
+header div.center img.logo {
+    width: 55px;
+}
+header .shuffle img {
+    width: 35px;
+}
+header div.center{
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+}
+header .shuffle{
+    display: inline;
+    float: right;
+    margin: 5px;
+    margin-top: -2px;
+}
+header div.center span {
+    font: 24px bold;
+    color: #e0eae1;
+    font-family: 'Komoda';
+}
+
+header .search button.btn-purple:hover{
+    background-color: #b582e4;
+}
+
+/* search area */
+
+div.search {
+    margin-top: 75px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+div.search .input-group{
+    width: 100%;
+}
+
+.nav-cont {
+    margin-top: 50px;
+    padding: 65px;
+    background-color: white;
+}
+
+div.search form .btn-purple {
+    background-color: #c6a9e1;
+    color: #f7f8fc;
+    font-size: 16px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+div.search form input.form-control {
+    border-radius: 15px;
+    border-color: #e3d7f1;
+    font-size: 15px;
+}
+
+
+div.search img {
+    width: 13px;
+}
+
+@media (max-width: 725px){
+    div.search {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+div.titles {
+    margin-top: 140px;
+    margin-left: 200px;
+    margin-right: 5%;
+    font-size: 13px;
+}
+
+div.titles a:hover{
+    color:#c4ace4;
+    text-decoration: underline;
+}
+
+hr.division {
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+div.titles a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin-bottom: 180px;
+    z-index: 1;
+}
+
+hr.partition {
+    margin-left: 50%;
+    margin-top: 120px;
+    margin-right: 50%;
+    border-color: #c6a9e1;
+}
+
+/*footer*/
+
+footer {
+    background-color: #e1ebe2;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.logo-footer {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer div.row {
+    margin-left: 20%;
+    margin-top: 60px;
+    margin-right: 20%;
+}
+
+footer img.amazon-logo {
+    margin-top: 20px;
+    width: 100px;
+}
+
+footer img.saraiva-logo {
+    width: 150px;
+}
+
+.footer-ele {
+    text-align: center;
+}
+
+img.logo-comp {
+    width: 70px;
+}
+
+.footer-ele div.row {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.footer-ele p:last-child {
+    margin-top: 20px;
+}
+
+.business-partner img.amazon-logo {
+    margin-left: 25px;
+}
+
+
+@media (max-width: 768px){
+    div.titles {
+        margin-top: 70px;
+        margin-left: 5%;
+    }
+    div.titles div.row div {
+        margin-top: 40px;
+    }
+    div.titles div.row {
+        top: 40px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    div.titles {
+        margin-left: 70px;
+    }
+    .nav-cont {
+        margin-top: 50px;
+        padding: 110px;
+    }
+    header {
+        margin-bottom: 270px;
+    }
+    .logo-footer {
+        width: 20%;
+    }
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+    }
+    .business-partner {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+    div.titles {
+        margin-left: 110px;
+    }
+}
+
+

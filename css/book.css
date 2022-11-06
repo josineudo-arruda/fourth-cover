@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4.title {
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#book-text {
+    text-align: justify;
+}
+
+#amazon-btn img{
+    width: 140px;
+    padding: 10px 20px 10px 20px;
+    background-color: #292d3d;
+    border-radius: 10px
+}
+
+#saraiva-btn img {
+    width: 170px;
+    padding: 2px 20px 3px 20px;
+    background-color: #f4d608;
+    border-radius: 10px
+}
+
+#estante-btn img {
+    width: 120px;
+    padding: 7px 20px 7px 20px;
+    background-color: #1c4d48;
+    border-radius: 10px
+}
+
+.rating img {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+
+
+#book-title {
+    margin-top: 10px;
+}
+
+hr.division {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.caract img {
+    width: 90px;
+}
+
+.caract {margin-left: 30px !important;margin-right: 30px !important;}
+
+.caract p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.caract p:last-child {margin-top: 10px;}
+
+.caract p:first-child {
+    margin-top: 20px;
+}
+
+.caract p:last-child {
+    margin-bottom: 20px;
+}
+
+#resenha-1 #resen-1-text,#resenha-2 #resen-2-text {
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 1px 0.5px 10px 3px #e6e4e4;
+    border-radius: 5px;
+}
+
+#resenha-1 a, #resenha-1 a:hover, #resenha-2 a, #resenha-2 a:hover {
+    text-decoration: none;
+    color: #292d3d;
+}
+
+#resenha-1 p.note, #resenha-2 p.note {
+    margin-top: -10px !important;
+}
+
+
+.caract div.grey {
+    background-color: #ededed;
+    border-radius: 2px;
+}
+
+.caract {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (min-width: 600px) and (max-width: 1100px){
+    div.no-line p {
+        margin-bottom: 39px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    section {margin-left: 10%;margin-right: 10%;}
+    .line-sm p:first-child {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #resenha-1, #resenha-2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #book-cover {
+        width: 50% !important;
+        margin-left: 100px !important;
+    }
+}
