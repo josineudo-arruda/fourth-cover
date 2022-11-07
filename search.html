@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="css/structure.css">
     <link type="text/css" rel="stylesheet" href="css/search.css">
     <script language="javascript" src="js/search.js"></script>
+    <script language="javascript" src="js/books.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -48,7 +49,91 @@
                 <div class="filter">
                     <h5>Filtros</h5>
                     <hr>
-                    
+                    <div class="form-check">
+                        <p>Genêro</p>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio1" value="genre-romance">
+                        <label class="form-check-label" for="genre-radio1">
+                            Romance
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio2" value="genre-ficcao">
+                        <label class="form-check-label" for="genre-radio2">
+                            Ficção
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio3" value="genre-lgbt">
+                        <label class="form-check-label" for="genre-radio3">
+                            LGBTQIA+
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio4" value="genre-drama">
+                        <label class="form-check-label" for="genre-radio4">
+                            Drama
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio5" value="genre-guerra">
+                        <label class="form-check-label" for="genre-radio5">
+                            Guerra
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="genre-radio" id="genre-radio6" value="genre-suspense">
+                        <label class="form-check-label" for="genre-radio6">
+                            Suspense
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <p>Subcategorias</p>
+                        <input class="form-check-input" type="radio" name="sub-radio" id="sub-radio1" value="sub-nacional">
+                        <label class="form-check-label" for="sub-radio1">
+                            Nacional
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="sub-radio" id="sub-radio2" value="sub-redes">
+                        <label class="form-check-label" for="sub-radio2">
+                            Redes Sociais
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="sub-radio" id="sub-radio3" value="sub-adaptados">
+                        <label class="form-check-label" for="sub-radio3">
+                            Adaptados
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="sub-radio" id="sub-radio4" value="sub-sagas">
+                        <label class="form-check-label" for="sub-radio4">
+                            Sagas
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="sub-radio" id="sub-radio5" value="sub-hq">
+                        <label class="form-check-label" for="sub-radio5">
+                            Hqs e Desenhos
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <p>N° de páginas</p>
+                        <input class="form-check-input" type="radio" name="page-radio" id="page-radio1" value="page-(0-200)">
+                        <label class="form-check-label" for="page-radio1">
+                            0 - 200
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="page-radio" id="page-radio2" value="page-(200-500)">
+                        <label class="form-check-label" for="page-radio2">
+                            200 - 500
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="page-radio" id="page-radio3" value="page-(500-1000)">
+                        <label class="form-check-label" for="page-radio3">
+                            500 - 1000
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="page-radio" id="page-radio4" value="page-(1000-1500)">
+                        <label class="form-check-label" for="page-radio4">
+                            1000 - 1500
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <p>Ano de lançamento</p>
+                        <input class="form-check-input" type="radio" name="a-radio" id="a-radio1" value="a-(2022)">
+                        <label class="form-check-label" for="a-radio1">
+                            2022 - 2010
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="a-radio" id="a-radio2" value="a-(2010)">
+                        <label class="form-check-label" for="page-radio2">
+                            2010 - 2000
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="a-radio" id="a-radio3" value="a-(2000)">
+                        <label class="form-check-label" for="a-radio3">
+                            2000 - 1990..
+                        </label><br>
+                    </div>
+                    <a onclick="filter()"><button  class="btn btn-filter">Filtrar</button></a>
                 </div>
             </div>
             <div class="col-12 col-md-9">
@@ -58,198 +143,270 @@
                     <div id="display-movie01" style=" " class="col-6 col-lg-3">
                         <img id="poster01" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class="" id="title-01"></p>
-                        <a id="button-link01" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link01" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie02" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster02" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-02"></p>
-                        <a id="button-link02"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link02" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie03" style="display: none;" class="col-6  col-lg-3">
                         <img id="poster03" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-03"></p>
-                        <a id="button-link03"  href="#" class="a-button" target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link03" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie04" style="display: none;"class="col-6  col-lg-3">
                         <img id="poster04" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-04"></p>
-                        <a id="button-link04" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link04" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie05" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster05" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-05"></p>
-                        <a id="button-link05"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link05" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie06" style="display: none;" class="col-6  col-lg-3">
                         <img id="poster06" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-06"></p>
-                        <a id="button-link06" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link06" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie07" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster07" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-07"></p>
-                        <a id="button-link07"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link07" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie08" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster08" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-08"></p>
-                        <a id="button-link08"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link08" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie09" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster09" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-09"></p>
-                        <a id="button-link09"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link09" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie10" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster10" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-10"></p>
-                        <a id="button-link10" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link10" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie11" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster11" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-11"></p>
-                        <a id="button-link11"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link11" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie12" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster12" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-12"></p>
-                        <a id="button-link12" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link12" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie13" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster13" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-13"></p>
-                        <a id="button-link13"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link13" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie14" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster14" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-14"></p>
-                        <a id="button-link14"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link14" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie15" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster15" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-15"></p>
-                        <a id="button-link15"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link15" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie16" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster16" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-16"></p>
-                        <a id="button-link16" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link16" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie17" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster17" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-17"></p>
-                        <a id="button-link17"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link17" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie18" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster18" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-18"></p>
-                        <a id="button-link18" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link18" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie19" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster19" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-19"></p>
-                        <a id="button-link19"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link19" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie20" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster20" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-20"></p>
-                        <a id="button-link20" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link20" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie21" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster21" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-21"></p>
-                        <a id="button-link21"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link21" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie22" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster22" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-22"></p>
-                        <a id="button-link22" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link22" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie23" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster23" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-23"></p>
-                        <a id="button-link23"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link23" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie24" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster24" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-24"></p>
-                        <a id="button-link24" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link24" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie25" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster25" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-25"></p>
-                        <a id="button-link25"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link25" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie26" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster26" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-26"></p>
-                        <a id="button-link26" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link26" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie27" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster27" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-27"></p>
-                        <a id="button-link27"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link27" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie28" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster28" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-28"></p>
-                        <a id="button-link28" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link28" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie29" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster29" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-29"></p>
-                        <a id="button-link29" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link29" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie30" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster30" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-30"></p>
-                        <a id="button-link30"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link30" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie31" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster31" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-31"></p>
-                        <a id="button-link31" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link31" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie32" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster32" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-32"></p>
-                        <a id="button-link32"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link32" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
                 <div class="row">
                     <div id="display-movie33" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster33" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-33"></p>
-                        <a id="button-link33" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link33" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie34" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster34" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-34"></p>
-                        <a id="button-link34"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link34" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie35" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster35" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-35"></p>
-                        <a id="button-link35" href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link35" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                     <div id="display-movie36" style="display: none;" class="col-6 col-lg-3">
                         <img id="poster36" class="img-responsive img-thumbnail" src="#" style="width:100%" alt="">
                         <p class=""id="title-36"></p>
-                        <a id="button-link36"  href="#" class="a-button"target="_blank"><button class="btn btn-outline-info color font-weight-bold btn-block">+</button></a>
+                        <form action="book.html" method="get">
+                            <button id="button-link36" value="" id="input" name="input" type="submit" class="btn btn-outline-info color font-weight-bold btn-block">+</button>
+                        </form>
                     </div>
                 </div>
             </div>
