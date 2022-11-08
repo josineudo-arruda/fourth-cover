@@ -140,6 +140,7 @@ function inputBook() {
             var setLinkRese1 = document.getElementById("rese-1-a");
             setLinkRese1.setAttribute("href", bookLinkRese1);
 
+
             document.getElementById("rese-1-rate").innerHTML = "3,5 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-1-text").innerHTML = "Apesar de ter achado a leitura bastante fluida e, no geral, ter gostado dela, Verity não foi para mim tão impactante quanto para muitos outros leitores. Achei as resoluções finais com pontas abertas e explicações pouco convincentes, além de já ter imaginado parte da reviravolta final. Minha sensação foi a de que havia uma tentativa muito esforçada em fazer o leitor acreditar em uma verdade e, com isso, ela se enfraqueceu para mim. Contudo, o final aberto da história me soou positivo, justamente por possibilitar a dúvida e, em consequência, intensificar o significado de tudo o que aconteceu anteriormente.";
@@ -157,7 +158,7 @@ function inputBook() {
             document.getElementById("resen-2-text").innerHTML = "As cenas vão se desenrolando e nos deixando sem fôlego. A Lowen se questiona em vários momentos se está tendo um surto, já que ela tem episódios de sonambulismo, e inventando situações em sua cabeça. Com isso, ela se torna uma narradora não confiável. Confesso que durante a leitura fui imaginando várias coisas, mas nada me prepararia para o final arrebatador. As páginas finais são repletas de reviravoltas, e quando achamos que tudo se resolveu, a Colleen joga mais uma bomba em nosso colo. SURTOS E SURTOS!";
             break; // ´é switch case precisa ter no final
 
-        case 'OSMDEH': // esta no doc home.js, encontra o nome de cada  no final do case
+            case 'OSMDEH': // esta no doc home.js, encontra o nome de cada  no final do case
             document.getElementById("book-title").innerHTML = "Os sete maridos de Evelyn Hugo"; // coloca o nome do livro
 
             var bookImg =  "images/Home/home-acclaimed-evelyn.jpg";
@@ -234,11 +235,10 @@ function inputBook() {
             document.getElementById("resen-2-text").innerHTML = "Depois da metade, os altos e baixos dão uma desacelerada e a história foca em uma parte específica do romance que eu, particularmente, achei um pouco enrolada demais. É um tal de vai e volta que eu gostaria que tivesse sido mais rápido, apesar da beleza do amor que Evelyn demonstra. Mesmo considerando os pontos negativos que comentei, foi uma boa leitura. A escritora faz uma construção de personagem de uma forma que me deixou admirada. Também o livro tem uma forte mensagem sobre a sexualidade e bissexualidade. Mesmo hoje sendo mais fácil falar sobre isso, na época era ainda pior, com consequências ainda mais duras, e isso fica muito explícito na história. Fora também sobre toda a relação de machismo. Enquanto Evelyn era assediada, quem sofria as consequências era sempre ela. E porque ela tinha um objetivo em mente, ela tolerou muito daquelas coisas.";
             break; // ´é switch case precisa ter no final
 
-        default:
-            case '-': // esta no doc home.js, encontra o nome de cada  no final do case
-            document.getElementById("book-title").innerHTML = "Os sete maridos de Evelyn Hugo"; // coloca o nome do livro
+            case 'QNEO': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Quando ninguém está olhando"; // coloca o nome do livro
 
-            var bookImg =  "images/Home/home-acclaimed-evelyn.jpg";
+            var bookImg =  "images/Home/home-acclaimed-looking.jpg";
             var setImg = document.getElementById("book-cover");
             setImg.setAttribute("src", bookImg);
 
@@ -261,7 +261,6 @@ function inputBook() {
             var fifthStar =  "/images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
-            -+
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
@@ -311,10 +310,9 @@ function inputBook() {
             document.getElementById("rese-2-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-2-text").innerHTML = "Depois da metade, os altos e baixos dão uma desacelerada e a história foca em uma parte específica do romance que eu, particularmente, achei um pouco enrolada demais. É um tal de vai e volta que eu gostaria que tivesse sido mais rápido, apesar da beleza do amor que Evelyn demonstra. Mesmo considerando os pontos negativos que comentei, foi uma boa leitura. A escritora faz uma construção de personagem de uma forma que me deixou admirada. Também o livro tem uma forte mensagem sobre a sexualidade e bissexualidade. Mesmo hoje sendo mais fácil falar sobre isso, na época era ainda pior, com consequências ainda mais duras, e isso fica muito explícito na história. Fora também sobre toda a relação de machismo. Enquanto Evelyn era assediada, quem sofria as consequências era sempre ela. E porque ela tinha um objetivo em mente, ela tolerou muito daquelas coisas.";
-            break; // é switch case precisa ter no final
+            break; // ´é switch case precisa ter no final
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
     inputBook();
 });
-//se leu seu cu eh meu
