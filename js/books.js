@@ -1363,7 +1363,7 @@ function inputBook() {
         document.getElementById("resen-2-text").innerHTML = "Eu gostei muito do livro, foi meu primeiro contato com literatura de suspense além de Harlan Coben, e eu me surpreendi com o final. Quando chegou ao desfecho do crime, o quem matou e porque eu fiquei revoltada por ter pensado que tinha sido outra pessoa e bom, julguei mal. Atire a primeira pedra quem nunca julgou um personagem antes hahaha mas tudo bem! É chocante e te faz ficar pensando na estória por vários dias depois que o livro acaba. Porque uma pessoa faria isso? Até onde vai o desejo e a crueldade? É um livro de uma estória fictícia, mas que acontece tanto, é só assistir a qualquer jornal que todos os dias vemos histórias parecidas.";
     break; // ´é switch case precisa ter no final
 
-    default:
+    case 'MBDG':
         case 'MBDG': // esta no doc home.js, encontra o nome de cada  no final do case
         document.getElementById("book-title").innerHTML = "Mil beijos de garoto"; // coloca o nome do livro
 
@@ -1439,9 +1439,10 @@ function inputBook() {
         document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
 
         document.getElementById("resen-2-text").innerHTML = " É uma narrativa repleta de símbolos, que vão acompanhar o leitor mesmo ao término da leitura. Não consigo mais ver flores de cerejeira ou ouvir If I Could Fly do One Direction da mesma forma que antes! E os capítulos são intercalados entre Poppy e Rune, um recurso que gosto muito em livros, como já disse anteriormente em outras resenhas. Mil Beijos de Garoto (não vou o explicar o título, vocês vão ter que ler!) te faz enxergar a vida sob um novo ponto de vista, traz inúmeras lições sobre valores muitas vezes esquecidos e acima de tudo, te emociona. Preparem os lencinhos para as lágrimas e deem uma chance para essa história! Garanto que vocês vão amar conhecer esse casal.";
-    break; // ´é switch case precisa ter no final
+        break; // ´é switch case precisa ter no final
 
-    //default:
+        default:
+            break;
     }
 }
 document.addEventListener("DOMContentLoaded", function() {

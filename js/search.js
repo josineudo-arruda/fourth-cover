@@ -317,6 +317,436 @@ function filter() {
                     }
                 }
             } 
+        }else if(searchedBooks[i] == "EAQA") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("EAQA");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "TASI") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("TASI");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "DLCA") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("DLCA");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "EP") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("EP");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "FG") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("FG");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "A") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" || subValue == "sub-redes" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("A");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AOVT") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == ""|| subValue == "sub-redes"  ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("AOVT");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "9N") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("9N");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AMPDMC") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("AMPDMC");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HT1") {
+            if( genreValue == "genre-romance" || genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-hq" || subValue == "sub-redes"|| subValue == "sub-sagas") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HT1");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HT2") {
+            if( genreValue == "genre-romance" || genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-hq" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HT2");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HT3") {
+            if( genreValue == "genre-romance" || genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-hq" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HT3");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HT4") {
+            if( genreValue == "genre-romance" || genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-hq" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HT4");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP1") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP1");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP2") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP2");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP3") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP3");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP4") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP4");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP5") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP5");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP6") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP6");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP7") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("HP7");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP8") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("HP8");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HP8") {
+            if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("HP8");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "QNEO") {
+            if( genreValue == "genre-suspense" || genreValue == "genre-ficcao"|| genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("QNEO");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "QEH") {
+            if( genreValue == "genre-suspense" || genreValue == "genre-drama"|| genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("QEH");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GE") {
+            if( genreValue == "genre-romance" || genreValue == "genre-suspense"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("GE");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "UDNEM") {
+            if( genreValue == "genre-suspense" || genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("UDNEM");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AGDL") {
+            if( genreValue == "genre-suspense" || genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("AGDL");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "OANEO") {
+            if( genreValue == "genre-romance" || genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("OANEO");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "OCMCB") {
+            if( genreValue == "genre-drama" || genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("OCMCB");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "NQSCV") {
+            if( genreValue == "genre-romance" ||genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("NQSCV");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "QE") {
+            if( genreValue == "genre-romance" ||genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(0-200)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("QE");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "UMDFF") {
+            if( genreValue == "genre-romance" ||genreValue == "genre-lgbt"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("UMDFF");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "OHDG") {
+            if( genreValue == "genre-suspense" ||genreValue == "genre-drama"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("OHDG");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "TA") {
+            if( genreValue == "genre-drama"|| genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes"||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("TA");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "MQCCL") {
+            if( genreValue == "genre-drama"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("MQCCL");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "TED") {
+            if( genreValue == "genre-romance"|| genreValue == "genre-drama"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes"||  subValue == "sub-nacionais") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("TED");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AHDA") {
+            if( genreValue == "genre-romance"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("AHDA");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "ACPDV") {
+            if( genreValue == "genre-romance"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes"||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("ACPDV");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "IAC") {
+            if( genreValue == "genre-suspense"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-redes"||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(1000-1500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("ACIACPDV");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "CTDC") {
+            if( genreValue == "genre-romance"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(1000-1500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2000)") {
+                            continueBooks.push("CTDC");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "F") {
+            if( genreValue == "genre-romance"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados"||  subValue == "sub-sagas") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("F");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "JG1") {
+            if( genreValue == "genre-ficcao"||genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("JG1");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "OCDV") {
+            if( genreValue == "genre-suspense"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("OCDV");
+                        }
+                    }
+                }
+            } 
         }
     }
 
@@ -333,8 +763,6 @@ function filter() {
     var title = [
         "title-01","title-02","title-03","title-04","title-05","title-06","title-07","title-08","title-09","title-10","title-11","title-12","title-13","title-14","title-15","title-16","title-17","title-18","title-19","title-20","title-21","title-22","title-23","title-24","title-25","title-26","title-27","title-28","title-29","title-30","title-31","title-32","title-33","title-34","title-35","title-36"
     ];
-
-    alert(continueBooks.length)
 
     if(continueBooks.length != contt) {
         for(let i = 0; i < contt; i++) {
@@ -1696,6 +2124,10 @@ function searchMovie() {
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
 
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
             searchedBooks.push("OSMDEH");
 
             bookSituation[5] = false;
@@ -1867,6 +2299,10 @@ function searchMovie() {
 
             searchedBooks.push("VBSA");
 
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
             var bookLink = "VBSA";
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
@@ -2035,7 +2471,7 @@ function searchMovie() {
 
             searchedBooks.push("CO2");
 
-            var bookClass = "line line-sm";
+            var bookClass = "line line-md line-sm";
             var setClass = document.getElementById(title[i]);
             setClass.setAttribute("class", bookClass);
 
@@ -2215,6 +2651,10 @@ function searchMovie() {
 
             searchedBooks.push("AMPDMC");
 
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
             var bookLink = "AMPDMC";
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
@@ -2301,6 +2741,10 @@ function searchMovie() {
 
             searchedBooks.push("HP1");
 
+            var bookClass = " line-md";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
             var bookLink = "HP1";
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
@@ -2341,6 +2785,7 @@ function searchMovie() {
 
             document.getElementById(title[i]).innerHTML = "Harry Potter: A cálice de fogo"
 
+
             var bookLink = "HP4";
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
@@ -2353,6 +2798,10 @@ function searchMovie() {
             setImg.setAttribute("src", bookImg);
 
             document.getElementById(title[i]).innerHTML = "Harry Potter: A ordem da fênix"
+
+            var bookClass = " line-md";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
 
             searchedBooks.push("HP5");
 
@@ -2416,7 +2865,7 @@ function searchMovie() {
 
             document.getElementById(title[i]).innerHTML = "Querido Evan Hansen"
             searchedBooks.push("QEH");
-            var bookClass = "line line-sm";
+            var bookClass = "line line-md line-sm";
             var setClass = document.getElementById(title[i]);
             setClass.setAttribute("class", bookClass);
 
@@ -2666,7 +3115,7 @@ function searchMovie() {
 
             document.getElementById(title[i]).innerHTML = "A Cinco passos de você"
 
-            var bookClass = "line line-sm";
+            var bookClass = "line line-md line-sm";
             var setClass = document.getElementById(title[i]);
             setClass.setAttribute("class", bookClass);
 
@@ -2702,7 +3151,7 @@ function searchMovie() {
 
             document.getElementById(title[i]).innerHTML = "Cinquenta tons de cinza"
 
-            var bookClass = "line line-sm";
+            var bookClass = "line line-md line-sm";
             var setClass = document.getElementById(title[i]);
             setClass.setAttribute("class", bookClass);
 
@@ -2782,3 +3231,35 @@ document.addEventListener("DOMContentLoaded", function() {
     searchMovie();
   });
 
+
+const mediaQuery = window.matchMedia('(max-width: 750px)');
+var btnShow = false;
+
+function displayFilter(e) {
+    if (e.matches) {
+        document.getElementById("filter-options").style.display = "none"
+        document.getElementById("show-filter-btn").style.display = "block"
+    } else {
+        document.getElementById("filter-options").style.display = "block"
+        document.getElementById("show-filter-btn").style.display = "none"
+    }
+    btnShow = false;
+}
+
+// Register event listener
+mediaQuery.addListener(displayFilter);
+
+// Initial check
+displayFilter(mediaQuery);
+
+function showFilter() {
+    if(btnShow) {
+        document.getElementById("filter-options").style.display = "none"
+        document.getElementById("show-filter-btn").style.opacity = "1"
+        btnShow = false;
+    } else {
+        document.getElementById("filter-options").style.display = "block"
+        document.getElementById("show-filter-btn").style.opacity = ".7"
+        btnShow = true;
+    }
+}

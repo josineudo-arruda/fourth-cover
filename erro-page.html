@@ -31,18 +31,119 @@
             </div>
             <div class="titles fixed-top">
                 <div class="row">
-                    <div class="col-4 col-md-2"><a href="#">Romance</a></div>
-                    <div class="col-4 col-md-2"><a href="#">Ficção</a></div>
-                    <div class="col-4 col-md-2"><a href="#">LGBTQIA+</a></div>
-                    <div class="col-4 col-md-2"><a href="#">Suspense</a></div>
-                    <div class="col-4 col-md-2"><a href="#">Drama</a></div>
-                    <div class="col-4 col-md-2"><a href="#">Guerra</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-romance.html">Romance</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-ficção.html">Ficção</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-lgbtqia+.html">LGBTQIA+</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-suspense.html">Suspense</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-drama.html">Drama</a></div>
+                    <div class="col-4 col-md-2"><a href="/pages/genre-guerra.html">Guerra</a></div>
                 </div>
             </div>
         </div>
     </header>
     <hr class="division">
-    
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="filter-error filter">
+                    <h5>Filtros</h5>
+                    <hr>
+                    <div id="filter-options">
+                        <div class="form-check">
+                            <p>Genêro</p>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio1" value="genre-romance">
+                            <label class="form-check-label" for="genre-radio1">
+                                Romance
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio2" value="genre-ficcao">
+                            <label class="form-check-label" for="genre-radio2">
+                                Ficção
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio3" value="genre-lgbt">
+                            <label class="form-check-label" for="genre-radio3">
+                                LGBTQIA+
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio4" value="genre-drama">
+                            <label class="form-check-label" for="genre-radio4">
+                                Drama
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio5" value="genre-guerra">
+                            <label class="form-check-label" for="genre-radio5">
+                                Guerra
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="genre-radio" id="genre-radio6" value="genre-suspense">
+                            <label class="form-check-label" for="genre-radio6">
+                                Suspense
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <p>Subcategorias</p>
+                            <input disabled class="form-check-input" type="radio" name="sub-radio" id="sub-radio1" value="sub-nacional">
+                            <label class="form-check-label" for="sub-radio1">
+                                Nacional
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="sub-radio" id="sub-radio2" value="sub-redes">
+                            <label class="form-check-label" for="sub-radio2">
+                                Redes Sociais
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="sub-radio" id="sub-radio3" value="sub-adaptados">
+                            <label class="form-check-label" for="sub-radio3">
+                                Adaptados
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="sub-radio" id="sub-radio4" value="sub-sagas">
+                            <label class="form-check-label" for="sub-radio4">
+                                Sagas
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="sub-radio" id="sub-radio5" value="sub-hq">
+                            <label class="form-check-label" for="sub-radio5">
+                                Hqs e Desenhos
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <p>N° de páginas</p>
+                            <input disabled class="form-check-input" type="radio" name="page-radio" id="page-radio1" value="page-(0-200)">
+                            <label class="form-check-label" for="page-radio1">
+                                0 - 200
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="page-radio" id="page-radio2" value="page-(200-500)">
+                            <label class="form-check-label" for="page-radio2">
+                                200 - 500
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="page-radio" id="page-radio3" value="page-(500-1000)">
+                            <label class="form-check-label" for="page-radio3">
+                                500 - 1000
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="page-radio" id="page-radio4" value="page-(1000-1500)">
+                            <label class="form-check-label" for="page-radio4">
+                                1000 - 1500
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <p>Ano de lançamento</p>
+                            <input disabled class="form-check-input" type="radio" name="a-radio" id="a-radio1" value="a-(2022)">
+                            <label class="form-check-label" for="a-radio1">
+                                2022 - 2010
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="a-radio" id="a-radio2" value="a-(2010)">
+                            <label class="form-check-label" for="a-radio2">
+                                2010 - 2000
+                            </label><br>
+                            <input disabled class="form-check-input" type="radio" name="a-radio" id="a-radio3" value="a-(2000)">
+                            <label class="form-check-label" for="a-radio3">
+                                2000 - 1990..
+                            </label><br>
+                        </div>
+                        <a onclick="filter()"><button disabled class="btn btn-filter">Filtrar</button></a>
+                    </div>
+                    <div style="display:none;"id="show-filter-btn">
+                        <a onclick="showFilter()"><button disabled class="btn btn-show"><img class="" id="btn-image"src="/images/Search/plus-symbol.png"></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+
+            </div>
+    </section>
 
     <footer>
         <a href="#header"><img src="images/structure-logo_footer.png" class="logo-footer" alt="logo"></a>

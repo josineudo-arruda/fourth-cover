@@ -100,7 +100,34 @@ p.line {
     margin-bottom: 19.6px !important;
 }
 
-@media (min-width: 600px) and (max-width: 1400px){
+.btn-show {
+    padding: 10px 50px 10px 50px !important;
+    background-color: #b582e4;
+    margin-top: 10px;
+    text-align: center;
+    color: white !important;
+    
+}
+
+.btn-show img {
+    width: 20px;
+}
+
+.btn-show img.setShow {
+    transform: rotate(45deg) !important;
+}
+
+#show-filter-btn {
+    text-align: center;
+}
+
+
+
+.filter-error {
+    disab
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
     p.line-md {
         margin-top: 3px !important;
         margin-bottom: 5px !important;
@@ -118,4 +145,6 @@ p.line {
         margin-bottom: 0px !important;
     }
 }
+
+
 
