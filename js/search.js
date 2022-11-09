@@ -449,7 +449,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP1") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP1");
@@ -459,7 +459,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP2") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP2");
@@ -469,7 +469,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP3") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP3");
@@ -479,7 +479,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP4") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP4");
@@ -489,7 +489,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP5") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(500-1000)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP5");
@@ -499,7 +499,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP6") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP6");
@@ -509,7 +509,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP7") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(500-1000)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2000)") {
                             continueBooks.push("HP7");
@@ -519,7 +519,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP8") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2010)") {
                             continueBooks.push("HP8");
@@ -529,7 +529,7 @@ function filter() {
             } 
         }else if(searchedBooks[i] == "HP8") {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
-                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes") {
+                if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2010)") {
                             continueBooks.push("HP8");
@@ -1859,11 +1859,15 @@ function filter() {
                 var bookLink = "OCDV";
                 var setLink = document.getElementById(button[i]);
                 setLink.setAttribute("value", bookLink);
-            }
+            } 
         }
         
-
-
+    }
+    if(searchedBooks.length === 0) {
+        const nextURL = 'erro-page.html';
+        window.location.href = nextURL;
+        window.location.assign(nextURL);
+        window.location.replace(nextURL);
     }
 }
 
