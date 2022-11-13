@@ -1135,7 +1135,7 @@ function inputBook() {
             var setLinkRese1 = document.getElementById("rese-1-a");
             setLinkRese1.setAttribute("href", bookLinkRese1);
 
-            document.getElementById("rese-1-rate").innerHTML = "5,5 / 5,0"; // se n tiver inventa com base na nota
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-1-text").innerHTML = "Só posso dizer que Os sete maridos de Evelyn Hugo me surpreendeu positivamente. É um livro que tem representatividade racial, sexual e nos mostra, no decorrer dos anos, o quanto cada uma dessas lutas teve que avançar para chegar no que é hoje. E, além disso, nos mostra o valor da perseverança e os custos da fama. Sim, admiro Evelyn Hugo e depois dessa leitura, sinto que sou um pouquinho mais confiante com relação aos meus sonhos. Dou todo o céu de estrelas.";
 
@@ -1203,20 +1203,6 @@ function inputBook() {
             // por exemplo: 3 (set,set,set,unset,unset)
             // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
 
-            document.getElementById("book-text").innerHTML = "Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante ― o que lhe dá a promessa de viver mais alguns anos ―, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.";
-
-            var bookLinkAmazon = "https://www.amazon.com.br/Culpa-É-das-Estrelas/dp/8580572266";
-            var setLinkAmazon = document.getElementById("amazon-btn");
-            setLinkAmazon.setAttribute("href", bookLinkAmazon);
-
-            var bookLinkSaraiva = "https://www.saraiva.com.br/culpa-e-das-estrelas-a-10519/p";
-            var setLinkSaraiva = document.getElementById("saraiva-btn");
-            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
-
-            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/john-green/a-culpa-e-das-estrelas/1542645645"; // coloca o link da pesquisa, pq é site de livro usado
-            var setLinkEstante = document.getElementById("estante-btn");
-            setLinkEstante.setAttribute("href", bookLinkEstante);
-
             document.getElementById("book-page").innerHTML = "288";  ///as caracteristicas estao todas na amazon
             document.getElementById("book-date").innerHTML = "27 outubro 2014";
             document.getElementById("book-lang").innerHTML = "Português";
@@ -1255,7 +1241,7 @@ function inputBook() {
             setLinkRese1.setAttribute("href", bookLinkRese1);
 
 
-            document.getElementById("rese-1-rate").innerHTML = "5,5 / 5,0"; // se n tiver inventa com base na nota
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-1-text").innerHTML = "É preciso dizer o quanto o desfecho é inesperado. Durante a leitura, você imagina que já sabe qual será o final, mas o autor consegue surpreender. Então, se você ainda não leu A culpa é das estrelas por má vontade, preconceito ou qualquer outro motivo, confie em mim e leia (inclusive se você já viu o filme, que é bem fiel ao texto original). Ele não foi um best-seller por acaso. Aliás, seria ótimo se todos os best-sellers tivessem a mesma qualidade dele.";
         
@@ -1268,7 +1254,7 @@ function inputBook() {
             document.getElementById("rese-2-rate").innerHTML = "3,0 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-2-text").innerHTML = "Dá muita vontade de fazer parte da turma de amigos deles. O Gus é um personagem pra lá de inspirador e a força que ele carrega é indescritível. O mesmo para Hazel: uma jovem solitária que aprende cada vez mais a lidar com sua doença e a conhecer um pouco mais do mundo. A jornada para conhecer seu autor favorito é uma das cenas mais legais do livro – o jantar romântico em Amsterdam  – mesmo que o resultado desse encontro não seja aquilo que ela estava esperando. Claro que com uma temática dessas seria impossível não ter um grande drama na história, né? Prepare os lencinhos, porque o choro é fortíssimo! Depois, quando fui assistir ao filme de A Culpa é das Estrelas (muito bem adaptado, por sinal), chorei e solucei tudo de novo. Se você procura um romance com bastante humor e drama, A Culpa é das Estrelas é uma boa opção. Eu que não sou fã de livros românticos ou Young Adult achei uma leitura bem prazerosa.Claro que com uma temática dessas seria impossível não ter um grande drama na história, né? Prepare os lencinhos, porque o choro é fortíssimo! Depois, quando fui assistir ao filme de A Culpa é das Estrelas (muito bem adaptado, por sinal), chorei e solucei tudo de novo. Se você procura um romance com bastante humor e drama, A Culpa é das Estrelas é uma boa opção. Eu que não sou fã de livros românticos ou Young Adult achei uma leitura bem prazerosa.";
-            break; // é switch case precisa ter no final
+             // é switch case precisa ter no final
             document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
 
             document.getElementById("resen-1-text").innerHTML = "Com opiniões bem divergentes, a narrativa corre para um final suficientemente bom, com poucos picos de tensão extrema, mas muita base para a gente se deliciar. A escrita de Karen McManus é bastante fluída e é bem perceptível que a autora não perde tempo descrevendo espaços e pessoas. Isso é bastante controverso, por que muitos leitores são unânimes em afirmar que uma história sobrecarregada de detalhes e descrições se torna cansativa e fria, mas deixar de compor o espaço foi um dos pontos que me incomodaram nessa leitura. Por fim, acredito que a autora foi feliz em compor uma narrativa de um jeito meio próprio, não muito comum nesse tipo de leitura, já que talvez a narrativa em 1ª pessoa pudesse atrapalhar os aspectos investigativo dos nossos leitores, e talvez seja por isso que se trata de uma leitura um tanto controvérsia, gerando das mais variadas opiniões, mas que vale muito a pena ser lido e saboreado.";
