@@ -1,7 +1,9 @@
 # fourth-cover
 
 ## Resumo
-    <p>O intuito principal do nosso site é para proporcionar ao usuário a melhor experiência em relação a “leitura” de livros, logo teremos diversos gêneros e pontos abordados que circularão o mundo adolescente e adulto (para maiores de 14 anos), já que serão abordados alguns pontos como o link de compra em um site “parceiro”.</p>
+    <p>
+        O intuito principal do nosso site é para proporcionar ao usuário a melhor experiência em relação a “leitura” de livros, logo teremos diversos gêneros e pontos abordados que circularão o mundo adolescente e adulto (para maiores de 14 anos), já que serão abordados alguns pontos como o link de compra em um site “parceiro”.
+    </p>
 
 ## Introdução
      O propósito do projeto é apresentar as funcionalidades do site Fourth Cover, onde o seu conteúdo será definido de forma completa e ampliada. O site será baseado em outros com conteúdo semelhante, porém diferenciado, a fim de proporcionar ao usuário uma experiência excepcional. O diferencial do site é a função especial nomeada de Shuffle, a qual tem como intuito principal atrair o usuário para o universo literário sem que o mesmo saiba o título, escritor e, principalmente, sem saber a capa. Esta função é bastante interessante para aqueles que despendem muito tempo procurando por conteúdos no catálogo do serviço para usufruir (Hildebrand. 2020), isso porque essas pessoas que não têm o costume de ler não saberão buscar um livro que realmente as vá prender na leitura. Essa ideia surgiu a partir do momento que nós, criadores deste projeto, notamos como as pessoas julgam um livro pela capa, o que acaba ocasionando no desinteresse do leitor antes mesmo de dar uma 
