@@ -3233,8 +3233,7 @@ function searchMovie() {
 }
 document.addEventListener("DOMContentLoaded", function() {
     searchMovie();
-  });
-
+});
 
 const mediaQuery = window.matchMedia('(max-width: 750px)');
 var btnShow = false;

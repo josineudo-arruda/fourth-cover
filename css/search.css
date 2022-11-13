@@ -122,10 +122,23 @@ p.line {
 }
 
 
-
-.filter-error {
-    disab
+div.error {
+    text-align: center;
 }
+
+.error-info {
+    margin-top: 20px;
+}
+
+div.error p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600 ;
+}
+
+.image-error {
+    width: 60%;
+}
+
 
 @media (min-width: 600px) and (max-width: 1200px){
     p.line-md {
