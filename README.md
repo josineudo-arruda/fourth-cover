@@ -17,5 +17,5 @@
 
     Para o desenvolvimento do site, a princípio foi criado um mapa mental (figura I) para a organização das ideias que ainda estavam abstratas e para uma seleção de conteúdos sobre o que seria útil e o que poderia ser descartado. Com esse esquema de estruturação, passou a ser possível ter uma visualização mais ampliada do projeto final. Uma vez que foi apresentada uma ideia melhor de como ficará o site Fourth Cover, foi criado um documento de visão, onde aplicamos, de forma sucinta e direta, os processos de desenvolvimento do projeto.
 
-    ![Mapa](/readme-images/Mapa Mental.png)
+    ![Mapa](https://github.com/josineudo-arruda/fourth-cover/blob/main/readme-images/Mapa%20Mental.png)
 
