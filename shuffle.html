@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fourth Cover</title>
     <link type="text/css" rel="stylesheet" href="css/structure.css">
-    <link type="text/css" rel="stylesheet" href="css/book.css">
-    <script language="javascript" src="js/search.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/search.css">
+    <link type="text/css" rel="stylesheet" href="css/shuffle.css">
+    <script language="javascript" src="js/shuffle.js"></script>
     <script language="javascript" src="js/books.js"></script>
+    <script language="javascript" src="js/search.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
@@ -19,7 +21,7 @@
                     <img src="images/structure-logo_header.png" alt="logo-site" class="logo">
                     <span>Fourth Cover</span>
                 </a>
-                <a class="shuffle" href="shuffle.html"><img src="images/structure-shuffle-button.png"></a>
+                <a class="shuffle" href="#header"><img src="images/structure-shuffle-button.png"></a>
             </div>
         </nav>
         <div class="nav-cont fixed-top">
@@ -43,95 +45,9 @@
     </header>
     <hr class="division">
     <section class="container">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <img id="book-cover" src="#" style="width: 100%;"class="img-thumbnail img-fluid mx-auto img-selected" alt="img01" src="#">
-            </div>
-            <div class="col-12 col-md-8">
-                <h2 id="book-title"></h2>
-                <p><span id="book-data"></span> • <span id="book-genre"></span> • <span id="book-author"></span></p>
-                <p class="rating">
-                    <img src="#" id="star-1" class="">
-                    <img src="#" id="star-2" class="">
-                    <img src="#" id="star-3" class="">
-                    <img src="#" id="star-4" class="">
-                    <img src="#" id="star-5" class=""> 
-                    <span>(<a href="#rate">2</a>)</span>
-                </p>
-                <p id="book-text"></p>
-                <div>
-                    <p><em>Compre em:</em></p>
-                    <a id="amazon-btn" target="_blank" href=""><img src="/images/Book/book-amazon-btn.png"></a>
-                    <a id="saraiva-btn" target="_blank" href=""><img src="/images/Book/book-saraiva.png"></a>
-                    <a id="estante-btn" target="_blank" href=""><img src="/images/Book/book-estante.png"></a>
-                </div>
-            </div>
-        </div>
+        
     </section>
-    <section class="container">
-        <h4 class="title">Características</h4>
-        <hr class="division">
-        <div class="row caract" id="rate">
-            <div class="col-4 col-md-2 text-center grey">
-                <p>N° de páginas</p>
-                <img src="/images/Book/book-page.png">
-                <p>
-                    <span id="book-page"></span>
-                </p>
-            </div>
-            <div class="col-4 col-md-2 text-center no-line line-sm">
-                <p>Lançamento</p>
-                <img src="/images/Book/book-date.png">
-                <p>
-                    <span id="book-date"></span>
-                </p>
-            </div>
-            <div class="col-4 col-md-2 text-center grey no-line line-sm">
-                <p>Idioma</p>
-                <img src="/images/Book/book-language.png">
-                <p>
-                    <span id="book-lang"></span>
-                </p>
-            </div>
-            <div class="col-4 col-md-2 text-center no-line">
-                <p>Editora</p>
-                <img src="/images/Book/book-autor.png">
-                <p>
-                    <span id="book-edit"></span>
-                </p>
-            </div>
-            <div class="col-4 col-md-2 text-center grey no-line">
-                <p>Dimensões</p>
-                <img src="/images/Book/book-height.png">
-                <p>
-                    <span id="book-height"></span>
-                </p>
-            </div>
-            <div class="col-4 col-md-2 text-center">
-                <p>Público alvo</p>
-                <img src="/images/Book/book-kid.png">
-                <p>
-                    <span id="book-kid"></span>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-        <h4 class="title">Resenhas</h4>
-        <hr class="division">
-        <div id="resenha-1">
-            <a href="" target="_blank"id="rese-1-a"><h5 id="rese-1-name"></h5></a>
-            <p>Nota: <span id="rese-1-rate"></span></p>
-            <p class="note">Opinião:</p>
-            <p id="resen-1-text"></p>
-        </div>
-        <div id="resenha-2">
-            <a href="" target="_blank"id="rese-2-a"><h5 id="rese-2-name"></h5></a>
-            <p>Nota: <span id="rese-2-rate"></span></p>
-            <p class="note">Opinião:</p>
-            <p id="resen-2-text"></p>
-        </div>
-    </section>
+
     <footer>
         <a href="#header"><img src="images/structure-logo_footer.png" class="logo-footer" alt="logo"></a>
         <div class="text row">

@@ -531,7 +531,7 @@ function filter() {
             if( genreValue == "genre-ficcao" || genreValue == "genre-guerra"|| genreValue == ""){
                 if(subValue == "" || subValue == "sub-sagas"|| subValue == "sub-redes"||  subValue == "sub-adaptados") {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
-                        if(aValue == "" || aValue == "a-(2010)") {
+                        if(aValue == "" || aValue == "a-(2022)") {
                             continueBooks.push("HP8");
                         }
                     }
@@ -743,6 +743,186 @@ function filter() {
                     if(pageValue == "page-(200-500)" || pageValue == "") {
                         if(aValue == "" || aValue == "a-(2010)") {
                             continueBooks.push("OCDV");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "OUDDH") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("OUDDH");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "VDT") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("VDT");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AADG") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(500-1000)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("AADG");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "ASGM") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("ASGM");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GEP") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(0-200)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("GEP");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GS") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(0-200)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("GS");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GOHESL") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("GOHESL");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AGNTRDM") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("AGNTRDM");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "C") {
+            if( genreValue == "genre-guerra"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("C");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "AMNJ") {
+            if( genreValue == "genre-suspense"|| genreValue == "genre-ficcao"||genreValue == ""){
+                if(subValue == ""||  subValue == "sub-adaptados" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("AMNJ");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "JDB") {
+            if( genreValue == "genre-suspense"|| genreValue == "genre-ficcao"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("JDB");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "ARDB") {
+            if( genreValue == "genre-drama"|| genreValue == "genre-ficcao"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("ARDB");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "1984") {
+            if( genreValue == "genre-drama"|| genreValue == "genre-ficcao"||genreValue == ""){
+                if(subValue == "" ||  subValue == "sub-adaptados") {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2010)") {
+                            continueBooks.push("1984");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GMO") {
+            if( genreValue == "genre-drama"|| genreValue == "genre-lgbt"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("GMO");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "GQVEA") {
+            if( genreValue == "genre-drama"|| genreValue == "genre-lgbt"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("GQVEA");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "HR") {
+            if( genreValue == "genre-drama"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HR");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "ACP") {
+            if( genreValue == "genre-drama"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("HR");
+                        }
+                    }
+                }
+            } 
+        }else if(searchedBooks[i] == "E") {
+            if( genreValue == "genre-drama"||genreValue == ""){
+                if(subValue == "" ) {
+                    if(pageValue == "page-(200-500)" || pageValue == "") {
+                        if(aValue == "" || aValue == "a-(2022)") {
+                            continueBooks.push("E");
                         }
                     }
                 }
@@ -1859,7 +2039,298 @@ function filter() {
                 var bookLink = "OCDV";
                 var setLink = document.getElementById(button[i]);
                 setLink.setAttribute("value", bookLink);
-            } 
+            } else if(continueBooks[i] == "OUDDH") {
+                var bookImg =  "images/genre/genre-guerra-dia.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "O último dia de Hitler "
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("OUDDH");
+    
+                var bookLink = "OUDDH";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "VDT") {
+                var bookImg =  "images/genre/genre-guerra-vozes.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Vozes de Tchernóbil"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("VDT");
+    
+                var bookLink = "VDT";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+
+            }   else if(continueBooks[i] == "AADG") {
+                var bookImg =  "images/genre/genre-guerra-arte.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "A Arte da Guerra"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("AADG");
+    
+                var bookLink = "AADG";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "ASGM") {
+                var bookImg =  "images/genre/genre-guerra-2174.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "A Segunda Guerra Mundial, Os 2.174 dias"
+    
+                var bookClass = "line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("ASGM");
+    
+                var bookLink = "ASGM";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "GS") {
+                var bookImg =  "images/genre/genre-guerra-sujas.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Guerra Sujas"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("GS");
+    
+                var bookLink = "GS";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }    else if(continueBooks[i] == "C") {
+                var bookImg =  "images/genre/genre-guerra-crimeia.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Criméia"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("C");
+    
+                var bookLink = "C";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "GOHESL") {
+                var bookImg =  "images/genre/genre-guerra-legado.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Guerra. O Horror da Guerra e Seu Legado"
+    
+                var bookClass = "line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("GOHESL");
+    
+                var bookLink = "GOHESL";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "AGNTRDM") {
+                var bookImg =  "images/genre/genre-guerra-mulher.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "A guerra não tem rosto de mulher "
+    
+                var bookClass = "line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("AGNTRDM");
+    
+                var bookLink = "AGNTRDM";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "GEP") {
+                var bookImg =  "images/genre/genre-guerra-paz.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Guerra e Paz"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("GEP");
+    
+                var bookLink = "GEP";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "AMNJ") {
+                var bookImg =  "images/genre/genre-suspense-janela.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "a mulher na janela"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("AMNJ");
+    
+                var bookLink = "AMNJ";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "JDB") {
+                var bookImg =  "images/genre/genre-suspense-borboletas.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Jardim de borboletas"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("JDB");
+    
+                var bookLink = "JDB";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "ARDB") {
+                var bookImg =  "images/genre/genre-ficcao-revolucao.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "A revolução dos bichos"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("ARDB");
+    
+                var bookLink = "ARDB";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }   else if(continueBooks[i] == "1984") {
+                var bookImg =  "images/genre/genre-ficcao-1984.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "1984"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("1984");
+    
+                var bookLink = "1984";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }  else if(continueBooks[i] == "GMO") {
+                var bookImg =  "images/genre/genre-lgbt-garota.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Garota, mulher, outras"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("GMO");
+    
+                var bookLink = "GMO";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }  else if(continueBooks[i] == "GQVEA") {
+                var bookImg =  "images/genre/genre-lgbt-gostaria.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Gostaria que você estivesse aqui"
+    
+                var bookClass = "line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("GQVEA");
+    
+                var bookLink = "GQVEA";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+
+            }  else if(continueBooks[i] == "HR") {
+                var bookImg =  "images/genre/genre-drama-hibisco.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Hibisco Roxo"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("HR");
+    
+                var bookLink = "HR";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+    
+            }  else if(continueBooks[i] == "ACP") {
+                var bookImg =  "images/genre/genre-drama-purpura.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "A Cor Púrpura"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("ACP");
+    
+                var bookLink = "ACP";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }  else if(continueBooks[i] == "E") {
+                var bookImg =  "images/genre/genre-drama-extraodinário.jpg";
+                var setImg = document.getElementById(poster[i]);
+                setImg.setAttribute("src", bookImg);
+    
+                document.getElementById(title[i]).innerHTML = "Extraodinário"
+    
+                var bookClass = "line line-sm";
+                var setClass = document.getElementById(title[i]);
+                setClass.setAttribute("class", bookClass);
+    
+                searchedBooks.push("E");
+    
+                var bookLink = "E";
+                var setLink = document.getElementById(button[i]);
+                setLink.setAttribute("value", bookLink);
+            }
         }
         
     }
@@ -1917,8 +2388,8 @@ function searchMovie() {
     bookBDDS.push(["chame","pelo","seu","nome","andre","aciman","lgbt","lgbtqia+","lgbtq","romance"]);
     bookBDDS.push(["a","culpa","é","das","estrelas","john","green","romance"]);
     bookBDDS.push(["love","simon","homo","sapiens","amor","agenda","romance","lgbt","lgbtqia+","lgbtq"]);
-    bookBDDS.push(["orgulho","e","preconceito","jane", "austen","drama","guerra"]);
-    bookBDDS.push(["duna","frank","herbert", "ficção","guerra"]);
+    bookBDDS.push(["orgulho","e","preconceito","jane", "austen","drama"]);
+    bookBDDS.push(["duna","frank","herbert", "ficção"]);
     bookBDDS.push(["bird","box","caixa","passáros","suspense","josh", "malerman"]);
     
     //autores
@@ -1944,10 +2415,10 @@ function searchMovie() {
     bookBDDS.push(["heartstopper","volume","3","romance","lgbt","lgbtqia+","lgbtq","alice","oseman"]);
     bookBDDS.push(["heartstopper","volume","4","romance","lgbt","lgbtqia+","lgbtq","alice","oseman"]);
 
-    bookBDDS.push(["harry","potter","j","k","rowling","a","pedra","filosofal","ficção","guerra"]);
-    bookBDDS.push(["harry","potter","j","k","rowling","a","câmara","secreta","ficção","guerra"]);
-    bookBDDS.push(["harry","potter","j","k","rowling","o","prisoneiro","de","azkaban","ficção","guerra"]);
-    bookBDDS.push(["harry","potter","j","k","rowling","a","cálice","de","fogo","ficção","guerra"]);
+    bookBDDS.push(["harry","potter","j","k","rowling","a","pedra","filosofal","ficção"]);
+    bookBDDS.push(["harry","potter","j","k","rowling","a","câmara","secreta","ficção"]);
+    bookBDDS.push(["harry","potter","j","k","rowling","o","prisoneiro","de","azkaban","ficção"]);
+    bookBDDS.push(["harry","potter","j","k","rowling","a","cálice","de","fogo","ficção"]);
 
     bookBDDS.push(["harry","potter","j","k","rowling","a","ordem","da","fênix","ficção","guerra"]);
     bookBDDS.push(["harry","potter","j","k","rowling","o","enigma","de","príncipe","ficção","guerra"]);
@@ -1956,7 +2427,7 @@ function searchMovie() {
 
     //segunda parte dos carrosséis
     bookBDDS.push(["quando","ninguém","está","olhando","suspense","alyssa","cole"]);
-    bookBDDS.push(["querido","evan","hansen","ficção","suspense","drama","val", "emmich", "guerra","steven", "levenson", "benj","pasek","justin" ,"paul"]);
+    bookBDDS.push(["querido","evan","hansen","ficção","suspense","drama","val", "emmich","steven", "levenson", "benj","pasek","justin" ,"paul"]);
     bookBDDS.push(["garota","exemplar","suspense","gillian", "flynn"]);
     bookBDDS.push(["um","de","nós","está","mentindo","suspense","karen", "m", "mcmanus"]);
     bookBDDS.push(["garota","a","do","lago","suspense","charlie","donlea"]);
@@ -1969,7 +2440,7 @@ function searchMovie() {
     bookBDDS.push(["um", "milhão","de","finais","felizes","lgbtqia+","lgbtq","lgbt","vitor","martins"]);
 
     bookBDDS.push(["o","homem","de","giz","suspense","c","j","tudor"]);
-    bookBDDS.push(["torto","arado","drama","itamar", "vieira", "junior","guerra"]);
+    bookBDDS.push(["torto","arado","drama","itamar", "vieira", "junior"]);
     bookBDDS.push(["mulheres", "que", "correm", "com", "os", "lobos", "mitos", "e", "histórias", "do", "arquétipo", "da", "mulher", "selvagem","drama","itamar", "clarissa", "pinkola", "estés"]);
     bookBDDS.push(["tudo","é","rio","drama", "ficção", "carla", "madeira"]);
     bookBDDS.push(["a","hipótese","do","amor", "romance", "ali", "hazelwood"]);
@@ -1977,9 +2448,32 @@ function searchMovie() {
     bookBDDS.push(["a","cinco","passos","de", "você","romance", "rachael", "lippincott"]);
     bookBDDS.push(["a","it","coisa","suspense", "stephen", "king"]);
     bookBDDS.push(["cinquenta", "tons", "de", "cinza","romance", "e", "james","l"]);
-    bookBDDS.push(["jogador","número","um","1","ernest","cline","ficção","guerra"]);
+    bookBDDS.push(["jogador","número","um","1","ernest","cline","ficção"]);
     bookBDDS.push(["fallen","romance", "lauren", "kate"]);
-    bookBDDS.push(["o", "código", "da", "vinci", "ficção", "suspense", "dan","brown","guerra"]);
+    bookBDDS.push(["o", "código", "da", "vinci", "ficção", "suspense", "dan","brown"]);
+
+    bookBDDS.push(["o", "último","dia","de","hitler","guerra"]);
+    bookBDDS.push(["vozes","de","tchernóbil","guerra"]);
+    bookBDDS.push(["a","arte","da","guerra"]);
+    bookBDDS.push(["a","segunda","guerra","mundial","os","2174","dias","que","mudaram","o","mundo"]);
+    bookBDDS.push(["guerra","guerras", "sujas"]);
+    bookBDDS.push(["guerra","criméia"]);
+    bookBDDS.push(["guerra","o","horror","da","e","seu","legado","para","a","humanidade"]);
+    bookBDDS.push(["a","guerra","não","tem","rosto","de","mulher"]);
+    bookBDDS.push(["guerra","e","paz"]);
+
+    bookBDDS.push(["suspense","a","mulher","na","janela"]);
+    bookBDDS.push(["suspense","o","jardim","das","borboletas"]);
+
+    bookBDDS.push(["ficção","1984"]);
+    bookBDDS.push(["ficção","a","revolução","dos","bichos"]);
+
+    bookBDDS.push(["lgbt","garota","mulher","outras"]);
+    bookBDDS.push(["lgbt","gostaia","que estivesse","aqui","você"]);
+
+    bookBDDS.push(["drama","extraodinário"]);
+    bookBDDS.push(["drama","hibisco","roxo"]);
+    bookBDDS.push(["drama","a","cor","púrpura"]);
 
 
     function tryMovie(input, movie) {
@@ -1997,11 +2491,11 @@ function searchMovie() {
         "","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
     ]
 
-    for(let i = 0; i < 70; i++) {
+    for(let i = 0; i < 88; i++) {
         bookSituation[i] = tryMovie(searchValue, bookBDDS[i]);
     }
     
-    for(let i = 0; i < 70; i++) {
+    for(let i = 0; i < 88; i++) {
         if(bookSituation[i] == true) {
             contt++;
             lastSearch++;
@@ -3220,7 +3714,332 @@ function searchMovie() {
             setLink.setAttribute("value", bookLink);
 
             bookSituation[69] = false;
+        }   else if(bookSituation[70] == true) {
+            var bookImg =  "images/genre/genre-guerra-dia.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "O último dia de Hitler "
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("OUDDH");
+
+            var bookLink = "OUDDH";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[70] = false;
+        }   else if(bookSituation[71] == true) {
+            var bookImg =  "images/genre/genre-guerra-vozes.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Vozes de Tchernóbil"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("VDT");
+
+            var bookLink = "VDT";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[71] = false;
+        }   else if(bookSituation[72] == true) {
+            var bookImg =  "images/genre/genre-guerra-arte.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "A Arte da Guerra"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("AADG");
+
+            var bookLink = "AADG";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[72] = false;
+        }   else if(bookSituation[73] == true) {
+            var bookImg =  "images/genre/genre-guerra-2174.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "A Segunda Guerra Mundial, Os 2.174 dias"
+
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("ASGM");
+
+            var bookLink = "ASGM";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[73] = false;
+        }   else if(bookSituation[74] == true) {
+            var bookImg =  "images/genre/genre-guerra-sujas.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Guerra Sujas"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("GS");
+
+            var bookLink = "GS";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[74] = false;
+        }    else if(bookSituation[75] == true) {
+            var bookImg =  "images/genre/genre-guerra-crimeia.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Criméia"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("C");
+
+            var bookLink = "C";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[75] = false;
+        }   else if(bookSituation[76] == true) {
+            var bookImg =  "images/genre/genre-guerra-legado.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Guerra. O Horror da Guerra e Seu Legado"
+
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("GOHESL");
+
+            var bookLink = "GOHESL";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[76] = false;
+        }   else if(bookSituation[77] == true) {
+            var bookImg =  "images/genre/genre-guerra-mulher.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "A guerra não tem rosto de mulher "
+
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("AGNTRDM");
+
+            var bookLink = "AGNTRDM";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[77] = false;
+        }   else if(bookSituation[78] == true) {
+            var bookImg =  "images/genre/genre-guerra-paz.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Guerra e Paz"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("GEP");
+
+            var bookLink = "GEP";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[78] = false;
+        }   else if(bookSituation[79] == true) {
+            var bookImg =  "images/genre/genre-suspense-janela.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "a mulher na janela"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("AMNJ");
+
+            var bookLink = "AMNJ";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[79] = false;
+        }   else if(bookSituation[80] == true) {
+            var bookImg =  "images/genre/genre-suspense-borboletas.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Jardim de borboletas"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("JDB");
+
+            var bookLink = "JDB";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[80] = false;
+        }   else if(bookSituation[81] == true) {
+            var bookImg =  "images/genre/genre-ficcao-revolucao.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "A revolução dos bichos"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("ARDB");
+
+            var bookLink = "ARDB";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[81] = false;
+        }   else if(bookSituation[82] == true) {
+            var bookImg =  "images/genre/genre-ficcao-1984.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "1984"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("1984");
+
+            var bookLink = "1984";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[82] = false;
+        }  else if(bookSituation[83] == true) {
+            var bookImg =  "images/genre/genre-lgbt-garota.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Garota, mulher, outras"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("GMO");
+
+            var bookLink = "GMO";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[83] = false;
+        }  else if(bookSituation[84] == true) {
+            var bookImg =  "images/genre/genre-lgbt-gostaria.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Gostaria que você estivesse aqui"
+
+            var bookClass = "line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("GQVEA");
+
+            var bookLink = "GQVEA";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[84] = false;
+        }  else if(bookSituation[85] == true) {
+            var bookImg =  "images/genre/genre-drama-hibisco.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Hibisco Roxo"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("HR");
+
+            var bookLink = "HR";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[85] = false;
+        }  else if(bookSituation[86] == true) {
+            var bookImg =  "images/genre/genre-drama-purpura.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "A Cor Púrpura"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("ACP");
+
+            var bookLink = "ACP";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[86] = false;
+        }  else if(bookSituation[87] == true) {
+            var bookImg =  "images/genre/genre-drama-extraodinário.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Extraodinário"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("E");
+
+            var bookLink = "E";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[87] = false;
         }
+
 
     }
     
