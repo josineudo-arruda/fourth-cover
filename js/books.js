@@ -439,6 +439,7 @@ function inputBook() {
             document.getElementById("book-title").innerHTML = "A Cinco Passos de Você"; // coloca o nome do livro
 
             var bookImg =  "images/Home/home-adptation-cinco.jpg";
+
             document.getElementById("book-data").innerHTML = "26 janeiro 2015";
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Rachael Lippincott";
