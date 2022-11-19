@@ -1,5 +1,81 @@
+
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+section div.text {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: bold;
+}
+
+.wrong-ul {
+    text-align:left;
+}
+
+#wrong-answered button:first-child {
+    margin-bottom: 12px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+section button {
+    background-color: #175563 !important;
+    color: white;
+    font-weight: bold;
+}
+
+.image-shuffle {
+    width: 20%;
+}
+
+section div.text p.detail {
+    text-align:justify ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
+
+
+@media (max-width: 768px) {
+    section div.text p.detail {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+section.shuffle-book {
+    padding: 20px;
+    box-shadow: 1px 0.5px 10px 3px #e6e4e4;
+    border-radius: 5px;
+}
+
+
+section.shuffle-book a button{
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #c6a9e1 !important;
+    border: #c6a9e1;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .9s ease;
+}
+
+section.shuffle-book a button:hover{
+    background-color: #b58dda !important;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
