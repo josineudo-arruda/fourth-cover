@@ -438,7 +438,10 @@ function inputBook() {
             case 'ACPDV': // esta no doc home.js, encontra o nome de cada  no final do case
             document.getElementById("book-title").innerHTML = "A Cinco Passos de Você"; // coloca o nome do livro
 
-            var bookImg =  "images/Home/home-adptation-cinco.jpg";
+            var bookImg = "/images/Home/home-adptation-cinco.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
             document.getElementById("book-data").innerHTML = "26 janeiro 2015";
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Rachael Lippincott";
@@ -1166,10 +1169,282 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "John Green";
 
-            document.getElementById("rese-2-rate").innerHTML = "4,7 / 5,0"; // se n tiver inventa com base na nota
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
 
-            document.getElementById("resen-2-text").innerHTML = "Gillian trabalha bastante essa coisa de personagens erráticos e é brilhante a forma como ela desenvolve esse conceito. Se em Objetos Cortantes havia uma presença muito grande de dúvida e terror psicológico, aqui é muito mais sobre manipular a opinião dos leitores e deixar todo mundo bem confuso - assim, quando as respostas chegam, você se choca junto com os personagens. E, conforme mais delas se apresentam, a familiaridade com a inconstância deles te torna parte da história. São traços que os tornam personagens tão vivos e interessantes justamente por enchê-los de falhas, detalhes que deixam a trama mais dinâmica por não te dar a certeza do que pode estar acontecendo ali.";
-        break; // ´é switch case precisa ter no final
+            document.getElementById("book-text").innerHTML = "Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante ― o que lhe dá a promessa de viver mais alguns anos ―, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Culpa-É-das-Estrelas/dp/8580572266";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/culpa-e-das-estrelas-a-10519/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/john-green/a-culpa-e-das-estrelas/1542645645"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "288";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "27 outubro 2014";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Intrínseca";
+            document.getElementById("book-height").innerHTML = "21 x 13.8 x 1.6 cm";
+            document.getElementById("book-kid").innerHTML = "+13 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "Amor por Livros";
+
+            var bookLinkRese1 = "https://www.amorporlivros.com.br/a-culpa-e-das-estrelas/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "achei que o romance aconteceu um pouco rápido demais em alguns momentos. Augustus parece se apaixonar muito rapidamente. Como o livro é narrado pela própria Hazel, eu senti falta da versão do Gus sobre os fatos. Mas, enfim, esse não é um romance com final feliz. Não me fez chorar (até hoje nenhum livro fez), mas me deixou bastante chocada. A narrativa é muito boa e não te cansa em nenhum momento. Quando você vê, o livro acaba com aquele sentimento de “tá, e agora? o que eu faço da minha vida?” Recomendo para quem gosta de histórias românticas, mas não se importa de ler sobre doenças ou tristeza. Algumas coisas desse livro são difíceis de serem engolidas.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Valeu Guten Berg";
+
+            var bookLinkRese2 = "https://valeugutenberg.com/2017/11/24/resenha-a-culpa-e-das-estrelas/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Best-seller merecido. Também é preciso dizer o quanto o desfecho é inesperado. Durante a leitura, você imagina que já sabe qual será o final, mas o autor consegue surpreender. Então, se você ainda não leu A culpa é das estrelas por má vontade, preconceito ou qualquer outro motivo, confie em mim e leia (inclusive se você já viu o filme, que é bem fiel ao texto original). Ele não foi um best-seller por acaso. Aliás, seria ótimo se todos os best-sellers tivessem a mesma qualidade dele.";
+            break;
+
+            case 'AEG': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Amor & Gelato"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-gelato.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "21 de julho de 2017";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Jenna Evans Welch";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            document.getElementById("book-text").innerHTML = "Um verão na Itália, uma antiga história de amor e um segredo de família. Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar. Apesar das belezas arquitetônicas, da história da cidade e das comidas maravilhosas, o que Lina mais quer é ir embora correndo dali. Mas as coisas começam a mudar quando ela recebe um antigo diário da mãe. Nele, a menina embarca em uma misteriosa história de amor, que pode explicar suas próprias origens. No meio desse turbilhão de emoções, Lina ainda conhece Ren e Thomas, dois meninos lindos que vão mexer ainda mais com seu coração. Uma trajetória que fará Lina descobrir o amor, a si mesma e também aprender a lidar com a perda. Amor & gelato é uma deliciosa viagem pelos mais românticos pontos turísticos italianos, com direito a tudo de mais intenso que o lugar tem a oferecer: desde paixões até corações partidos.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Amor-Gelato-Jenna-Evans-Welch/dp/8551002341";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/q/amor-gelato";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/jenna-evans-welch/amor-gelato/360465515"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "320";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "26 junho 2022";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Intrínseca";
+            document.getElementById("book-height").innerHTML = "20.8 x 13.6 x 1.8 cm";
+            document.getElementById("book-kid").innerHTML = "+15 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "Livros e Fuxicos";
+
+            var bookLinkRese1 = "http://www.livrosefuxicos.com/2017/10/resenha-amor-gelato-jenna-evans-welc.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Além de uma narrativa bem construída e de uma variedade de emoções, a obra também traz um romance incrível. Ren é o tipo de mocinho que realmente é um mocinho. Ele apoia, ajuda, escuta ao mesmo tempo em que compartilha suas histórias, e faz de tudo para ver Lina feliz. O romance nasce mais rápido do que estou acostumada a encontrar em livros assim, mas a proposta da autora foi demais: venha para a Itália e se apaixone (por garotos educados e charmosos, pelas construções e galerias de arte ou, quem sabe, por nossos deliciosos gelatos). No fim gostei de praticamente tudo no livro: os segredos relacionados à paternidade, a relação de amizade que nasce entre Lina e Ren (que é um FOFO LINDO e já disso FOFO?), o clima gostoso de viagem e diversão (sério, as paisagens e a típica atmosfera italiana me deixaram com uma vontade gigante de conhecer esse país), e a mensagem final que o livro deixa no leitor.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "De Livro em Livro";
+
+            var bookLinkRese2 = "http://www.delivroemlivro.com.br/2022/10/amor-e-gelato-jenna-evans-welch-resenha.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Embora tenhamos esse detalhe evidente em AMOR E GELATO que pode desagradar muitos leitores pela falta de coerência, informo que tal trivialidade não prejudica a narrativa de modo a deixá-la maçante ou chata, o volume continua sendo uma delícia de ler e flui com muita naturalidade! Para concluir, AMOR E GELATO, é um livro adolescente que aborda dilemas jovens, sobretudo levando em conta as vivências da personagem. O volume também se trata de um clichê super gostoso de ler e apesar de ser evidente que o público alvo são os adolescentes românticos e que querem viajar pela Itália, nada impede que alguém mais maduro leia e se delicie com o volume. ";
+            break;
+
+            case 'A': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Amor Gelato"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-gelato.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "26 de junho de 2022";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Ali HazelWood";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            document.getElementById("book-text").innerHTML = "Quando um namoro de mentira entre cientistas encontra a irresistível força da atração, todas as teorias cuidadosamente calculadas sobre o amor são postas à prova. Com personagens cativantes e diálogos afiados, este livro engraçado, sexy e inteligente se tornou uma das grandes sensações do TikTok. Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência – não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Para mostrar que está feliz com essa escolha, Olive precisa ser convincente: afinal, cientistas exigem provas. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado. De repente, seu pequeno experimento parece perigosamente próximo da combustão e aquela pequena possibilidade científica, que era apenas uma hipótese sobre o amor, transforma-se em algo totalmente inesperado.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/hipótese-amor-Sucesso-TikTok-ebook/dp/B09ZBKHN7P";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/a-hipotese-do-amor--sucesso-do-tiktok-/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/ali-hazelwood/a-hipotese-do-amor-sucesso-do-tiktok-/683616425?show_suggestion=0"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "453";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "26 junho 2022";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Editora Arqueiro";
+            document.getElementById("book-height").innerHTML = "21 x 13.8 x 1.6 cm";
+            document.getElementById("book-kid").innerHTML = "+13 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "Queria Estar Lendo";
+
+            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2022/07/resenha-hipotese-do-amor-ali-hazelwood.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "A Hipótese do Amor explora muito bem o universo da ciência, as dificuldades acadêmicas de estudantes universitários, o privilégio mascarado de ajuda. Eu gostei de como a autora usou o espaço dessa história para falar sobre misoginia e racismo dentro de ambientes acadêmicos. A edição da Arqueiro ficou muito bonita, com diagramação confortável, páginas de gramatura ótima. A tradução de Thaís Britto tá ótima, hilária como imagino que seja no original. De novo: a Olive foi uma das melhores protagonistas que já li nesse gênero!";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Os Melhores Livros";
+
+            var bookLinkRese2 = "https://osmelhoreslivros.com.br/a-hipotese-do-amor-resenha/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Concluindo nossa resenha de A hipótese do amor, da escritora Ali Hazelwood, podemos dizer que a obra merece todo o seu reconhecimento. Mesmo muitos achando ser mais uma história clichê, toda a trama da história mostra vidas reais e debates atuais. O livro trás essa proximidade com os jovens adultos pela identificação imediata com os conflitos que os personagens passam. Por ser uma história New Adult (novo adulto), os personagens estão passando por amadurecimentos fortes e característicos dessa fase. Sem dúvidas esse é um dos livros mais cativantes, chamativos do ano, e vale todo o apreço dos leitores apaixonados por romances sinceros e divertidos. A hipótese do amor é uma das minhas leituras favoritas do ano. ";
+            break;
+
+            case 'AHDA': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "A Hipótese do Amor"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-hipotese.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "26 de junho de 2022";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Ali HazelWood";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            document.getElementById("book-text").innerHTML = "Quando um namoro de mentira entre cientistas encontra a irresistível força da atração, todas as teorias cuidadosamente calculadas sobre o amor são postas à prova. Com personagens cativantes e diálogos afiados, este livro engraçado, sexy e inteligente se tornou uma das grandes sensações do TikTok. Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência – não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Para mostrar que está feliz com essa escolha, Olive precisa ser convincente: afinal, cientistas exigem provas. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado. De repente, seu pequeno experimento parece perigosamente próximo da combustão e aquela pequena possibilidade científica, que era apenas uma hipótese sobre o amor, transforma-se em algo totalmente inesperado.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/hipótese-amor-Sucesso-TikTok-ebook/dp/B09ZBKHN7P";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/a-hipotese-do-amor--sucesso-do-tiktok-/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/ali-hazelwood/a-hipotese-do-amor-sucesso-do-tiktok-/683616425?show_suggestion=0"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "453";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "26 junho 2022";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Editora Arqueiro";
+            document.getElementById("book-height").innerHTML = "21 x 13.8 x 1.6 cm";
+            document.getElementById("book-kid").innerHTML = "+13 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "Queria Estar Lendo";
+
+            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2022/07/resenha-hipotese-do-amor-ali-hazelwood.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "A Hipótese do Amor explora muito bem o universo da ciência, as dificuldades acadêmicas de estudantes universitários, o privilégio mascarado de ajuda. Eu gostei de como a autora usou o espaço dessa história para falar sobre misoginia e racismo dentro de ambientes acadêmicos. A edição da Arqueiro ficou muito bonita, com diagramação confortável, páginas de gramatura ótima. A tradução de Thaís Britto tá ótima, hilária como imagino que seja no original. De novo: a Olive foi uma das melhores protagonistas que já li nesse gênero!";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Os Melhores Livros";
+
+            var bookLinkRese2 = "https://osmelhoreslivros.com.br/a-hipotese-do-amor-resenha/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Concluindo nossa resenha de A hipótese do amor, da escritora Ali Hazelwood, podemos dizer que a obra merece todo o seu reconhecimento. Mesmo muitos achando ser mais uma história clichê, toda a trama da história mostra vidas reais e debates atuais. O livro trás essa proximidade com os jovens adultos pela identificação imediata com os conflitos que os personagens passam. Por ser uma história New Adult (novo adulto), os personagens estão passando por amadurecimentos fortes e característicos dessa fase. Sem dúvidas esse é um dos livros mais cativantes, chamativos do ano, e vale todo o apreço dos leitores apaixonados por romances sinceros e divertidos. A hipótese do amor é uma das minhas leituras favoritas do ano. ";
+            break;
 
         case 'UDNEM': // esta no doc home.js, encontra o nome de cada  no final do case
             document.getElementById("book-title").innerHTML = "Um de nós está mentindo"; // coloca o nome do livro
