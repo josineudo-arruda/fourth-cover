@@ -1485,7 +1485,7 @@ function filter() {
                 var setLink = document.getElementById(button[i]);
                 setLink.setAttribute("value", bookLink);
     
-            }   else if(continueBooks[i] == "EP") {
+            }   else if(continueBooks[i] == "9N") {
                 var bookImg =  "images/Home/home-autor-9.jpg";
                 var setImg = document.getElementById(poster[i]);
                 setImg.setAttribute("src", bookImg);

@@ -47,11 +47,11 @@
     <section class="shuffle-book container">
         <div id="not-answered"class="row">
             <div class="col-12 col-sm-6">
-                <img id="akinator-image" class="img-responsive img-thumbnail"src="">
+                <img id="akinator-image" class="img-responsive"src="">
             </div>
             <div class="col-12 col-sm-6 question">
                 <h3>Sobre o livro:</h3>
-                <h5 id="shuffle-question-info"></h5>
+                <span class="balloon-box balloon-circle"><h5 class="balloon-text"id="shuffle-question-info"></h5></span>
                 <a onclick="answer(1)"><button id="button-yes" value="">Sim</button></a>
                 <a onclick="answer(0)"><button>Não sei</button></a>
                 <a onclick="answer(-1)"><button>Não</button></a>
@@ -59,7 +59,7 @@
         </div>
         <div id="answered" style="display: none;"class="row">
             <div class="col-12 col-sm-6">
-                <img id="akinator-image" class="img-responsive img-thumbnail"src="">
+                <img id="akinator-image" class="img-responsive"src="">
             </div>
             <div class="col-12 col-sm-6 question">
                 <div class="text">
@@ -74,8 +74,8 @@
             <a style="width: 100%;" href="shuffle-book.html"><button style="width: 100%;" class="btn btn-purple">Deseja reiniciar?</button></a>
         </div>
         <div id="wrong-answered" style="display: none;"class="row">
-            <div class="col-12 col-sm-6">
-                <img id="akinator-image" class="img-responsive img-thumbnail"src="">
+            <div class="col-12 col-sm-6 text">
+                <img id="akinator-image" class="img-responsive"src="">
             </div>
             <div class="col-12 col-sm-6 question">
                 <div class="text">

@@ -25,8 +25,8 @@ footer {
     margin-top: 40px;
 }
 
-section button {
-    background-color: #175563 !important;
+section.no-praimary button {
+    background-color: #175563 ;
     color: white;
     font-weight: bold;
 }
@@ -44,7 +44,9 @@ section div.text p.detail {
 }
 
 
-
+#akinator-image {
+    padding-left: 150px;
+}
 
 @media (max-width: 768px) {
     section div.text p.detail {
@@ -54,6 +56,10 @@ section div.text p.detail {
         margin-bottom: 20px;
     }
     
+}
+
+#button-link1 {
+
 }
 
 section.shuffle-book {
@@ -74,8 +80,73 @@ section.shuffle-book a button{
     transition: transform .9s ease;
 }
 
+  .balloon-box {
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 26.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .balloon-box::after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: -7px;
+    left: 30px;
+  }
+  .balloon-box::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    left: 15px;
+    bottom: -19px;
+    
+  }
+
+
 section.shuffle-book a button:hover{
     background-color: #b58dda !important;
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
+}
+
+@media (max-width: 520px){
+    #akinator-image {
+        padding-left: 110px;
+    margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 990px){
+    #akinator-image {
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+    #akinator-image {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px){
+    #akinator-image {
+        padding-left: 90px;
+    }
+}
+
+@media (min-width: 1200px){
+
 }
