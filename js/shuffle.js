@@ -78,8 +78,12 @@ function answer(number) { // acionado sempre q responder
         switchQuestion(numberQuestion)
     }
 
+    var geniusPhotos = ["/images/shuffle/heart.gif","/images/shuffle/liked.gif","/images/shuffle/muscle.gif","/images/shuffle/pensative.gif"]
 
-    if(geniusInte )
+    var numberGenius = Math.floor(Math.random() * 4);
+    var bookImg =  geniusPhotos[numberGenius];
+    var setImg = document.getElementById("akinator-image");
+    setImg.setAttribute("src", bookImg);
 
     typeAnswer = false;
     typeAnswerWrong == false
@@ -95,6 +99,13 @@ function switchQuestion(number) { //colocar pergunta nova
         var akinatorSectionA =  "";
         var setAkinatorA = document.getElementById("wrong-answered");
         setAkinatorA.setAttribute("style", akinatorSectionA);
+
+        var geniusPhotos = ["/images/shuffle/prision.gif","/images/shuffle/velho-mald.gif","/images/shuffle/out-in.gif"]
+
+        var numberGenius = Math.floor(Math.random() * 3);
+        var bookImg =  geniusPhotos[numberGenius];
+        var setImg = document.getElementById("akinator-image-w");
+        setImg.setAttribute("src", bookImg);
     }
     
     switch(number) {
@@ -774,7 +785,6 @@ function calculateQuestion(number) {
         rigthQuestion(allBooks[0]);
     }
     if(allBooks.length == 0) {
-        alert(allBooks.length)
         var akinatorSection =  "display: none";
         var setAkinator = document.getElementById("not-answered");
         setAkinator.setAttribute("style", akinatorSection);
@@ -782,6 +792,13 @@ function calculateQuestion(number) {
         var akinatorSectionA =  "";
         var setAkinatorA = document.getElementById("wrong-answered");
         setAkinatorA.setAttribute("style", akinatorSectionA);
+
+        var geniusPhotos = ["/images/shuffle/prision.gif","/images/shuffle/velho-mald.gif","/images/shuffle/out-in.gif"]
+
+        var numberGenius = Math.floor(Math.random() * 3);
+        var bookImg =  geniusPhotos[numberGenius];
+        var setImg = document.getElementById("akinator-image-w");
+        setImg.setAttribute("src", bookImg);
     }
 }
 
@@ -2623,7 +2640,6 @@ function calculateFinalWrongQuestion(name) {
 }
 
 function rigthQuestion(right) {
-    alert(right)
     var akinatorSection =  "display: none";
     var setAkinator = document.getElementById("not-answered");
     setAkinator.setAttribute("style", akinatorSection);
@@ -3737,6 +3753,12 @@ function rigthQuestion(right) {
             break;
     }
 
+    var geniusPhotos = ["/images/shuffle/bye.gif","/images/shuffle/como-to-de-boa.gif","/images/shuffle/heart.gif"]
+
+    var numberGenius = Math.floor(Math.random() * 3);
+    var bookImg =  geniusPhotos[numberGenius];
+    var setImg = document.getElementById("akinator-image-r");
+    setImg.setAttribute("src", bookImg);
 }
 
 function putGenius() {

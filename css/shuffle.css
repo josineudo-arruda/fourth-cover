@@ -43,9 +43,45 @@ section div.text p.detail {
     margin-bottom: 20px;
 }
 
+.right {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 40px;
+    box-shadow: 1px 0.5px 10px 3px #e6e4e4;
+    border-radius: 30px;
+    margin-left: 140px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .9s ease
+}
 
-#akinator-image {
+section div.right:hover{
+    background-color: #dcc5f1 !important;
+    color: purple;
+    box-shadow: 1px 0.5px 10px 3px #c6a9e1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.center {
+    text-align: center !important;
+}
+
+#button-link1 {
+    margin-top: 20px;
+}
+
+#akinator-image{
     padding-left: 150px;
+}
+
+#akinator-image-r {
+    padding-left: 150px;
+    margin-top: 40px;
+}
+
+#akinator-image-w {
+    padding-left: 110px;
 }
 
 @media (max-width: 768px) {
@@ -58,9 +94,6 @@ section div.text p.detail {
     
 }
 
-#button-link1 {
-
-}
 
 section.shuffle-book {
     padding: 20px;
@@ -123,27 +156,51 @@ section.shuffle-book a button:hover{
 }
 
 @media (max-width: 520px){
-    #akinator-image {
+    #akinator-image, #akinator-image-r {
         padding-left: 110px;
     margin-bottom: 20px;
+    }
+    #akinator-image-w {
+        padding-left: 50px;
+    }
+    .right {
+        margin-left:20px;
     }
 }
 
 @media (min-width: 520px) and (max-width: 990px){
-    #akinator-image {
+    #akinator-image, #akinator-image-r {
         padding-left: 0px;
+    }
+    #akinator-image-w {
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .right {
+        margin-left: 0px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 990px){
-    #akinator-image {
+    #akinator-image, #akinator-image-r {
         padding-left: 50px;
+    }
+    .right {
+        margin-left: 80px;
     }
 }
 
 @media (min-width: 990px) and (max-width: 1200px){
-    #akinator-image {
+    #akinator-image, #akinator-image-r {
         padding-left: 90px;
+    }
+    #akinator-image-w {
+        padding-left:40px;
+        width: 100%;
+    }
+    .right {
+        margin-left: 110px;
     }
 }
 
