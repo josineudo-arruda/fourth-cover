@@ -1622,7 +1622,6 @@ function inputBook() {
     break; // ´é switch case precisa ter no final
 
     case 'MBDG':
-        case 'MBDG': // esta no doc home.js, encontra o nome de cada  no final do case
         document.getElementById("book-title").innerHTML = "Mil beijos de garoto"; // coloca o nome do livro
 
         var bookImg =  "images/Home/home-acclaimed-boys.jpg";
@@ -1697,6 +1696,699 @@ function inputBook() {
         document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
 
         document.getElementById("resen-2-text").innerHTML = " É uma narrativa repleta de símbolos, que vão acompanhar o leitor mesmo ao término da leitura. Não consigo mais ver flores de cerejeira ou ouvir If I Could Fly do One Direction da mesma forma que antes! E os capítulos são intercalados entre Poppy e Rune, um recurso que gosto muito em livros, como já disse anteriormente em outras resenhas. Mil Beijos de Garoto (não vou o explicar o título, vocês vão ter que ler!) te faz enxergar a vida sob um novo ponto de vista, traz inúmeras lições sobre valores muitas vezes esquecidos e acima de tudo, te emociona. Preparem os lencinhos para as lágrimas e deem uma chance para essa história! Garanto que vocês vão amar conhecer esse casal.";
+        break; // ´é switch case precisa ter no final
+
+        case 'MPDBC': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Memórias póstumas de Brás Cubas"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-memories.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "16 de setembro de 2014";
+            document.getElementById("book-genre").innerHTML = "Drama";
+            document.getElementById("book-author").innerHTML = "Machado de Assis";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Em 1881, Machado de Assis lançou aquele que seria um divisor de águas não só em sua obra, mas na literatura brasileira: Memórias póstumas de Brás Cubas. Ao mesmo tempo em que marca a fase mais madura do autor, o livro é considerado a transição do romantismo para o realismo. Num primeiro momento, a prosa fragmentária e livre de Memórias póstumas, misturando elegância e abuso, refinamento e humor negro, causou estranheza, inclusive entre a crítica. Com o tempo, no entanto, o defunto autor que dedica sua obra ao verme que primeiro roeu as frias carnes de seu cadáver tornou-se um dos personagens mais populares da nossa literatura. Sua história, uma celebração do nada que foi sua vida, foi transformada em filmes, peças e HQs, e teve incontáveis edições no Brasil e no mundo, conquistando admiradores que vão de Susan Sontag a Woody Allen. Esta edição reproduz o prólogo do próprio autor à terceira edição do livro, em que ele responde às dúvidas dos primeiros leitores.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Mem%C3%B3rias-p%C3%B3stumas-Cubas-Machado-Assis/dp/8582850018";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/q/memorias-postumas-bras-cubas-scipione";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/machado-de-assis/memorias-postumas-de-bras-cubas/1137098976"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "368";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "16 setembro 2014";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Penguin-Companhia";
+            document.getElementById("book-height").innerHTML = "19.81 x 12.95 x 1.78 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "Saga Literária";
+
+            var bookLinkRese1 = "sagaliteraria.com.br/2021/08/resenha-842-memorias-postumas-de-bras.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Memórias Póstumas de Brás Cubas é uma leitura divertida, pois o próprio protagonista retrata as suas memórias de forma ácida e debochada. Em certos momentos ele tenta empregar uma postura mais séria ao relembrar os momentos do passado por meio de digressões filosóficos, mas isso não dura muito tempo.  É interessante que ao narrar a sua história na condição de morto, Brás acaba por transcender a vida terrena e dessa forma é capaz de posicionar-se além de qualquer crítica ou julgamento feito pelas pessoas vivas. Além disso, por estar morto ele transita de forma livre por sua história, sem se preocupar com qualquer formalismo ou regra. Você pode estar pensando que Memórias póstumas de Brás Cubas é então um livro de memórias, tendo em vista que um defunto narra o seu passado, mas não é. Aqui acompanhamos os usos e costumes ou a sociedade carioca no final do século XIX, período esse que marcado pela presença ainda massiva de portugueses no Brasil, mas também pela forte influência europeia em nosso território, pois Machado de Assis aborda toda a influência dos portugueses e europeus em nossos costumes, principalmente no aspecto cultural.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Bons livros para ler";
+
+            var bookLinkRese2 = "https://www.bonslivrosparaler.com.br/livros/resenhas/memorias-postumas-de-bras-cubas/5408"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "A característica mais marcante do estilo machadiano é a digressão. A narrativa de Machado de Assis é constantemente interrompida por comentários metalinguísticos, intertextualidades, histórias paralelas e, principalmente, análises filosóficas da sociedade e do indivíduo. Isso faz com que seus enredos fiquem sempre fragmentados e embaralhados. Essa dificuldade de leitura, no entanto, é compensada pelo humor inteligente e pela estrutura dinâmica e moderna de seus livros. Os primeiros nove capítulos do livro, apresenta ao leitor a morte e o motivo da morte, os instantes que antecederam, as pessoas presentes em seus últimos momentos, a genealogia do personagem e o delírio vivido por ele na passagem para o outro lado (morte). Brás Cubas morreu em decorrência de uma pneumonia, quando se empenhava na invenção do Emplasto Brás Cubas, que curaria a melancolia humana e lhe daria a glória eterna. À beira da morte, destaca a presença de três mulheres de sua vida, sua irmã Sabina e a filha, e Vigília, a mulher da vida de Brás Cubas. O protagonista não é um herói, pelo contrário. Sua família construiu uma história de grandes feitos para encobrir a origem vulgar ou, para dar o melhor tom, poderemos dizer de uma procedência controversamente nobre, pois sua família, na verdade, é descendente de tal Damião Cubas, “tanoeiro de ofício”, que fabricava cubas, e lavrador, mas o avô Luís Cubas recontou os fatos, tornando seu antepassado herói das guerras contra os mouros. O pai de de Brás deu-lhe o nome atribuindo a si a descendência da família que fundou São Vicente. Como os Cubas paulistas contestaram, a família voltou ao passado de lutas na África.";
+        break; // ´é switch case precisa ter no final
+
+        case 'OS': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Os sertões"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-sertoes.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "9 de março de 2017";
+            document.getElementById("book-genre").innerHTML = "Drama";
+            document.getElementById("book-author").innerHTML = "Euclides da Cunha";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Publicado pela primeira vez em 1902, Os Sertões de Euclides da Cunha é um retrato do Brasil da época. A obra trata da Guerra de Canudos que aconteceu no interior da Bahia. O autor, que era correspondente do jornal O Estado de São Paulo, presenciou parte dos acontecimentos na região e os descreveu de forma fiel. Além de desenvolver um romance histórico que mistura uma narrativa literária, sociológica e geográfica. Euclides da Cunha nos deixa uma obra que se baseia em três pilares: a terra, o homem e a luta. Um livro telúrico.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Os-Sert%C3%B5es-Euclides-Cunha/dp/8544001297";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/q/livro-os-sertoes-euclides-cunha";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/euclides-da-cunha/os-sertoes/3308225772"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "664";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "9 março 2017";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Martin Claret";
+            document.getElementById("book-height").innerHTML = "23.2 x 16.2 x 3.4 cm";
+            document.getElementById("book-kid").innerHTML = "+13 anos"; // idade
+
+            document.getElementById("rese-1-name").innerHTML = "O clube da meia noite";
+
+            var bookLinkRese1 = "http://www.oclubedameianoite.com/2020/01/resenha-os-sertoes-euclides-da-cunha.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "O ritmo do livro é lento, devendo o leitor se ater as minuciosas palavras que o escritor escolhe com cuidado. No soprar do vento Nordeste que levanta o primeiro grão de poeira do dia a última dose da consciência brasileira, Euclides da Cunha, dentro dos seus referenciais usa os tópicos necessários para adentrarmos no universo cultural de uma região geográfica até então pouco estudada, e sobre com preposições inovadoras que se opõe ao determinismo cientifico da época, pondo o próprio escritor para questionar seus pensamentos anteriores a experiência vivida nessa rica região do Nordeste. Com estilo descritivo intenso, cientifico, revelando como um retratista as singularidades dos sertões e ao mesmo tempo a genialidade de sua escrita. Uma edição memorável, muito bem organizada com preâmbulos e apêndices bem assinados, mapas e gravuras tornam a leitura mais dinâmica, mas não menos detalhista, transformando esse livro em um completo dossiê sobre a história de Canudos e sobre o sertanejo, e tudo isso com as notas do Euclides da Cunha que diz ser uma obra escrita as pressas em seus pequenos e raros intervalos de oficio.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Revelando sentimentos";
+
+            var bookLinkRese2 = "http://www.revelandosentimentos.com.br/2019/08/resenha-os-sertoes.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,7 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Dono de um vocabulário sem igual, o grande número de páginas do trabalho deve-se em parte à incrível competência do autor em escrever minuciosamente (excessivamente, às vezes) todos os pormenores daquilo que viu. Dividindo o trabalho em três vertentes, ele conduz o leitor, como se o pegasse pela mão e dissesse “vem comigo”, para o interior, e o que representou, da Guerra de Canudos. A primeira e menor parte, A terra, talvez seja a parte de mais difícil leitura. Euclides da Cunha parece íntimo do local, parece que viveu a vida toda no sertão da Bahia e não no sudeste brasileiro; evidência de que acertaram em mandá-lo para lá. Demonstrando um domínio extremamente competente, ele descreve absolutamente tudo o que pôde perceber daquelas paragens. O clima, o solo, a fauna, a flora e, principalmente, as mazelas consequentes de uma biologia morta. No mais, acredito que a transcendência dessa obra fala por si só. É uma pena, verdadeiramente digno de pena, que as pessoas tenham a capacidade de encher a boca para dizer que não gostam de Literatura Brasileira.";
+        break; // ´é switch case precisa ter no final
+
+        case 'DFQR': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "De folhas que resistem"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-folhas.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "20 de outubro de 2021";
+            document.getElementById("book-genre").innerHTML = "Drama e Suspense";
+            document.getElementById("book-author").innerHTML = "Raïssa Lettiére";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Um enigma na curva de uma estrada e os quatro braços de uma cruz. Um homem que vê a mãe perder a sanidade aos poucos. Outro que confere o obituário de jornais em busca de um nome conhecido. Uma refeição que evoca todas as últimas ceias. Uma amizade de infância, em meio a empurrões e quedas, leva a uma decisão irreversível.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/folhas-que-resistem-Ra%C3%AFssa-Letti%C3%A9re-ebook/dp/B09H27G4FY";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/lettiere-raissa/de-folhas-que-resistem"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "116";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "20 outubro 2021";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Biblioteca Azul";
+            document.getElementById("book-height").innerHTML = "23.2 x 16.2 x 3.4 cm";
+            document.getElementById("book-kid").innerHTML = "+12 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Mais que Livros";
+
+            var bookLinkRese1 = "https://www.maisquelivros.com/2021/12/resenha-de-folhas-que-resistem-raissa.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,8 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Passeando por temas como esquecimento, abuso psicológico, conflitos familiares, relacionamento abusivo/ tóxico, mágoa, pedofilia e culpa, cada conto possui uma atmosfera única e envolvente, fugindo da previsibilidade do gênero e entregando ao leitor uma experiência única e deliciosamente viciante. Apesar de não consumir o gênero com frequência, confesso que aqui me vi envolvida desde a primeira página, não apenas pelo suspense que a autora cria em cada uma de suas histórias, mas pela forma enigmática e surpreendentemente inteligente com as quais são escritas. E em se tratando de enigmas, aqui temos uma coletânea de contos para ler e reler, pois muito mais do que uma história poética, a autora tece em seus textos metáforas profundas, nos fazendo sair da zona de conforto reflexiva, ao mesmo tempo em que nos permite ponderar o peso de cada um de acordo com nossa percepção e bagagem de vida.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Resenhando";
+
+            var bookLinkRese2 = "https://www.resenhando.com/2021/11/de-folhas-que-resistem-obra-inedita-de.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,7 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Um enigma na curva de uma estrada e os quatro braços de uma cruz. Um homem que vê a mãe perder a sanidade aos poucos. Outro que confere o obituário de jornais em busca de um nome conhecido. Uma refeição que evoca todas as últimas ceias. Uma amizade de infância, em meio a empurrões e quedas, leva a uma decisão irreversível. São narrativas que operam como fotografias instantâneas - e muito nítidas - de paisagens internas diversas. Traz contos com aroma e cor, para que os leitores possam experimentá-los com todos os sentidos de que puderem lançar mão e misturá-los de forma sinestésica no embate com o texto. Ao privilegiar as dimensões subjetivas das personagens, bem como seus achados epifânicos e existenciais, Raïssa compõe uma proposta literária potente, em harmonia com o que há de melhor na produção literária contemporânea.";
+        break; // ´é switch case precisa ter no final
+
+        case 'AM': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "A muralha"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-muralha.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "6 abril 2020";
+            document.getElementById("book-genre").innerHTML = "Drama e Romance";
+            document.getElementById("book-author").innerHTML = "Dinah Silveira de Queiroz";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Cristina é a jovem romântica que vem de Portugal para casar-se com Tiago. Decepciona-se logo ao desembarcar do navio: seu prometido não a aguarda. E, para chegar a Lagoa Serena, a propriedade da família do noivo, precisa enfrentar dificuldades a fim de transpor a muralha da Serra do Mar, que separa o litoral da vila de São Paulo de Piratininga. Mas Cristina terá de lidar com muito mais do que as vicissitudes de uma terra selvagem: a indiferença de Tiago, que parece só querer bem às estrelas, e os hábitos tão distintos daqueles do Reino. A paisagem e os costumes do tempo colonial são reconstituídos por Dinah Silveira de Queiroz ― ela própria descendente do bandeirante Carlos Pedroso da Silveira ―, com destaque para as enérgicas personagens femininas: afinal, eram as mulheres que administravam e defendiam a casa enquanto os homens partiam nas bandeiras.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Muralha-Dinah-Silveira-Queiroz/dp/8552994232";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/dinah-silveira-de-queiroz/a-muralha/3124623011"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "400";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "6 abril 2020";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Instante";
+            document.getElementById("book-height").innerHTML = "20.4 x 13.4 x 2.4 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Skoob";
+
+            var bookLinkRese1 = "https://www.skoob.com.br/livro/resenhas/7190/mais-gostaram"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "A autora tem um ótimo senso de humor e sabe o momento certo para usá-lo e como tirar melhor proveito dele para fazer com que sua protagonista amadureça perante as adversidades que vai enfrentar. Conforme o livro avança, os homens saem para desbravar as terras, buscar ouro e as mulheres precisam cuidar da casa, plantações, defender suas terras. Aqui a autora entra com dureza, sem piedade, as mulheres são fortes, capazes e auto suficientes. A leitura acelera ao mesmo tempo em que a profundidade dos personagens aumenta e o enredo desenvolve suas camadas que vão além do romance Cristina/Tiago. Ela também consegue falar sobre a colonização sem romantizá-la, não omite a violência, brutalidade, escravidão e assassinatos. A riqueza de detalhes históricos apresentados pela autora é algo impressionante e feito na medida certa, é capaz de transportar o leitor sem o perdê-lo nas descrições de ambiente ou dos costumes. Gostei demais da leitura e espero ter a oportunidade de ler outras obras da autora.⁣";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/7190/recentes/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "A leitura foi muito prazerosa. Foi interessante ler este livro, após tanto tempo depois de ter assistido parte da séria “A Muralha” do início dos anos 2000. Lembrava vagamente, mas ao pesquisar sobre a série vi que houve mudanças de nomes de personagens e inclusão de outros que nem existem no livro. José Lins do Rêgo se manifestou sobre A Muralha: “As figuras humanas crescem de vulto e assumem a importância de absorventes estados de alma. Aí o livro vence e se expande como força de criação autêntica. A figura de Cristina, já no fim do livro, se confunde com a terra que ela leva no ventre. O cheiro do pântano que lhe penetra na carne se transforma numa espécie de feitiço que a prende ao solo para sempre.";
+        break; // ´é switch case precisa ter no final
+
+        case 'USPOA': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Um salto para o amor"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-salto.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "11 outubro 2021";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Aione Simões";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Um salto para o amor é o primeiro romance de Aione Simões, criadora do blog Minha Vida Literária, na Harlequin. Numa comédia romântica com pontos importantes sobre representatividade, acompanhamos a trajetória de Lily, uma jovem determinada a fazer qualquer coisa para evitar a falência de seu negócio – inclusive virar influencer — e que carrega grandes traumas de seu passado. O propósito da vida de Lily é desafiar as leis de Newton. Quanto mais forças tentam colocá-la para baixo, menos ela se deixa abater. Ao menos tem sido assim nos últimos anos, desde que enfrentou a desestruturação de sua família e optou por mudar sua vida por completo. Lily pediu demissão de seu trabalho para aventurar-se como mulher empreendedora e abrir uma loja de roupa — a Frida —, decidida a transformá-la num espaço para todos os tipos de mulheres. Depois de um ano da abertura da loja, ela sente que realmente superou o passado. Ou, pelo menos, era o que achava.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Um-Salto-para-Amor-Aut%C3%B3grafo/dp/0000186732";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/simoes-aione/um-salto-para-o-amor"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "384";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "11 outubro 2021";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "HarperCollins";
+            document.getElementById("book-height").innerHTML = " 20.8 x 13.5 x 1.9 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Skoob";
+
+            var bookLinkRese1 = "https://www.skoob.com.br/um-salto-para-o-amor-12002231ed11992173.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Um salto para o amor virou uma das minhas leituras favoritas — não do ano; da vida. A começar por Lily, uma protagonista tão apaixonante que a gente se vê instigado a continuar a leitura para ter mais tempo com ela, ver como ela vai reagir as situações da vida e qual será seu próximo passo. A Lily é forte, mas nunca deixa de ser humana. Tem problemas, inseguranças, limitações e partes feias, assim como todo muno — é isso que a torna tão interessante. Por falar em personagens, isso é algo que a Aione domina com mastreia. A quantidade de pessoas com quem Lily se envolve, e de subplots que se entrelaçam a trama principal é surpreendente. Mais que isso: nada parece jogado ou sem propósito. Tudo se encaixa com leveza e naturalidade, dando essa cara de vida real e de que a história poderia ser de uma amiga nossa de muito tempo. Outra coisa que me surpreendeu positivamente foi a quantidade de assuntos tratados, mas sem parecer panfletagem. Fazia parte da história, dos personagens. Estava ali por compor quem eles eram. A pluralidade é uma das coisas mais legais do livro: personagens gordos, negros, lgbtqiap+, todos misturados e vivendo suas vidas normalmente, como é na vida real e como deveria ser na ficção.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/um-salto-para-o-amor-12002231ed11992173.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Um salto para o amor e o meu primeiro contato com a escrita da Aione. Que leitura incrível! Em cada página que lia eu mergulhava para dentro de mim. Lily tentando lidar com tanta coisa luto, auto cobrança, algumas inseguranças, medos ... É impossível em algum momento da leitura  de não se identificar com a Lily.O livro tem um empoderamento muito grande e forte, quando terminei a leitura me sentia mais forte do que antes da leitura. Confesso que rir , chorei e dei altas gargalhadas com a Lily e também fiquei apaixonada pelo Marcos. hahaha... Uma leitura que foi transformadora na minha vida. ione você ganhou mais uma  leitora e fã do seu trabalho!";
+        break; // ´é switch case precisa ter no final
+
+        case 'ENTE': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Enquanto eu não te encontro"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-encontro.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "5 julho 2021";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Pedro Rhuas";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "A vida tem sido boa para Lucas. Ele passou no Enem para estudar publicidade; se mudou com Eric, seu melhor amigo, do interior do Rio Grande do Norte para a capital; e conseguiu sua tão aguardada liberdade. Mas, no amor, Lucas é um desastre. O maior fã de Katy Perry no Nordeste tem certeza de que nem toda a sorte do mundo poderia fazer com que ele finalmente se apaixonasse pela primeira vez. Até que, em uma despretensiosa noite de sábado em 2015, tudo muda. Quando Lucas e Eric vão na inauguração do Titanic, a mais nova balada da cidade, Lucas esbarra (literalmente!) em Pierre, um lindo garoto francês que parece ter saído dos seus sonhos. Em meio a drinques, segredos e sonhos partilhados, Lucas e Pierre se conectam instantaneamente. Eles vivem o encontro mais especial de suas vidas, mas o Universo tem outros planos para o futuro… Até a noite acabar, o que será que vai acontecer com eles?";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Enquanto-eu-n%C3%A3o-te-encontro/dp/855534154X";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/enquanto-eu-nao-te-encontro-20076405/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/pedro-rhuas/enquanto-nao-te-encontro/3240893376"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "272";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "11 outubro 2021";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Seguinte";
+            document.getElementById("book-height").innerHTML = "22.8 x 15.6 x 1.2 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Gnoma Leitora";
+
+            var bookLinkRese1 = "http://www.gnomaleitora.com.br/2021/09/resenha-enquanto-eu-nao-te-encontro.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Uma das coisas que mais gostei nessa narrativa, é o fato dos personagens resolverem tudo com diálogo. A importância de sentar e conversar com alguém sobre as coisas é fundamental, e esses personagens nos ensinam isso. A questão da responsabilidade afetiva também é outro ponto citado na história. Em alguns momentos fiquei com o coração apertado, querendo que tudo se resolvesse o quanto antes, porque esses personagens merecem. Enquanto eu não te encontro é aquele livro para ser panfletado para todo mundo. Cheio de representatividade, essa história tem personagens LGBTQIAP+, negro, gordo e nordestino, ou seja, um combo sensacional. Venha conhecer o maior fã da Katy Perry e embarcar nesse romance que pode dar muito certo ou muito errado. Enquanto isso, siga esperando encontrar seu amor, pois ele chegará!";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "O clube da meia noite";
+
+            var bookLinkRese2 = "http://www.oclubedameianoite.com/2022/01/resenha-enquanto-eu-nao-te-encontro.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Foi meu primeiro contato com a escrita do autor e o que posso dizer? Virei totalmente fã e preciso de uma continuação para ONTEM! Temos vários assuntos importantes sendo abordados no livro como: Insegurança, Relacionamento abusivo e a representatividade LGBTQI+. Se você, querido leitor, gosta de um romance clichê bem doce, com cenas engraçadas, que irá te emocionar, e por fim sentir um quentinho no coração, indico demais a leitura de Enquanto Eu Não Te Encontro.            ";
+        break; // ´é switch case precisa ter no final
+
+        case 'OANEO': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "O amor não é óbvio"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-obvio.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "5 novembro 2019";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Elayne Baeta";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "O amor não é óbvio. Ele está presente quando você se senta com a sua vizinha idosa para assistir a um novo capítulo da sua novela favorita. Ele é posto à prova quando você escuta as histórias mirabolantes da sua melhor amiga, ainda que nenhuma delas lhe interesse. E, às vezes, ele aparece quando você menos espera e te leva a fazer experimentos científicos munida de binóculos e uma bicicleta amarela. Íris tem 17 anos e está viciada na novela Amor em atos. Ela e sua vizinha, Dona Símia, de 68 anos, não perdem um episódio. Na escola, parece que todo mundo só pensa em duas coisas: na festa de formatura e em perder a virgindade. Só que a vida de Íris está prestes a mudar: Cadu Sena, sua paixão platônica desde a oitava série, está solteiro. Essa é a chance de Íris. Mas antes ela precisa entender o que levou a namorada de Cadu a deixá-lo por uma garota, Édra Norr. Montada em sua bicicleta, Íris vai cruzar São Patrique para descobrir tudo sobre Édra, e não vai demorar para se enredar também nos encantos da garota. A gente pode achar que sabe por quem vai se apaixonar, mas o amor não é óbvio.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/amor-n%C3%A3o-%C3%A9-%C3%B3bvio/dp/8501118265";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/o-amor-nao-e-obvio/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/elayne-baeta/o-amor-nao-e-obvio/1117765862"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "392";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "5 novembro 2019";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Galera";
+            document.getElementById("book-height").innerHTML = "22.8 x 15.4 x 2.6 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Leitor Cabuloso";
+
+            var bookLinkRese1 = "https://leitorcabuloso.com.br/2020/02/resenha-o-amor-nao-e-obvio-elayne-baeta/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Como alguém que passou pela adolescência exatamente nessa época, a identificação foi imensa. O computador que a Íris usava, a comunicação com os amigos e vários outros elementos me fizeram recordar daquela época. Além disso, há a questão dos aspectos culturais típicos de uma cidade do interior que são importantes para a trama e que acrescentaram ainda mais pontos de identificação para mim. Por fim, eu confesso que gostaria que o livro fosse um pouco menor, pois chegou um momento que eu estava aflita para que o beijo das duas acontecesse e nada. Mas é uma leitura tranquila e o tempo voava quando eu estava lendo. A narração da Íris é irônica e bem humorada, o que torna O Amor Não É Óbvio uma obra bem gostosa de ler.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/999711/mais-gostaram"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Este livro é de longe o meu favorito, superou todas as minhas expectativas (e olha que no momento que eu comprei, as expectativas já eram altas). Tem uma leitura super rápida, o jeito que eu me prendi às páginas dele é algo diferenciado, nunca li nada que fizesse eu me sentir do jeito que esse livro fez. Com certeza, ainda esse ano, vou ler ele novamente, o típico livro que eu nunca vou enjoar hahaha. O final me fez querer mais, o dia que tiver o vol. 2 eu posso dizer que venci na vida. As últimas páginas me fizeram surtar, quando vi para quem realmente era aquela carta eu fui a delírio. Eu sinto que devo acrescentar a minha paixão por Édra Norr, que mulher meus amigos, que mulher. Não desmerecendo Íris, que passou por momentos delicados de descoberta. Até mesmo porquê eu me identifico com ela, mas me apaixonei por Édra haha. Irei indicar ele para todo mundo, sinto que todos devem conhecer o trabalho esplêndido de Elayne Baeta.";
+        break; // ´é switch case precisa ter no final
+
+        case 'VDDE': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Verdades difíceis de engolir"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-engolir.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "30 outubro 2020";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Samantha Silvany";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = " O escritor Dan pensava estar vivendo um verdadeiro romance clichê com seu amor de infância, pelo menos até conhecer Sofia, uma mulher que o faz sentir coisas que nunca sentiu antes. Sofia, uma mulher empoderada e decidida, mas azarada no amor, achava ter encontrado seu par perfeito, até descobrir que seu príncipe encantado era o mesmo de outra pessoa. Já Alicia está convencida de que encontrou o grande amor e que nada e ninguém irão impedi-la de seguir ao altar e ter seu tão sonhado “felizes para sempre”. Mesmo que precise passar por cima de si mesma para isso. Mesmo que tenha que esmagar seu amor-próprio para provar para si e para os outros que aquele homem é a metade que lhe falta. Mas será que as pessoas realmente são incompletas e precisam de outra metade para encontrar a felicidade? O preço para viver um grande amor pode ser a própria dignidade? A sororidade existe mesmo ou é só uma palavra bonita que decidiram acrescentar no dicionário? Sofia tem algumas respostas para essas perguntas, mas Alicia tem outras bem diferentes...";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Verdades-dif%C3%ADceis-engolir-Um-romance/dp/6555351721";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/samantha-silvany/verdades-dificeis-de-engolir/2284284453"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "256";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "30 outubro 2020";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Outro Planeta";
+            document.getElementById("book-height").innerHTML = "20.8 x 13.6 x 1.4 cm";
+            document.getElementById("book-kid").innerHTML = "+18 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Mãe Literatura";
+
+            var bookLinkRese1 = "https://www.maeliteratura.com/2020/11/resenha-verdades-dificeis-de-engolir.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "A personagem que mais gostei e tive empatia foi a Sofia. No início, Alícia me incomodou um pouco. Agora, vou ser bem franca com vocês, eu detestei o Dan! Imagino que a autora tenha carregado nas suas características estereotipadas para refletir sobre relacionamentos tóxicos, por vezes abusivos, além das questões de traição. Dan é o cara que acha que pode se dar bem mantendo dois relacionamentos e fica reclamando que não consegue entender as mulheres. Um personagem antipático e por vezes patético, que você torce para não se dar bem na vida... Gostei muito da capa e adorei a edição da Planeta. Uma diagramação bonita e diferente, que valoriza a leitura, trazendo um conceito mais descolado para o leitor. Cada capítulo começa com uma frase destacada numa página preta e na seguinte, como num balão de conversa, temos uma nova marcação, direcionada ao personagem 'ele' ou 'ela' que narram aquele capítulo, em primeira pessoa.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/11651694/mais-gostaram"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Quando eu vi um exemplar na livraria, a sinopse me chamou a atenção, eu acabei despretensiosamente achando que se tratava de um livro de autoajuda e comprei por isso, mas não é bem assim. É uma história de amor, mas tb não é um conto clichê que costumamos ler. No começo eu achei uma baboseira e fiquei com muita raiva de ter comprado, porém, só ao longo da leitura eu fui me atentando que esse livro é sim autoajuda só que disfarçado. As lições estão nas entrelinhas dos pensamentos dos personagens e bom, são realmente verdades difíceis de engolir. A autora joga uns pensamentos verdadeiros e doloridos na sua cara que doem bem no âmago da gente.";
+        break; // ´é switch case precisa ter no final
+
+        case 'OCMCB': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Os cem melhores contos brasileiros do século"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-contos.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "16 dezembro 2009";
+            document.getElementById("book-genre").innerHTML = "Drama e Ficção";
+            document.getElementById("book-author").innerHTML = "Italo Moriconi";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Para Júlio Cortazar, conto é aquele texto que corre em poucas linhas e em alta velocidade narrativa, capaz de nocautear o leitor com seu impacto dramático concentrado. Coube ao professor Italo Moriconi o desafio lançado pela Objetiva de garimpar os cem melhores textos do gênero produzidos no Brasil ao longo do século XX. Um trabalho que deixasse de lado os rígidos critérios acadêmicos e fosse pautado somente pela qualidade e sabor dessas pequenas obras-primas. O resultado é a coletânea Os Cem Melhores Contos Brasileiros do Século, um passeio pela mais deliciosa e contundente ficção curta produzida no Brasil entre 1900 e o fim dos anos 90. Uma antologia capaz de traduzir as mudanças do país e as inquietações de várias gerações de brasileiros, em cem anos de produção literária. A prova de que a arte do gênero não cessa de melhorar em nossa literatura.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/cem-melhores-contos-brasileiros-s%C3%A9culo/dp/8539000369";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/italo-moriconi/os-cem-melhores-contos-brasileiros-do-seculo/3049501881"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "615";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "16 dezembro 2009";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Objetiva";
+            document.getElementById("book-height").innerHTML = "23.6 x 15.6 x 3.2 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Hosperia de Palavras";
+
+            var bookLinkRese1 = "https://hospedariadepalavras.blogspot.com/2014/09/os-100-melhores-contos-brasileiros-do.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Separado por décadas, com exceção do primeiro bloco que abrangeu 30 anos, a coleção de contos passeia por uma transformação histórica - cultural - social visível e palpável. Desde a forma de se escrever até o conteúdo abordado nas histórias relatadas, podemos ter uma visão panorâmica do século XX. Para mim, uma desvantagem que me levou a demorar meses para terminar este livro é que não é uma história contínua, mas uma série de contos, o que quebra um pouco o ritmo de leitura, mata a curiosidade de saber mais. Porém, são histórias interessantíssimas e vale a pena conhecer.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/3511/edicao:4461"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Adoro coletâneas, antologias e livros com listas. É uma forma de conhecer um pouco da literatura de um certo escritor antes de procurar a obra completa, é por o dedo na água antes de pular na piscina. Mas existem livros, como esse, que dão um excelente panorama literário. E que panorama! Ao longo desses quase 3 anos que estive acompanhada por este livro - às vezes, lia mais, outras menos -, a qualidade foi o guia (salvo uma exceção). A única coisa que me fez falta foi uma maior diversidade de vozes, característica marcante da nossa cultura. Dos 100 contos, no entanto, substituiria somente 1. O que me faz pensar que 100 é um número bastante ingrato para tentar abarcar a quantidade de Brasis que cabem dentro desse território de dimensões continentais. Seria necessário muitos contos a mais.";
         break; // ´é switch case precisa ter no final
 
         default:
