@@ -2768,8 +2768,1010 @@ function inputBook() {
             document.getElementById("resen-2-text").innerHTML = "Adoro coletâneas, antologias e livros com listas. É uma forma de conhecer um pouco da literatura de um certo escritor antes de procurar a obra completa, é por o dedo na água antes de pular na piscina. Mas existem livros, como esse, que dão um excelente panorama literário. E que panorama! Ao longo desses quase 3 anos que estive acompanhada por este livro - às vezes, lia mais, outras menos -, a qualidade foi o guia (salvo uma exceção). A única coisa que me fez falta foi uma maior diversidade de vozes, característica marcante da nossa cultura. Dos 100 contos, no entanto, substituiria somente 1. O que me faz pensar que 100 é um número bastante ingrato para tentar abarcar a quantidade de Brasis que cabem dentro desse território de dimensões continentais. Seria necessário muitos contos a mais.";
         break; // ´é switch case precisa ter no final
 
+        case 'NQSCV': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Não quero ser como você"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-quero.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "5 setembro 2022";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Vinicius Fernandes";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Lucas há tempos se fechou para o amor. Na rotina agitada do psicólogo gato e bem-sucedido, só há espaço para encontros casuais, desde que não durem mais de uma noite. Já Gabriel é o romantismo em pessoa. Mesmo já tendo quebrado a cara algumas vezes, ele sonha em encontrar um grande amor, daquele tipo que faz os olhos revirarem. É claro que as histórias dos dois vão se encontrar... Mas até que ponto duas pessoas tão diferentes podem ser felizes? Uma hora você percebe que a vida não é um conto de fadas (nem perto disso!), e é preciso amadurecer. Mas, também, chega um momento em que você tem que abrir a porta e deixar alguém entrar. Será que ambos estão dispostos a isso?";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/N%C3%A3o-quero-ser-como-voc%C3%AA/dp/6555662603";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "224";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "5 setembro 2022";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Astral Cultural";
+            document.getElementById("book-height").innerHTML = "16 x 1.6 x 23 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Hosperia de Palavras";
+
+            var bookLinkRese1 = "https://hospedariadepalavras.blogspot.com/2014/09/os-100-melhores-contos-brasileiros-do.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,7 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Separado por décadas, com exceção do primeiro bloco que abrangeu 30 anos, a coleção de contos passeia por uma transformação histórica - cultural - social visível e palpável. Desde a forma de se escrever até o conteúdo abordado nas histórias relatadas, podemos ter uma visão panorâmica do século XX. Para mim, uma desvantagem que me levou a demorar meses para terminar este livro é que não é uma história contínua, mas uma série de contos, o que quebra um pouco o ritmo de leitura, mata a curiosidade de saber mais. Porém, são histórias interessantíssimas e vale a pena conhecer.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/3511/edicao:4461"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,1 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Adoro coletâneas, antologias e livros com listas. É uma forma de conhecer um pouco da literatura de um certo escritor antes de procurar a obra completa, é por o dedo na água antes de pular na piscina. Mas existem livros, como esse, que dão um excelente panorama literário. E que panorama! Ao longo desses quase 3 anos que estive acompanhada por este livro - às vezes, lia mais, outras menos -, a qualidade foi o guia (salvo uma exceção). A única coisa que me fez falta foi uma maior diversidade de vozes, característica marcante da nossa cultura. Dos 100 contos, no entanto, substituiria somente 1. O que me faz pensar que 100 é um número bastante ingrato para tentar abarcar a quantidade de Brasis que cabem dentro desse território de dimensões continentais. Seria necessário muitos contos a mais.";
+        break; // ´é switch case precisa ter no final
+
+        case 'QE': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Querido ex"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-ex.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "28 setembro 2020";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Juan Jullian";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "A única coisa pior e mais desastrosa do que levar um pé na bunda, é levar um pé na bunda e ver seu ex se tornar a maior subcelebridade do Brasil. Não só isso, mas assistir em tempo real enquanto ele se apaixona por outro cara em TV nacional. Poucas palavras conseguem expressar esse nível de decepção amorosa. Nem mesmo Taylor Swift seria capaz de entender. Mas é justamente a tentativa de colocar a dor em palavras, reunidas em cartas para o maldito ex, que faz com que nosso protagonista repense algumas coisas. Entre crises de luto e saudades, existem festas anuais do dia dos ex-namorados com todas as suas amigas que o seu ex detestava. Existe a vida que você deixou para trás enquanto amava alguém que agora é somente um estranho com milhões de seguidores. E talvez por trás daquele amor existisse também um tanto de controle, de gaslighting, de codependência. Além de abordar de forma crua as diferentes nuances de um relacionamento abusivo, Querido ex também traz questionamentos sobre os preconceitos sociais que jovens negros e gays estão sujeitos em nossa sociedade.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Querido-ex-Juan-Jullian/dp/8501118907";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/juan-jullian/querido-ex/2477403127"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "176";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "28 setembro 2020";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Galera";
+            document.getElementById("book-height").innerHTML = "20.2 x 13.6 x 1.2 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2019/09/resenha-querido-ex_18.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "3,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "As cartas contam não só sobre como o protagonista se sentia em relação ao querido ex, mas falam também sobre o dia-a-dia do personagem, sobre como ele se sente em relação às outras pessoas que estão ao seu redor. Ele inclusive começa a relatar como tem sido conhecer outra pessoa. Essa parte eu me identifiquei muito, porque depois de uma relação falida, você começa mesmo a traçar comparativos para ver se não está caindo no mesmo erro, rs. O fim do livro é uma reviravolta total, vários fatos antes não ditos são colocados à mesa e no último capítulo o meu ar sumiu. Em resumo, Querido Ex, é daqueles livros que começam meio mornos e vão embalando com o passar dos capítulos e por conta da linguagem fácil, nem pensei em desistir. Juan conseguiu encerrar a história com um final surpreendente, o que pra mim foi o que salvou o livro de não ser uma decepção completa.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Imersão Literária";
+
+            var bookLinkRese2 = "https://www.imersaoliteraria.com.br/2020/12/resenha-querido-ex.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Querendo ou não o livro representa muitos relacionamentos que já aconteceram e ainda existem. O remetente expõe seu ex namoro onde era exigido um padrão no relacionamento mesmo quando parecia haver diversidade. O autor é negro e gay, assim como o protagonista da história, e há uma cobrança no relacionamento mencionado, como por exemplo: se portar conforme a sociedade exige. Uma verdade difícil de ser digerida, ainda vivemos em um mundo que tem tais exigências. A leitura ensina, diverte e trás uma faceta de um relacionamento fracassado que pouco vemos, mas que existe por aí. Não vemos só o fracasso, aprendemos também sobre amor-próprio e o luto, apesar das dificuldades. Nos inícios de capítulo há alguns trechos de músicas que combinam com os relatos. Eu adoro quando há menções musicais, referências e afins. Tantos nessas menções quanto dentro das cartas, podemos encontrar outras referências pops que complementam a leitura.";
+        break; // ´é switch case precisa ter no final
+
+        case 'UMDFF': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Um milhão de finais felizes"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-brazil-finais.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "16 julho 2018";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Vitor Martins";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Jonas não sabe muito bem o que fazer da vida. Entre suas leituras e ideias para livros anotadas em um caderninho de bolso, ele precisa dar conta de seus turnos no Rocket Café e ainda lidar com o conservadorismo de seus pais. Sua mãe alimenta a esperança de que ele volte a frequentar a igreja, e seu pai não faz muito por ele além de trazer problemas. Mas é quando conhece Arthur, um belo garoto de barba ruiva, que Jonas passa a questionar por quanto tempo conseguirá viver sob as expectativas de seus pais, fingindo ser uma pessoa diferente de quem é de verdade. Buscando conforto em seus amigos (e na sua história sobre dois piratas bonitões que se parecem muito com ele e Arthur), Jonas entenderá o verdadeiro significado de família e amizade, e descobrirá o poder de uma boa história.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/milh%C3%A3o-finais-felizes-Vitor-Martins/dp/8525065374";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/vitor-martins/um-milhao-de-finais-felizes/1517681488"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "176";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "16 julho 2018";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Alt";
+            document.getElementById("book-height").innerHTML = "13.97 x 2.01 x 20.96 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2018/09/resenha-um-milhao-de-finais-felizes.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "No quadro de coadjuvantes, as histórias paralelas que permeiam a do Jonas são complementos bem-vindos que enriquecem o livro. Karina, sua colega de trabalho, foi minha favorita em disparada. Cheia de personalidade e atitude, é uma atriz recém-formada com o sonho de seguir carreira e a determinação para fazer isso acontecer. Eu amei a amizade estabelecida entre os dois e como ela cresceu até uma irmandade e companheirismo lindos de ler. Danilo e Isadora, outros dois amigos do Jonas, também têm momentos importantes. Danilo principalmente, já que ele está lá pelo Jonas o tempo todo - com seus dramas individuais e problemas românticos; vou falar que o Danilo foi uma das POC mais adoráveis que já li e queria poder abraçar esse menino pra sempre. Isadora, por outro lado... Por boa parte da história, eu só queria dar um empurrão. Depois de entender algumas atitudes dela, a simpatia voltou. Toda a questão do significado de 'família' e 'lar' permeiam os questionamentos e as situações vividas pelo Jonas. Conforme a sua jornada avança, conforme coisas boas e ruins acontecem em sua rotina, seus pensamentos começam a se ordenar para entender o que significa quando seu coração pertence a um lugar ou a um grupo de pessoas; qual o real significado de família em tudo o que ele viveu, vive e ainda vai viver.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Blog sem Serifa";
+
+            var bookLinkRese2 = "https://blogsemserifa.com/2018/07/20/um-milhao-de-finais-felizes/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "O resto do livro é narrado em primeira pessoa, com o mesmo estilo coloquial e bem-humorado do livro anterior do autor, embora este lide com alguns temas mais pesados e consequentemente também tenha momentos de reflexão interior muito bonitos. Há muitas referências de cultura pop, também, o que deixa a obra bem contemporânea (e dá aquela sensação de que Jonas e cia. realmente existem). Minha maior crítica ao livro é o fato de abordar a temática PIRATAS GAYS e não haver uma única menção a BLACK SAILS, a melhor série sobre piratas LGBT da HISTÓRIA DA TELEVISÃO. Mas vou relevar, já que curti tanto o resto da obra.";
+        break; // ´é switch case precisa ter no final
+
+        case 'EAQA': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "É assim que acaba"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-acaba.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "18 janeiro 2018";
+            document.getElementById("book-genre").innerHTML = "Romance";
+            document.getElementById("book-author").innerHTML = "Colleen Hoover";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Em É assim que acaba, Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja? É assim que acaba é uma narrativa poderosa sobre a força necessária para fazer as escolhas certas nas situações mais difíceis. Considerada a obra mais pessoal de Hoover, o livro aborda sem medo alguns tabus da sociedade para explorar a complexidade das relações tóxicas, e como o amor e o abuso muitas vezes coexistem em uma confusão de sentimentos.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/hoover-colleen/e-assim-que-acaba/3070764009"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "368";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "18 janeiro 2018";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Galera";
+            document.getElementById("book-height").innerHTML = "20.6 x 13.4 x 2.2 cm";
+            document.getElementById("book-kid").innerHTML = "+13 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Minha vida literária";
+
+            var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2018/11/30/resenha-e-assim-que-acaba-colleen-hoover/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,9 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Acredito que o trunfo de Colleen Hoover foi o fato de ter vivido muito do que foi narrado. Essa é uma história extremamente pessoal para a autora, que a forçou a se colocar no centro dos fatos, alterando sua perspectiva até então. Assim, É Assim Que Acaba traz, acima de tudo, verdade no que é contado, o que faz do livro tão verdadeiro e impactante. Por algum motivo, É Assim Que Acaba não figurou entre meus favoritos da autora, mesmo que eu tenha adorado a leitura. Ao mesmo passo em que me envolvi e li praticamente sem interrupções, também não sofri abalos emocionais com a leitura, salvo determinadas passagens. Dessa maneira, adorei o livro, mas não fui impactada como outras obras de Hoover me impactaram. Ainda assim, aplaudi a autora por ter tocado em uma temática tão relevante de maneira tão sensível e empática. E se praticamente não derrubei lágrimas ao longo da leitura, sua nota final me tocou profundamente e aí sim destruiu minhas comportas. Sentir seu relato e partilhar de suas ponderações foi essencial para enxergar o quanto ele baseia a estrutura de É Assim Que Acaba e admirei Colleen Hoover ainda mais por sua coragem em se permitir desenvolver algo tão intimamente doloroso.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Hospício Nerd";
+
+            var bookLinkRese2 = "https://hospicionerd.com.br/e-assim-que-acaba-colleen-hoover-resenha-literaria/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Esse foi o primeiro livro que li da autora, me apaixonei assim que vi a capa rosa com flores. Ganhei de presente do meu namorado e comecei a ler na hora, em menos de uma semana já tinha terminado e dei 5 estrelas sem pensar duas vezes, e com certeza leria tudo de novo mais mil vezes. Confesso que alguns capítulos foram meio difíceis de ler por conta das cenas de violência, mas a forma como a Colleen escreve de uma maneira que faz você entender como a personagem se sentiu deixa tudo mais tranquilo. O livro ajuda na prática de empatia que faz você enxergar que nem sempre o agressor é o vilão, obviamente ele esta errado mas tem toda uma história por tras, e saber disso é muito interessante. Chorei nos últimos capítulos e chorei o dobro no final. E que final… Indico esse livro para qualquer tipo de pessoa, tanto os viciados em romance quanto os amantes por terror, é muito gostosa a leitura e muito emocionante cada palavra. Indico muito!! Se vocês lerem e gostarem me contem em.";
+        break; // ´é switch case precisa ter no final
+        
+        case 'ANM': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Admirável mundo novo"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-mundo.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "1 janeiro 2014";
+            document.getElementById("book-genre").innerHTML = "Romance e Ficção";
+            document.getElementById("book-author").innerHTML = "Aldous Leonard Huxley";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Em uma sociedade organizada segundo princípios estritamente científicos, Bernard Marx, um psicólogo, sente-se inadequado quando se compara aos outros seres de sua casta. Ao descobrir uma “reserva histórica” que preserva costumes de uma sociedade anterior – muito semelhante à do leitor – Bernard vai perceber as diferenças entre esta civilização e a sua – e a partir de um sentimento de inconformismo ele desafiará o mundo. A história de Bernard se passa em um ambiente em que a literatura, a música e o cinema só têm a função de solidificar a alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade contra a diversidade. Muitas das previsões de Huxley vieram a ser confirmadas anos mais tarde, como a tecnologia reprodutiva, as supostas técnicas de aprendizado durante o sono e a manipulação pelo condicionamento psicológico.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Admir%C3%A1vel-mundo-Aldous-Leonard-Huxley/dp/8525056006";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/admiravel-mundo-novo/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/aldous-huxley/admiravel-mundo-novo/1710802787"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "312";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "1 janeiro 2014";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Biblioteca Azul";
+            document.getElementById("book-height").innerHTML = "13.97 x 1.75 x 21.59 cm";
+            document.getElementById("book-kid").innerHTML = "+18 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Bons livros para ler";
+
+            var bookLinkRese1 = "https://www.bonslivrosparaler.com.br/livros/resenhas/admiravel-mundo-novo/5202"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,9 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Um dos princípios mais profundos nos quais se baseia a Utopia é o conceito de história. As pessoas têm um conhecimento do passado, de modo que elas não serão capazes de comparar o presente com qualquer coisa que possa mudar o presente. Outro princípio é que as pessoas não devem ter emoções. A felicidade cega é necessária para a estabilidade. E para alcançar a felicidade, é dever abrir mão da ciência, da arte, da religião e de outras coisas que valorizamos no mundo real. Uma das coisas que garantem essa felicidade é uma droga chamada soma, que acalma o indivíduo alterando a sua sensibilidade, mas sem deixá-lo de ressaca.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Leitora viciada";
+
+            var bookLinkRese2 = "https://www.leitoraviciada.com/2018/05/admiravel-mundo-novo.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Por fim, acredito que o que Huxley mais quis enfatizar foi: até onde a ciência e a tecnologia, nas mãos dos governantes, podem ter a palavra final sobre a vida dos homens? O condicionamento psicológico e biológico, no ápice da sua precisão, entretanto, falha diversas vezes – como é atestado no livro. E quando falha, uma vez que esses destoantes (por seus motivos pessoais) escapam desses condicionamentos, conseguindo ver por trás de toda essa maquiagem, indo em direção contrária à do rebanho começam questionar tudo e todos. O que nos indica que Huxley, pelo menos àquela altura, acreditava que por trás de tudo aquilo (e tudo isso) existia (e existe), à parte, uma natureza humana. Talvez até indomável.";
+        break; // ´é switch case precisa ter no final
+
+        case 'VBSA': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Vermelho, branco e sangue azul"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-royal.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "1 janeiro 2014";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Casey McQuiston";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com quem ele é constantemente comparado ― e que ele não suporta. O encontro entre os dois sai pior do que o esperado, e no dia seguinte todos os jornais do mundo estampam fotos de Alex e Henry caídos em cima do bolo real, insinuando uma briga séria entre os dois. Para evitar um desastre diplomático, eles passam um fim de semana fingindo ser melhores amigos e não demora para que essa relação evolua para algo que nenhum dos dois poderia imaginar ― e que não tem nenhuma chance de dar certo. Ou tem?";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Vermelho-branco-sangue-Casey-McQuiston/dp/8555340942";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/vermelho--branco-e-sangue-azul/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/casey-mcquiston/vermelho-branco-e-sangue-azul/3602728505"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "392";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "4 novembro 2019";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Seguinte";
+            document.getElementById("book-height").innerHTML = "22.8 x 16 x 2.2 cm";
+            document.getElementById("book-kid").innerHTML = "+18 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2019/11/resenha-vermelho-branco-e-sangue-azul.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a fazer pra história é um pouco sobre o tamanho dela. Apesar de a fluir muito bem e de dar gosto de acompanhar esses personagens e seu romance - bem caliente, diga-se de passagem - muitas passagens soaram um pouquinho cansativas. Os capítulos eram longos DEMAIS quando não engrenavam. Portanto, dava uma sensação de que nunca teria fim. Mas isso não tira o mérito da história e definitivamente não tira o meu amor por ela, muito pelo contrário. Apesar de demorar, eu me acostumei com o ritmo e com as descrições extensas e me apaixonei tanto pelo Alex e pelo Henry que queria que nunca tivesse fim. Sabe aquele tipo de narrativa com o tom de humor certo e as provocações e flertes na melhor medida? É o que você vai encontrar nesse livro.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Os melhores livros";
+
+            var bookLinkRese2 = "https://osmelhoreslivros.com.br/vermelho-branco-e-sangue-azul-resenha/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "O filho da presidenta dos Estados Unidos e o príncipe da Inglaterra juntos, é possível? No mundo de Casey McQuiston foi super possível, e muito maravilhoso de acompanhar, não apenas o romance, mas toda a narrativa que se desenvolve em torno dele. Como foi dito no início dessa resenha de Vermelho, Branco e Sangue Azul esse livro é muito importante para a comunidade LGBTQIA+ se sentir representada por um romance clichê com príncipes e um final feliz, é necessário existir essa inclusão para que essas pessoas sintam que têm um lugar no mundo e saber que é possível viver um romance clichê ao ler algo leve e divertido, que é possível fazer história e ter o seu final feliz. ";
+        break; // ´é switch case precisa ter no final
+
+        case 'APS': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "A paciente silenciosa"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-silenciosa.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "20 maio 2019";
+            document.getElementById("book-genre").innerHTML = "Suspense";
+            document.getElementById("book-author").innerHTML = "Alex Michaelides";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Alicia Berenson tinha uma vida perfeita. Ela era uma pintora famosa casada com um fotógrafo bem-sucedido e morava numa área nobre de Londres que dá para o parque de Hampstead Heath. Certa noite, Gabriel, seu marido, voltou tarde para casa depois de um ensaio para a Vogue, e de repente a vida de Alicia mudou completamente... Alicia tinha 33 anos quando deu cinco tiros no rosto do marido, e ela nunca mais disse uma palavra. A recusa de Alicia a falar ou a dar qualquer explicação transforma essa tragédia doméstica em algo muito maior - um mistério que atrai a atenção do público e aumenta ainda mais a fama da pintora. Entretanto, enquanto seus quadros passam a ser mais valorizados que nunca, ela é levada para o Grove, um hospital psiquiátrico judiciário na zona norte de Londres. Enquanto isso, Theo Faber é um psicoterapeuta forense que espera há muito tempo por uma oportunidade de trabalhar com Alicia. Ele tem certeza de que é a pessoa certa para lidar com o caso. ";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/paciente-silenciosa-Alex-Michaelides/dp/8501116432";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/a-paciente-silenciosa-10511410/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/alex-michaelides/a-paciente-silenciosa/2704258175"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "364";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "20 maio 2019";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Record";
+            document.getElementById("book-height").innerHTML = "22.8 x 15.6 x 1.8 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Leitor compulsivo";
+
+            var bookLinkRese1 = "http://leitorcompulsivo.com.br/2019/07/22/resenha-a-paciente-silenciosa-alex-michaelides/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Chama a atenção, e destaco isso como uma qualidade interessante de A Paciente Silenciosa, o fato do autor ter se debruçado sobre teses e teorias de renomados psicanalistas, psicólogos e terapeutas da área e utilizar muito bem citações e contextualizações para embasar a construção da história. O livro vai além da simples ficção ao trata-la com doses de realidade bem assentadas na bibliografia médica. Em outro lado, sua pós-graduação em roteiro de cinema fica bem explícita ao pensarmos que a construção do livro foi bem pesada para ser adaptada para os cinemas. A Paciente Silenciosa entra facilmente para aquele rol de livros escritos de forma cuidadosamente pesada para se tornarem filmes.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Sobre leitura";
+
+            var bookLinkRese2 = "https://www.sobrealeitura.com/2021/01/a-paciente-silenciosa-alex-michaelides.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "No fim das contas, os traumas de ambos podem tê-los deixados somente malucos. Como diz o livro, um bebê é uma folha branca e o que determina o que ele será é como ele é criado, mas de qualquer forma, achei as motivações e soluções muito fracas e não funcionou tão bem pra mim. O autor é roteirista, esse foi o primeiro livro dele, eu poderia tentar aliviar um pouco pra ele por isso, mas roteirista também escreve e Ali Land escreveu somente Menina boa, menina má e foi um livro que achei ótimo, então é complicado.";
+        break; // ´é switch case precisa ter no final
+
+        case 'OHDG': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "O homem de giz"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-giz.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "15 março 2018";
+            document.getElementById("book-genre").innerHTML = "Suspense";
+            document.getElementById("book-author").innerHTML = "C. J. Tudor";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Em 1986, Eddie e os amigos passam a maior parte dos dias andando de bicicleta pela pacata vizinhança em busca de aventuras. Os desenhos a giz são seu código secreto: homenzinhos rabiscados no asfalto; mensagens que só eles entendem. Mas um desenho misterioso leva o grupo de crianças até um corpo desmembrado e espalhado em um bosque. Depois disso, nada mais é como antes. Em 2016, Eddie se esforça para superar o passado, até que um dia ele e os amigos de infância recebem um mesmo aviso: o desenho de um homem de giz enforcado. Quando um dos amigos aparece morto, Eddie tem certeza de que precisa descobrir o que de fato aconteceu trinta anos atrás. Alternando habilidosamente entre presente e passado, O Homem de Giz traz o melhor do suspense: personagens maravilhosamente construídos, mistérios de prender o fôlego e reviravoltas que vão impressionar até os leitores mais escaldados.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Homem-Giz-C-J-Tudor/dp/8551002937";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/q/o-homem-giz";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/c-j-tudor/o-homem-de-giz/3965794517"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "272";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "15 março 2018";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Intrínseca";
+            document.getElementById("book-height").innerHTML = "23.6 x 16 x 2 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Minha vida literária";
+
+            var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2019/04/16/resenha-o-homem-de-giz-c-j-tudor/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "4,5 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Quando digo que o suspense não é o objetivo da leitura me refiro ao fato de C.J. Tudor desenvolver, em um primeiro plano, os conflitos internos das personagens em vez do caso do assassinato. A autora narra em detalhes o dia-a-dia das crianças e imprime uma visão muito típica dessa fase da vida, agora repensada pela maturidade do Eddie adulto. Com habilidade, ela coloca temas próprios da infância, ligados ao crescer e à perda da inocência, sem deixar de fazer críticas — como ao fervor religioso carregado de hipocrisia. É a partir dessa construção das personagens e das reflexões que Eddie faz sobre erros, causas e consequências que o suspense é criado, formando uma teia de eventos  que só pode ser visualizada em sua totalidade em um panorama geral, proporcionado ao fim da leitura, permitindo-se assim a compreensão entre cada conexão.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/741746/mais-gostaram"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "3,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "O Homem de Giz tem muitas falhas, uma delas é o desenvolvimento dos personagens. Todos são absolutamente irritantes, e com exceção do protagonista são rasos e não escapam de velhos padrões do gênero. E mesmo o protagonista beirando a um bom desenvolvimento não chega lá, é clara a tentativa da autora de humanizar o personagem colocando falhas de caráter (e explicando a origem de cada uma delas) , só que não acontece uma identificação com o leitor, pois o que era pra ser sensível e real acaba simplesmente se tornando maçante.";
+        break; // ´é switch case precisa ter no final
+
+        case 'TA': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Torto arado"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-tortoarado.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "7 agosto 2019";
+            document.getElementById("book-genre").innerHTML = "Drama";
+            document.getElementById("book-author").innerHTML = "Itamar Vieira Junior";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social. Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social. Nas profundezas do sertão baiano, as irmãs Bibiana e Belonísia encontram uma velha e misteriosa faca na mala guardada sob a cama da avó. Ocorre então um acidente. E para sempre suas vidas estarão ligadas ― a ponto de uma precisar ser a voz da outra. Numa trama conduzida com maestria e com uma prosa melodiosa, o romance conta uma história de vida e morte, de combate e redenção.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Torto-arado-Itamar-Vieira-Junior/dp/6580309318";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/torto-arado/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/vieira-junior-itamar/torto-arado/1711078064"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "264";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "7 agosto 2019";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Todavia";
+            document.getElementById("book-height").innerHTML = "14 x 1.7 x 21 cm";
+            document.getElementById("book-kid").innerHTML = "+14 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Leitor cabuloso";
+
+            var bookLinkRese1 = "https://leitorcabuloso.com.br/2022/03/resenha-torto-arado-itamar-vieira-junior/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Só existem elogios a narrativa do Itamar Vieira Junior. Obtive reflexões e compreensões devido às críticas sociais; construí apego aos personagens com uma voz literária marcante; o cenário longe do ideal, mas com uma evolução, deram-me certo otimismo e os detalhes capazes de transformar uma leitura em lembranças geraram encanto. Desejo que todos possam ser impactados como fui com este livro. Há aqui no Leitor Cabuloso o episódio 59 do podcast Boteco dos Versados sobre a obra. Leia e ouça o cast, você vai sentir e entender parte importante da nossa realidade.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Os melhores livros";
+
+            var bookLinkRese2 = "https://osmelhoreslivros.com.br/torto-arado-resenha/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Junte-se a isso a figura de seu pai, Zeca Chapéu Grande, uma espécie de líder místico entre os trabalhadores da fazenda, e da sua mãe, a parteira local. Assim, temos uma trama inesquecível, com protagonistas mulheres muito fortes. A mensagem por trás da história é um tapa na cara sobre problemas que ainda hoje persistem em nosso país. E mais, prepare-se para chorar, pois Torto Arado é um romance comovente que conta uma história de vida e morte, combate e redenção, de personagens que atravessaram o tempo sem nunca conseguirem sair do anonimato.";
+        break; // ´é switch case precisa ter no final
+
+        case 'TASI': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Todas as suas (im)perfeições"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-imperfeicoes.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "24 julho 2019";
+            document.getElementById("book-genre").innerHTML = "Romance e Drama";
+            document.getElementById("book-author").innerHTML = "Colleen Hoover";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois. Meses mais tarde, os acordes tocam para o casal mais uma vez e eles se reencontram. Graham está convencido de que são almas gêmeas. Quinn jamais se sentiu dessa forma antes. A intensidade do sentimento os assusta, mas eles mergulham de cabeça mesmo assim. O casamento é tudo o que sonhavam, a parceria perfeita. Mesmo nos momentos difíceis, sabem que podem contar com o outro. Nenhum deles desiste do amor que sentem. Até que a primeira nota dissonante abala a sinfonia do casal. Até que Quinn parece estar disposta a trocar tudo o que é pela única coisa que não consegue ser: mãe.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Todas-as-suas-im-perfei%C3%A7%C3%B5es/dp/8501117684";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/todas-as-suas--im-perfeicoes/p#:~:text=Todas%20as%20suas%20imperfei%C3%A7%C3%B5es%20narra,testemunha%20a%20trai%C3%A7%C3%A3o%20da%20namorada.";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/colleen-hoover/todas-as-suas-imperfeicoes/410647740#:~:text=Todas%20as%20suas%20(im)perfei%C3%A7%C3%B5es,-Colleen%20Hoover%20%7C%200&text=de%20salv%C3%A1%2Dlo.-,Todas%20as%20suas%20imperfei%C3%A7%C3%B5es%20narra%20a%20hist%C3%B3ria%20de%20Quinn%20e,testemunha%20a%20trai%C3%A7%C3%A3o%20da%20namorada."; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "304";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "24 julho 2019";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Galera";
+            document.getElementById("book-height").innerHTML = "20.57 x 13.46 x 2.03 cm";
+            document.getElementById("book-kid").innerHTML = "+18 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Minha vida literária";
+
+            var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2019/12/23/resenha-todas-as-suas-imperfeicoes-colleen-hoover/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Apesar de, aqui, encontrarmos personagens mais velhos do que normalmente são os protagonistas nas obras da autora, o estilo de Colleen Hoover é inconfundível: ela sabe despertar os mais diversos sentimentos no leitor, assim como sempre oferece diálogos cativantes e relações apaixonadas entre seus protagonistas, aspectos que se fazem presente com maestria em Todas As Suas (Im)Perfeições. Além disso, o romance transborda sensibilidade ao construir as nuances da personalidade de Quinn e Graham: suas dores — e imperfeições — tornam não apenas os protagonistas reais, mas especialmente o relacionamento que vivem. É impossível não se imaginar na pele dos dois, naquele instante em que se olha para trás e se pergunta “Mas como foi que chegamos aqui?”. De maneira alguma fica um buraco na trajetória que a autora constrói; ao contrário, cada passo é tão bem dado que o casamento, mesmo se desfazendo, parece sólido a quem lê.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Resenhando sonhos";
+
+            var bookLinkRese2 = "https://resenhandosonhos.com/todas-as-suas-imperfeicoes-colleen-hoover/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "QUE LIVRO! Não há outra maneira de começar a tecer minha opinião acerca desta obra. É claro que nossa percepção sobre uma história varia muito de acordo com o momento em que estamos, com a nossa subjetividade, com as expectativas que criamos para aquela leitura; e sei que este livro pode não se transformar no favorito dos fãs da CoHo, assim como pode não agradar a determinadas pessoas. Mas preciso dizer o que ele fez comigo. E porque ele se tornou um dos melhores livros que já li na vida. A narrativa não linear vai mostrando a história de Quinn e Graham no passado, quando se conheceram, quando ficaram juntos, quando se apaixonaram e transformaram a relação num casamento quase perfeito. Mostra também o presente, quando os dois vivem os piores momentos de suas vidas, vendo o declínio de uma relação que já não se mantém firme mesmo que os dois ainda se amem. E é claro que até estes dois momentos se cruzarem, o leitor vai vivendo a narrativa em dois tons totalmente opostos, e vai sentindo sentimentos que fazem doer e alegram em igual medida.";
+        break; // ´é switch case precisa ter no final
+
+        case 'MQCCOL': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Mulheres que correm com os lobos"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-lobos.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "17 setembro 2018";
+            document.getElementById("book-genre").innerHTML = "Drama";
+            document.getElementById("book-author").innerHTML = "Clarissa Pinkola Estés";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Os lobos foram pintados com um pincel negro nos contos de fada e até hoje assustam meninas indefesas. Mas nem sempre eles foram vistos como criaturas terríveis e violentas. Na Grécia antiga e em Roma, o animal era o consorte de Artemis, a caçadora, e carinhosamente amamentava os heróis. A analista junguiana Clarissa Pinkola Estés acredita que na nossa sociedade as mulheres vêm sendo tratadas de uma forma semelhante. Ao investigar o esmagamento da natureza instintiva feminina, Clarissa descobriu a chave da sensação de impotência da mulher moderna. Seu livro, Mulheres que correm com os lobos, ficou durante um ano na lista de mais vendidos nos Estados Unidos. Abordando 19 mitos, lendas e contos de fada, como a história do patinho feio e do Barba-Azul, Estés mostra como a natureza instintiva da mulher foi sendo domesticada ao longo dos tempos, num processo que punia todas aquelas que se rebelavam. Segundo a analista, a exemplo das florestas virgens e dos animais silvestres, os instintos foram devastados e os ciclos naturais femininos transformados à força em ritmos artificiais para agradar aos outros.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Mulheres-que-Correm-com-Lobos/dp/853252978X";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/mulheres-que-correm-com-os-lobos-mitos-e-historias-do-arquetipo-da-mulher-selvagem/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/clarissa-pinkola-estes/mulheres-que-correm-com-os-lobos/844647078"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "304";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "17 setembro 2018";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Rocco";
+            document.getElementById("book-height").innerHTML = "23.6 x 16 x 3.8 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "The feminist patronum";
+
+            var bookLinkRese1 = "https://www.thefeministpatronum.com/post/resenha-mulheres-que-correm-com-os-lobos"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Clarissa Pinkola é uma psicanalista com ascendência mexicana de Swanbian que conta que sempre foi fascinada por lobos. Guardiã dos velhos costumes, ela descreve como muito de suas  histórias foram baseadas em suas crenças familiares e que seu livro foi inspirado em seu estudo sobre animais selvagens –  em especial os lobos Canis Lupus e Canis Rufus. Ela conta que sempre teve um certo fascínio pelos animais e que eles sempre apareceram para ela de alguma forma, até em sonhos. (Uma vibe bem makube, né?) Como uma boa contadora de histórias, cada capítulo conta uma história ou mais história seguida de uma análise psíquica sobre o que ele tentou mostrar para a mulher selvagem, dentro daquele contexto.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Skoob";
+
+            var bookLinkRese2 = "https://www.skoob.com.br/livro/resenhas/5474/mais-gostaram"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Esse livro me trouxe uma das mais importantes revelações que já tive, que a mulher da minha vida é e sempre foi uma só: a mulher livre. E que foi essa mulher que, mesmo sem saber, eu sempre busquei em minhas relações, ainda que a temesse. E que foi por ela que abandonei muitas mulheres, ao intuir, sem saber explicar nem pra mim, que eu jamais poderia ser totalmente eu ao lado de uma mulher domesticada. Porém, como aceitar e amar essa mulher liberta sem, antes, eu mesmo me libertar do que também me limitava? Pra merecê-la, eu também precisava me libertar de vez de qualquer pretensão de controlá-la, esse resquício maldito de minha herança cultural-religiosa.";
+        break; // ´é switch case precisa ter no final
+
+        case 'TER': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Tudo é rio"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-popullar-rio.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "8 fevereiro 2021";
+            document.getElementById("book-genre").innerHTML = "Drama e Ficção";
+            document.getElementById("book-author").innerHTML = "Carla Madeira";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Com uma narrativa madura, precisa e ao mesmo tempo delicada e poética, o romance narra a história do casal Dalva e Venâncio, que tem a vida transformada após uma perda trágica, resultado do ciúme doentio do marido, e de Lucy, a prostituta mais depravada e cobiçada da cidade, que entra no caminho deles, formando um triângulo amoroso. Na orelha do livro, Martha Medeiros escreve: “Tudo é rio é uma obra-prima, e não há exagero no que afirmo. É daqueles livros que, ao ser terminado, dá vontade de começar de novo, no mesmo instante, desta vez para se demorar em cada linha, saborear cada frase, deixar-se abraçar pela poesia da prosa. Na primeira leitura, essa entrega mais lenta é quase impossível, pois a correnteza dos acontecimentos nos leva até a última página sem nos dar chance para respirar. É preciso manter-se à tona ou a gente se afoga.”";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Tudo-%C3%A9-rio-Carla-Madeira/dp/6555871784";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://www.saraiva.com.br/tudo-e-rio/p";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/carla-madeira/tudo-e-rio/3790118973"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "210";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "8 fevereiro 2021";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Record";
+            document.getElementById("book-height").innerHTML = "15.5 x 1.1 x 23 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Escotilha";
+
+            var bookLinkRese1 = "https://escotilha.com.br/literatura/ponto-virgula/livro-tudo-e-rio-carla-madeira-editora-record-resenha-critica/"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Inventivo na forma, o romance organiza-se por capítulos que desobedecem a ordem cronológica e vão e voltam, tal como uma série televisiva em que a câmera muda a cada cena. O tema do amor e da tragédia não tem nada de original, mas o grande trunfo de Carla Madeira é a forma pela qual sua linguagem poética, suave, nos conta essa história. Tudo é rio é uma investigação sobre a água, ou seja, sobre tudo aquilo que é tão potente que não se pode controlar. O amor, o ódio, a raiva, são sentimentos que, quando represados, tensionam o sujeito que sente e o torna cada vez mais próximo da morte. Aqui temos uma obra que permanece ressonando no leitor, mas não em sua mente racional, mas nesse intangível lugar onde mora aquilo que não conseguimos traduzir em palavras.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Estante do vini";
+
+            var bookLinkRese2 = "https://www.estantedovini.com.br/post/tudo-%C3%A9-rio-resenha"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Para mim a maneira em que a autora quis tratar essa situação me frustrou um pouco, a violência doméstica foi um pouco romantizada aqui, eu me senti um pouco frustrado com a resolução desse caso. Carla Madeira não trás julgamentos morais sobre esta cena e sim busca trabalhar como o leitor vai olhar para essas relações. 'Tudo é Rio' é literalmente como um rio, ele flui, pode se modificar e ganhar outros contornos ao longo do tempo, assim como a água, a obra é sobre tudo aquilo que possivelmente não se pode controlar: o amor, o ódio e a raiva, os sentimentos que tencionam o sujeito.";
+        break; // ´é switch case precisa ter no final
+
+        case 'CAS': // esta no doc home.js, encontra o nome de cada  no final do case
+            document.getElementById("book-title").innerHTML = "Simon vs. A agenda homo sapiens"; // coloca o nome do livro
+
+            var bookImg =  "images/Home/home-adptation-simon.jpg";
+            var setImg = document.getElementById("book-cover");
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById("book-data").innerHTML = "16 fevereiro 2016";
+            document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
+            document.getElementById("book-author").innerHTML = "Becky Albertalli";
+
+            var firstStar =  "/images/Book/rating-set-star.png";
+            var setFirstStar = document.getElementById("star-1");
+            setFirstStar.setAttribute("src", firstStar);
+            var secondStar =  "/images/Book/rating-set-star.png";
+            var setSecondStar = document.getElementById("star-2");
+            setSecondStar.setAttribute("src", secondStar);
+            var thirdStar =  "/images/Book/rating-set-star.png";
+            var setThirdStar = document.getElementById("star-3");
+            setThirdStar.setAttribute("src", thirdStar);
+            var fourthStar =  "/images/Book/rating-set-star.png";
+            var setFourthStar = document.getElementById("star-4");
+            setFourthStar.setAttribute("src", fourthStar);
+            var fifthStar =  "/images/Book/rating-set-star.png";
+            var setFifthStar = document.getElementById("star-5");
+            setFifthStar.setAttribute("src", fifthStar);
+
+            // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
+            // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
+            // por exemplo: 3 (set,set,set,unset,unset)
+            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+
+            document.getElementById("book-text").innerHTML = "Simon tem dezesseis anos e é gay, mas ninguém sabe. Sair ou não do armário é um drama que ele prefere deixar para depois. Tudo muda quando Martin, o bobão da escola, descobre uma troca de e-mails entre Simon e um garoto misterioso que se identifica como Blue e que a cada dia faz o coração de Simon bater mais forte. Martin começa a chantageá-lo, e, se Simon não ceder, seu segredo cairá na boca de todos. Pior: sua relação com Blue poderá chegar ao fim, antes mesmo de começar. Agora, o adolescente avesso a mudanças precisará encontrar uma forma de sair de sua zona de conforto e dar uma chance à felicidade ao lado do menino mais confuso e encantador que ele já conheceu. Uma história que trata com naturalidade e bom humor de questões delicadas, explorando a difícil tarefa que é amadurecer e as mudanças e os dilemas pelos quais todos nós, adolescentes ou não, precisamos enfrentar para nos encontramos.";
+
+            var bookLinkAmazon = "https://www.amazon.com.br/Simon-vs-Agenda-Homo-Sapiens/dp/8580578922";
+            var setLinkAmazon = document.getElementById("amazon-btn");
+            setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+            var bookLinkSaraiva = "https://busca.saraiva.com.br/q/simon-vs-agenda-homo-sapiens";
+            var setLinkSaraiva = document.getElementById("saraiva-btn");
+            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/becky-albertalli/simon-vs-a-agenda-homo-sapiens/16262060"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkEstante = document.getElementById("estante-btn");
+            setLinkEstante.setAttribute("href", bookLinkEstante);
+
+            document.getElementById("book-page").innerHTML = "272";  ///as caracteristicas estao todas na amazon
+            document.getElementById("book-date").innerHTML = "16 fevereiro 2016";
+            document.getElementById("book-lang").innerHTML = "Português";
+            document.getElementById("book-edit").innerHTML = "Intrínseca";
+            document.getElementById("book-height").innerHTML = "20.6 x 14 x 1.6 cm";
+            document.getElementById("book-kid").innerHTML = "+16 anos"; // idade    
+
+            document.getElementById("rese-1-name").innerHTML = "Livros e fuxicos";
+
+            var bookLinkRese1 = "https://www.livrosefuxicos.com/2016/03/resenha-simon-vs-agenda-homo-sapiens.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese1 = document.getElementById("rese-1-a");
+            setLinkRese1.setAttribute("href", bookLinkRese1);
+
+
+            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-1-text").innerHTML = "Simplesmente amei a escrita da autora Beck Albertalli. A forma como ela conduz a história torna muito fácil gostar do Simon e da sua maneira de ver o mundo. Além disso, o fato da narrativa intercalar a descrição do dia a dia do protagonista com as trocas de e-mail entre ele e o Blue nos aproxima ainda mais desses dois jovens e de seus dilemas. Também adorei que a trama não foca exclusivamente na homossexualidade. Claro que a orientação sexual dos protagonistas faz parte da essência da história, porém o que surpreende é que além disso a autora aborda assuntos como o preconceito racial, as expectativas sociais, e os dilemas que qualquer jovem adulto enfrenta. Então o ponto é que a trama não é sobre ser gay ou não, mas sim sobre ser jovem e precisar fazer inúmeras escolhas: sair do armário ou não, manter uma amizade ou não, ser sincero com os pais ou não, beber ou não, se apaixonar ou não, praticar bullying ou não… Uma coisa que não gosto é estereótipos, então talvez seja por isso que tenha gostado tanto dessa história, porque ela é leve, juvenil, repleta de clichês e pontos de reflexão e, principalmente, de zero extremismo quando o assunto é sexualidade e juventude. Amei a forma tão sutil e verdadeira que a autora usou para abordar temas reais e complexos.";
+            
+
+            document.getElementById("rese-2-name").innerHTML = "Queria estar lendo";
+
+            var bookLinkRese2 = "http://www.queriaestarlendo.com.br/2018/03/resenha-simon-vs-agenda-homo-sapiens.html"; // coloca o link da pesquisa, pq é site de livro usado
+            var setLinkRese2 = document.getElementById("rese-2-a");
+            setLinkRese2.setAttribute("href", bookLinkRese2);
+
+
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+
+            document.getElementById("resen-2-text").innerHTML = "Simon é gay, mas por enquanto ninguém além de Blue sabe disso. Blue é seu amigo virtual e crush desconhecido que Simon encontrou sem querer em um Tumblr de fofocas da escola. Mesmo sem saber sua identidade, Simon se identifica com Blue e tem essas fantasias sobre o que o futuro pode reservar para os dois caso Blue aceite sair dos e-mails para a vida real. Em meio a essa comunicação misteriosa, Simon acaba sendo chantageado por um colega de turma - que viu seus e-mails - para aproximá-lo de sua melhor amiga. As confusões estão além da escola e até mesmo da família. Estão no coração e nas incertezas de decisões que podem mudar toda a realidade de Simon.";
+        break; // ´é switch case precisa ter no final
+
         default:
-            break;
+
+        break;
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
