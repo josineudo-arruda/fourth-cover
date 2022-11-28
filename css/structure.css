@@ -177,6 +177,10 @@ img.logo-comp {
     margin-left: 25px;
 }
 
+.form {
+    color: black;
+}
+
 
 @media (max-width: 768px){
     div.titles {
