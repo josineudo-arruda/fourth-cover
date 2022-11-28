@@ -1639,7 +1639,7 @@ function filter() {
                 var setImg = document.getElementById(poster[i]);
                 setImg.setAttribute("src", bookImg);
     
-                document.getElementById(title[i]).innerHTML = "Harry Potter: A cálice de fogo"
+                document.getElementById(title[i]).innerHTML = "Harry Potter: O cálice de fogo"
     
                 var bookLink = "HP4";
                 var setLink = document.getElementById(button[i]);

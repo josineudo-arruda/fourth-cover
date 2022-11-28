@@ -66,7 +66,7 @@ function inputBook() {
             var setLinkRese2 = document.getElementById("rese-2-a");
             setLinkRese2.setAttribute("href", bookLinkRese2);
 
-            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; // se n tiver inventa com base na nota
+            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0"; 
             document.getElementById("resen-2-text").innerHTML = "O Diário de Anne Frank foi um livro que me surpreendeu. É um clássico tão comentado e eu nem fazia ideia de que era tão bom. Nunca pensei que o diário de uma menina de 13 anos fosse mexer tanto comigo mas, ao terminar as últimas páginas, fiquei muito tempo pensando na Anne e em tudo o que ela passou. Em seu diário, escrito entre 1943 e 1945, Anne relata todo o período em que ficou refugiada com sua família e outros judeus em um esconderijo, chamado de Anexo Secreto. Lá, eles dividiam as tarefas de casa, e tentavam sobreviver em “harmonia”, tomando todas as precauções para não serem vistos e delatados para a polícia alemã. A última carta é, com certeza, a mais bonita e profunda, o que nos deixa ainda mais sensíveis e abalados, já que ela não conseguiu continuar a escrever. O posfácio me fez chorar e pensar em tudo o que aquelas pessoas tiveram que enfrentar durante a Segunda Guerra. E o mais triste ainda é saber que milhares pelo mundo ainda sofrem com guerras, pobreza, fome, doenças e todo tipo de desgraça. Não dá para ler Anne Frank sem pensar “eu nunca mais vou reclamar na minha vida“.";
             break;
 
@@ -743,7 +743,7 @@ function inputBook() {
             case 'JN1': 
             document.getElementById("book-title").innerHTML = "Jogador Número 1"; // coloca o nome do livro
 
-            var bookImg =  "images/Home/home-adptation-50.jpg";
+            var bookImg =  "images/Home/home-adptation-1.jpg";
             var setImg = document.getElementById("book-cover");
             setImg.setAttribute("src", bookImg);
 
@@ -1358,76 +1358,6 @@ function inputBook() {
             document.getElementById("resen-2-text").innerHTML = "Embora tenhamos esse detalhe evidente em AMOR E GELATO que pode desagradar muitos leitores pela falta de coerência, informo que tal trivialidade não prejudica a narrativa de modo a deixá-la maçante ou chata, o volume continua sendo uma delícia de ler e flui com muita naturalidade! Para concluir, AMOR E GELATO, é um livro adolescente que aborda dilemas jovens, sobretudo levando em conta as vivências da personagem. O volume também se trata de um clichê super gostoso de ler e apesar de ser evidente que o público alvo são os adolescentes românticos e que querem viajar pela Itália, nada impede que alguém mais maduro leia e se delicie com o volume. ";
             break;
 
-            case 'A': 
-            document.getElementById("book-title").innerHTML = "Amor Gelato"; 
-
-            var bookImg =  "images/Home/home-popullar-gelato.jpg";
-            var setImg = document.getElementById("book-cover");
-            setImg.setAttribute("src", bookImg);
-
-            document.getElementById("book-data").innerHTML = "26 de junho de 2022";
-            document.getElementById("book-genre").innerHTML = "Romance";
-            document.getElementById("book-author").innerHTML = "Ali HazelWood";
-
-            var firstStar =  "/images/Book/rating-set-star.png";
-            var setFirstStar = document.getElementById("star-1");
-            setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
-            var setSecondStar = document.getElementById("star-2");
-            setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
-            var setThirdStar = document.getElementById("star-3");
-            setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
-            var setFourthStar = document.getElementById("star-4");
-            setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
-            var setFifthStar = document.getElementById("star-5");
-            setFifthStar.setAttribute("src", fifthStar);
-
-            document.getElementById("book-text").innerHTML = "Quando um namoro de mentira entre cientistas encontra a irresistível força da atração, todas as teorias cuidadosamente calculadas sobre o amor são postas à prova. Com personagens cativantes e diálogos afiados, este livro engraçado, sexy e inteligente se tornou uma das grandes sensações do TikTok. Olive Smith, aluna do doutorado em Biologia da Universidade Stanford, acredita na ciência – não em algo incontrolável como o amor. Depois de sair algumas vezes com Jeremy, ela percebe que sua melhor amiga gosta dele e decide juntá-los. Para mostrar que está feliz com essa escolha, Olive precisa ser convincente: afinal, cientistas exigem provas. Sem muitas opções, ela resolve inventar um namoro de mentira e, num momento de pânico, beija o primeiro homem que vê pela frente. O problema é que esse homem é Adam Carlsen, um jovem professor de prestígio – conhecido por levar os alunos às lágrimas. Por isso, Olive fica chocada quando o tirano dos laboratórios concorda em levar adiante a farsa e fingir ser seu namorado. De repente, seu pequeno experimento parece perigosamente próximo da combustão e aquela pequena possibilidade científica, que era apenas uma hipótese sobre o amor, transforma-se em algo totalmente inesperado.";
-
-            var bookLinkAmazon = "https://www.amazon.com.br/hipótese-amor-Sucesso-TikTok-ebook/dp/B09ZBKHN7P";
-            var setLinkAmazon = document.getElementById("amazon-btn");
-            setLinkAmazon.setAttribute("href", bookLinkAmazon);
-
-            var bookLinkSaraiva = "https://www.saraiva.com.br/a-hipotese-do-amor--sucesso-do-tiktok-/p";
-            var setLinkSaraiva = document.getElementById("saraiva-btn");
-            setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
-
-            var bookLinkEstante = "https://www.estantevirtual.com.br/livros/ali-hazelwood/a-hipotese-do-amor-sucesso-do-tiktok-/683616425?show_suggestion=0";
-            var setLinkEstante = document.getElementById("estante-btn");
-            setLinkEstante.setAttribute("href", bookLinkEstante);
-
-            document.getElementById("book-page").innerHTML = "453"; 
-            document.getElementById("book-date").innerHTML = "26 junho 2022";
-            document.getElementById("book-lang").innerHTML = "Português";
-            document.getElementById("book-edit").innerHTML = "Editora Arqueiro";
-            document.getElementById("book-height").innerHTML = "21 x 13.8 x 1.6 cm";
-            document.getElementById("book-kid").innerHTML = "+13 anos"; 
-
-            document.getElementById("rese-1-name").innerHTML = "Queria Estar Lendo";
-
-            var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2022/07/resenha-hipotese-do-amor-ali-hazelwood.html";
-            var setLinkRese1 = document.getElementById("rese-1-a");
-            setLinkRese1.setAttribute("href", bookLinkRese1);
-
-            document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0"; 
-
-            document.getElementById("resen-1-text").innerHTML = "A Hipótese do Amor explora muito bem o universo da ciência, as dificuldades acadêmicas de estudantes universitários, o privilégio mascarado de ajuda. Eu gostei de como a autora usou o espaço dessa história para falar sobre misoginia e racismo dentro de ambientes acadêmicos. A edição da Arqueiro ficou muito bonita, com diagramação confortável, páginas de gramatura ótima. A tradução de Thaís Britto tá ótima, hilária como imagino que seja no original. De novo: a Olive foi uma das melhores protagonistas que já li nesse gênero!";
-            
-
-            document.getElementById("rese-2-name").innerHTML = "Os Melhores Livros";
-
-            var bookLinkRese2 = "https://osmelhoreslivros.com.br/a-hipotese-do-amor-resenha/"; 
-            var setLinkRese2 = document.getElementById("rese-2-a");
-            setLinkRese2.setAttribute("href", bookLinkRese2);
-
-            document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
-
-            document.getElementById("resen-2-text").innerHTML = "Concluindo nossa resenha de A hipótese do amor, da escritora Ali Hazelwood, podemos dizer que a obra merece todo o seu reconhecimento. Mesmo muitos achando ser mais uma história clichê, toda a trama da história mostra vidas reais e debates atuais. O livro trás essa proximidade com os jovens adultos pela identificação imediata com os conflitos que os personagens passam. Por ser uma história New Adult (novo adulto), os personagens estão passando por amadurecimentos fortes e característicos dessa fase. Sem dúvidas esse é um dos livros mais cativantes, chamativos do ano, e vale todo o apreço dos leitores apaixonados por romances sinceros e divertidos. A hipótese do amor é uma das minhas leituras favoritas do ano. ";
-            break;
-
             case 'AHDA': 
             document.getElementById("book-title").innerHTML = "A Hipótese do Amor"; 
 
@@ -1730,8 +1660,12 @@ function inputBook() {
         document.getElementById("resen-2-text").innerHTML = "Acho que este foi o livro que conseguiu falar de forma cuidadosa sobre transtornos mentais: depressão, ansiedade e agorafobia. Ressalta a importância de se reconhecer os sinais, da força do diálogo, do perdão e principalmente a necessidade de se buscar ajuda, independente da idade. Por mais que o livro ao final traga um quentinho no coração e um sentimento de esperança algumas cenas podem servir de gatilho. Mesmo com a bagagem pesada que ele traz consigo, e mais uma vez toca na tecla das diferentes perspectivas e como cada pessoa reage a uma situação, o que não significa que os problemas de uns são maiores que o de outros. Por fim peço: apenas leiam As mil partes do meu coração.";
     break;
 
-    case 'MBDG':
-        document.getElementById("book-title").innerHTML = "Mil beijos de garoto"; // coloca o nome do livro
+    case '1984':
+        document.getElementById("book-title").innerHTML = "1984";
+
+        var bookImg =  "images/Genre/genre-ficcao-1984.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
 
         document.getElementById("book-data").innerHTML = "21 de julho de 2009";
         document.getElementById("book-genre").innerHTML = "Ficção";
@@ -1794,6 +1728,2526 @@ function inputBook() {
         document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
 
         document.getElementById("resen-2-text").innerHTML = "Vou ser muito franco: quando acabei de ler “1984”, de George Orwell, não tive dúvidas de que o questionamento filosófico que ele faz cabe muito nos dias de hoje. O livro precisa ser entendido como uma fábula sobre o poder totalitário na época em que George Orwell viveu. Vou logo adiantando o seguinte: você não será o mesmo depois de ler “1984”, de George Orwel, uma fábula distópica simplesmente genial. Um livro que merece um lugar de HONRA na sua estante.";
+    break;
+
+    case 'EENTE':
+        document.getElementById("book-title").innerHTML = "Enquanto eu não te encontro";
+
+        var bookImg =  "images/Home/home-brazil-encontro.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "5 julho 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Pedro Rhuas";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "A vida tem sido boa para Lucas. Ele passou no Enem para estudar publicidade; se mudou com Eric, seu melhor amigo, do interior do Rio Grande do Norte para a capital; e conseguiu sua tão aguardada liberdade. Mas, no amor, Lucas é um desastre. O maior fã de Katy Perry no Nordeste tem certeza de que nem toda a sorte do mundo poderia fazer com que ele finalmente se apaixonasse pela primeira vez. Até que, em uma despretensiosa noite de sábado em 2015, tudo muda. Quando Lucas e Eric vão na inauguração do Titanic, a mais nova balada da cidade, Lucas esbarra (literalmente!) em Pierre, um lindo garoto francês que parece ter saído dos seus sonhos. Em meio a drinques, segredos e sonhos partilhados, Lucas e Pierre se conectam instantaneamente. Eles vivem o encontro mais especial de suas vidas, mas o Universo tem outros planos para o futuro… Até a noite acabar, o que será que vai acontecer com eles? Com uma voz original e divertida, repleta de referências pop e à cultura do Rio Grande do Norte, o livro de estreia de Pedro Rhuas vai te fazer rir alto e se apaixonar.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Enquanto-eu-não-te-encontro/dp/855534154X";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.saraiva.com.br/enquanto-eu-nao-te-encontro/p";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/pedro-rhuas/enquanto-nao-te-encontro/3240893376";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "272";
+        document.getElementById("book-date").innerHTML = "5 julho 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "22.8 x 15.6 x 1.2 cm";
+        document.getElementById("book-kid").innerHTML = "+14 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Idris";
+
+        var bookLinkRese1 = "https://idris.com.br/blog/2021/07/05/resenha-enquanto-eu-nao-te-encontro-pedro-rhuas/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Há momentos altos para todos personagens, como há momentos com os quais queremos dar uns tapas neles, exatamente como acontece com nossos amigos – e como eles devem se sentir em relação a gente também –, tudo com naturalidade. Só posso dar todos os parabéns do mundo para o Pedro Rhuas que em seu 1º livro mostrou que comédias românticas são para todos, basta simplesmente ter a sensibilidade necessária para escrever personagens que nos importemos com eles. E, também, sendo sincera, por fazer meu coração de pedra derreter um pouquinho e shippar bastante os personagens juntos. Vá ler “Enquanto eu não te encontro” o quanto antes porque você precisa conhecer Lucas, Pierre, Eric, Thamy e Ana – e entender que vai ter comédia romântica com a representatividade necessária que a gente sempre mereceu.";
+        
+        document.getElementById("rese-2-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese2 = "http://www.delivroemlivro.com.br/2021/11/enquanto-eu-nao-te-encontro-pedro-rhuas.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Pedro Rhuas realmente tentou ser o mais responsável com tudo o que expôs em Enquanto Eu não Te Encontro, principalmente para quebrar os tabus dos mais conservadores sobre a comunidade LGBTQIAP+ e os motivos da importância de livros com representatividade e todos os estigmas e dores que gays, lésbicas, trans... passam cotidianamente apenas por serem quem são. É impossível não se sensibilizar e entender mais essas vivências.";
+    break;
+
+    case 'GMO':
+        document.getElementById("book-title").innerHTML = "Garota, mulher, outras";
+
+        var bookImg =  "images/genre/genre-lgbt-garota.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "13 outubro 2020";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Bernardine Evaristo";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Garota, mulher, outras é um verdadeiro marco da ficção britânica. O romance causou furor quando publicado: venceu o Booker Prize em 2019, foi aclamado por nomes como Barack Obama, Roxane Gay, Ali Smith e Tom Stoppard e incluído nas listas de melhores livros do ano por veículos como The Guardian, Time, The Washington Post e The New Yorker. A forma, por si só, não é nada convencional: trata-se de um gênero híbrido, composto de versos livres e sem pontos-finais. O resultado é uma dicção singular e envolvente, que prende o leitor da primeira à última página. O pano de fundo dessas histórias é uma Londres dividida e hostil, logo após a votação do Brexit: um lugar onde as pessoas lutam para sobreviver, muitas vezes sem esperança, sem que as suas necessidades sejam atendidas e sem que sejam ouvidas. Nesse ambiente opressor, as vozes de Garota, mulher, outras formam um coro e levantam reflexões poderosas sobre o machismo, o racismo e a estrutura da sociedade.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Garota-mulher-outras-Bernardine-Evaristo/dp/8535933816/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=2UUTA6RKO73VM&keywords=Garota%2C+Mulher%2C+Outras&qid=1669602598&qu=eyJxc2MiOiIwLjUwIiwicXNhIjoiMC40NyIsInFzcCI6IjAuNzcifQ%3D%3D&s=books&sprefix=garota+mulher+outras+%2Cstripbooks%2C470&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/bernardine-evaristo/garota-mulher-outras/2199757261?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.saraiva.com.br/garota%20mulher%20outra?_q=GAROTA%20MULHER%20OUTRA&map=ft";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "496 ";
+        document.getElementById("book-date").innerHTML = "13 outubro 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Companhia das Letras";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+12 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Idris";
+
+        var bookLinkRese1 = "https://idris.com.br/blog/2022/06/29/resenha-garota-mulher-outras-bernardine-evaristo/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Não resta dúvidas de que é uma leitura sobre mulheres feita por uma mulher que tenta mesclar vivências e respostas para situações que muitas mulheres em todo mundo passam diariamente. Relacionamentos entre mães e filhas e como o tempo é capaz de agir em cada uma de nós, trazendo a tona reações diferentes em situações que se semelham. Um livro imperdível que eu não poderia perder a chance de indicar para vocês porque dentro de cada uma de nós há sim, uma garota, uma mulher e outras também.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Delirium nerd";
+
+        var bookLinkRese2 = "https://deliriumnerd.com/2020/12/10/garota-mulher-outras-bernardine-evaristo-resenha/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Garota, Mulher, Outras é um livro envolvente do início ao fim. Com uma narrativa única, simples, direta e acessível você se pega torcendo para que as personagens tenham seus próprios capítulos para conhecê-las melhor. A obra se torna referência em como fazer livros políticos de maneira inventiva e que fogem da forma panfletária (em que não há nada de errado, porém é mais comum de se presenciar). É uma verdadeira inspiração para uma nova geração de escritoras e de leitores.";
+    break;
+
+    case 'ODMNF':
+        document.getElementById("book-title").innerHTML = "Os Dois Morrem No Final";
+
+        var bookImg =  "images/Home/home-acclaimed-two.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "4 outubro 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Adam Silvera";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "No dia 5 de setembro, pouco depois da meia-noite, Mateo Torrez e Rufus Emeterio recebem uma ligação da Central da Morte. A notícia é devastadora: eles vão morrer naquele mesmo dia. Os dois não se conhecem, mas, por motivos diferentes, estão à procura de um amigo com quem compartilhar os últimos momentos, uma conexão verdadeira que ajude a diminuir um pouco a angústia e a solidão que sentem. Por sorte, existe um aplicativo para isso, e é graças a ele que Rufus e Mateo vão se encontrar para uma última grande aventura: viver uma vida inteira em um único dia. Uma história sensível e emocionante, Os dois morrem no final nos lembra o que significa estar vivo. Com seu olhar único, Adam Silvera mostra que cada segundo importa, e mesmo que não haja vida sem morte, nem amor sem perda, tudo pode mudar em 24 horas.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Os-Dois-Morrem-No-Final/dp/655560302X/ref=sr_1_2?__mk_pt_BR=ÅMÅŽÕÑ&crid=GS7FOMLBPICN&keywords=Os+Dois+Morrem+No+Final&qid=1669603464&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS40NCIsInFzcCI6IjAuOTIifQ%3D%3D&s=books&sprefix=gostaria+que+você+estivesse+aqui%2Cstripbooks%2C687&sr=1-2";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/adam-silvera/os-dois-morrem-no-final/567012221?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=OS%20DOIS%20MORREM%20NO%20FINAL";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "416";
+        document.getElementById("book-date").innerHTML = "4 outubro 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Intrínseca";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Além do livro";
+
+        var bookLinkRese1 = "https://alemdolivro.com/2021/09/12/resenha-de-os-dois-morrem-no-final-adam-silvera/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Como não poderia ser diferente, Os dois morrem no final traz muitas reflexões e questionamentos sobre a forma como vivemos as nossas vidas. Além disso, me fez pensar muito sobre o que tanto tememos sobre a morte: o ato de morrer em si ou o desconhecido? Sua inevitabilidade e irreversibilidade? Ou ainda o fato de não sabermos se existe “o outro lado” e, caso exista, como é? Bom, talvez seja a junção de tudo isso que tanto nos assuste. Em meio às questões existenciais, Silvera ainda encontrou espaço para abordar temas necessários, ainda que de maneira sutil. Adorei ver tantos personagens de origem latina, assim como Silvera, que é filho de mãe porto-riquenha. Não é um ponto citado explicitamente ou muito explorado, mas é o tipo de representatividade que faz a diferença para quem se enxerga ali.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Mais que livros";
+
+        var bookLinkRese2 = "https://www.maisquelivros.com/2021/10/resenha-os-dois-morrem-no-final-adam.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Os Dois Morrem no Final é um livro emocionante, envolvente e apaixonante, daqueles que te pegam desde a primeira página e você só consegue largar depois que acaba de ler. Finalizei a leitura em prantos. Fazia tempo que eu não sofria tanto com um livro, ao mesmo tempo em que refletia tanto sobre vida e morte. Que livro doloroso e incrível. Com certeza entrou para a lista de favoritos da vida.";
+    break;
+
+    case 'AMNJ':
+        document.getElementById("book-title").innerHTML = "A mulher na janela";
+
+        var bookImg =  "images/genre/genre-suspense-janela.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "14 maio 2021";
+        document.getElementById("book-genre").innerHTML = "Suspense";
+        document.getElementById("book-author").innerHTML = "A. J. Finn";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Anna Fox mora sozinha na bela casa que um dia abrigou sua família feliz. Separada do marido e da filha e sofrendo de uma fobia que a mantém reclusa, ela passa os dias bebendo (muito) vinho, assistindo a filmes antigos, conversando com estranhos na internet e... espionando os vizinhos. Quando os Russells – pai, mãe e o filho adolescente – se mudam para a casa do outro lado do parque, Anna fica obcecada por aquela família perfeita. Certa noite, ela vê na casa deles algo que a deixa aterrorizada e faz seu mundo – e seus segredos chocantes – começar a ruir. Mas aquilo aconteceu mesmo? O que é realidade? Existe realmente alguém em perigo? E quem está no controle? Neste thriller diabolicamente viciante, ninguém – e nada – é o que parece.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/mulher-janela-Livro-está-Netflix/dp/853060170X/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=3E98KC0I9FSHR&keywords=A+Mulher+na+Janela&qid=1669603866&qu=eyJxc2MiOiIxLjQxIiwicXNhIjoiMS4yOSIsInFzcCI6IjEuMTkifQ%3D%3D&s=books&sprefix=a+mulher+na+janela%2Cstripbooks%2C494&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/a-j-finn/a-mulher-na-janela/3440659651?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/a-mulher-na-janela";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "400 ";
+        document.getElementById("book-date").innerHTML = "14 maio 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Editora Arqueiro";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+14 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Minha vida literária";
+
+        var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2018/03/16/resenha-a-mulher-na-janela-a-j-finn/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O que mais se destacou em A mulher na janela para mim foi a atenção de A.J. Finn aos detalhes: a trama é extremamente bem construída. Nada do que é colocado no enredo ou na narrativa aparece por acaso, tudo tem um propósito — seja para conectar acontecimentos entre si, seja para atribuir camadas interpretativas à leitura. O trabalho feito aqui pelo autor é nitidamente o de alguém que conhece com profundidade a estrutura de uma obra, conhecimento esse muito provavelmente advindo de sua função de crítico; ao analisar leituras, passa-se a compreendê-las em todos seus níveis.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2018/04/06/resenha-a-mulher-na-janela-a-j-finn/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Uma das coisas que eu mais gosto em livros em primeira pessoa, é algo que acontece nesse livro: apesar de já ter uma noção mesmo do que aconteceu, a confirmação só veio quando a própria Anna teve certeza de tudo sobre aquela noite, e também sobre o passado dela, porque ela guarda segredos até dela mesma, então nós como leitores, só conseguimos ver e ter a mais absoluta certeza daquilo que ela nos mostra: as conversas que ela tem com os pacientes do site, com a fisioterapeuta e o psicólogo, as coisas que ela vê os vizinhos fazendo, os filmes que ela assiste e as falas que ela sabe decoradas já, tudo são pequenos fragmentos de tudo que ela guarda mesmo dentro de si. E, considerando que ela muitas vezes está dopada por causa da mistura de remédios com bebida, todas as vezes que ela duvida dela mesma, também acabam criando certa duvida em quem está lendo. Será que isso aconteceu de verdade? Será que a Anna não criou tudo na cabeça dela levada pela bebida que tinha ingerido e pelos filmes que estava assistindo? Tudo, tudo mesmo, só se tem confirmação no momento em que a própria Anna tem a confirmação.";
+    break;
+
+    case 'CS':
+        document.getElementById("book-title").innerHTML = "Com sangue";
+
+        var bookImg =  "images/Home/home-acclaimed-blood.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "4 setembro 2020";
+        document.getElementById("book-genre").innerHTML = "Suspense";
+        document.getElementById("book-author").innerHTML = "Stephen King";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Brilhante em narrativas curtas, King já escreveu alguns contos que viraram sucesso em todo o mundo, como as histórias que inspiraram os filmes Conta comigo e Um sonho de liberdade. Neste livro, assim como em Quatro estações e Escuridão total sem estrelas, ele cria uma coleção única e emocionante, demonstrando mais uma vez por que é considerado um dos maiores contadores de histórias de todos os tempos. Este é um livro sobre amor, amizade, talento e justiça… em suas formas mais deturpadas. Em Com sangue, Stephen King reúne quatro contos com protagonistas inteligentes e complexos, que têm sua vida comum transformada por algum elemento inexplicável.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Com-sangue-Stephen-King/dp/8556510973/ref=sr_1_3?__mk_pt_BR=ÅMÅŽÕÑ&crid=1SYZTP1IDGD5X&keywords=Com+Sangue&qid=1669604517&qu=eyJxc2MiOiIwLjM1IiwicXNhIjoiMC4xNyIsInFzcCI6IjAuMDYifQ%3D%3D&s=books&sprefix=a+mulher+na+janela%2Cstripbooks%2C704&sr=1-3";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.saraiva.com.br/com-sangue/p";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/stephen-king/com-sangue/3728318981?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "400 ";
+        document.getElementById("book-date").innerHTML = "4 setembro 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Suma";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Leitor cabuloso";
+
+        var bookLinkRese1 = "https://leitorcabuloso.com.br/2020/09/resenha-com-sangue-stephen-king/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Este é o conto mais longo e também a história mais elaborada. King aborda questões como a maldade humana e o modo como consumimos notícias de catástrofes. Além disso, o autor também aborda, mesmo que de forma secundária, os problemas raciais em seu país. Ele faz isso através de outro personagem da trilogia Bill Hodges: Jerome Robinson. A investigação tratada neste conto é bastante intrigante e os acontecimentos que levam à resolução do conflito me deixaram grudada nas páginas.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Minha vida literária";
+
+        var bookLinkRese2 = "https://www.minhavidaliteraria.com.br/2020/12/08/resenha-com-sangue-stephen-king/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Quando penso em qual mais gostei, acabo ficando em uma dúvida cruel. São personagens diferentes um do outro e isso em questão de idade e vivência, então é difícil compará-los e escolher apenas um. Cada narrativa traz o desespero da morte revirando a vida dos protagonistas, seja um parente ou amigo, sendo possível inferir que somos muito mais influenciados ao longo de nossa existência pelo que perdemos e não pelo que ganhamos.";
+    break;
+
+    case 'OC':
+        document.getElementById("book-title").innerHTML = "O colecionador";
+
+        var bookImg =  "images/Home/home-acclaimed-collector.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "12 abril 2018";
+        document.getElementById("book-genre").innerHTML = "Suspense";
+        document.getElementById("book-author").innerHTML = "John Fowles";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "O colecionador é a história de Frederick Clegg, um homem solitário, de origem humilde, menosprezado por uma sociedade esnobe, que encontra o grande amor de sua vida. Tudo o que ele deseja é passar um tempo a sós com ela, demonstrar seus nobres sentimentos e deixar claro que eles nasceram um para o outro.O colecionador também é a história de Miranda Gray, uma jovem estudante de artes sequestrada por um maníaco que acha que pode obrigá-la a se apaixonar por ele. Tudo o que ela deseja é escapar do cativeiro, e vai usar de toda sua inteligência para sobreviver ao inferno em que sua vida se transformou. O romance é narrado por dois personagens antagônicos: o sequestrador e sua vítima. Frederick e Miranda.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Colecionador-John-Fowles/dp/8594541082/ref=sr_1_5?keywords=o+colecionador&qid=1669604977&qu=eyJxc2MiOiIxLjQ1IiwicXNhIjoiMC44NSIsInFzcCI6IjAuNzMifQ%3D%3D&sr=8-5";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/q/o-colecionador";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/john-fowles/o-colecionador/3411415939?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "256";
+        document.getElementById("book-date").innerHTML = "12 abril 2018";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Darkside";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Minha vida literária";
+
+        var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2019/02/12/resenha-o-colecionador-john-fowles/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O que posso dizer é que, após finalizar a leitura, compreendi tudo que já havia ouvido sobre ela. O Colecionador me proporcionou uma experiência tanto frenética quanto perturbadora, e não apenas pela história propriamente dita, mas sobretudo pelo que ela revela: é perverso estarmos na situação de quem se delicia com o horror narrado. A Darkside merece também destaque pela edição produzida, demonstrando o quão enriquecedor é o ato de se incluir textos de apoio a uma leitura. Muito do que absorvi do livro foi graças a sua introdução e ao seu posfácio, que também me deixaram com a sensação de que, um dia, seria ótimo reler a obra para explorar suas muitas camadas, algo impossível de se fazer em uma primeira leitura.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Literalmente uai";
+
+        var bookLinkRese2 = "https://www.literalmenteuai.com.br/resenha-o-colecionador-john-fowles/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "2,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "O Colecionador certamente vai frustrar as expectativas de quem espera uma história cheia de ação ou de quem confundiu a obra como sendo de terror. Há horror assim, mas daquele que mexe com nossa mente, que dispensa recursos sobrenaturais porque tem nas atitudes humanas sua pior parte, e é assim que o autor nos surpreende. A obra se torna angustiante por ser o relato de um sequestro, e também por toda habilidade com que o autor construiu cada detalhe do livro, nos permitindo penetrar no mais íntimo de cada protagonista.";
+    break;
+
+    case 'OJDB':
+        document.getElementById("book-title").innerHTML = "O jardim das borboletas";
+
+        var bookImg =  "images/genre/genre-suspense-borboletas.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "9 maio 2022";
+        document.getElementById("book-genre").innerHTML = "Suspense";
+        document.getElementById("book-author").innerHTML = "Dot Hutchison";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Perto de uma mansão isolada, existia um maravilhoso jardim. Nele, cresciam flores exuberantes, árvores frondosas... e uma coleção de preciosas 'borboletas': jovens mulheres, sequestradas e mantidas em cativeiro por um homem brutal e obsessivo, conhecido apenas como Jardineiro. Cada uma delas passa a ser identificada pelo nome de uma espécie de borboleta, tendo, então, a pele marcada com um complexo desenho correspondente. Quando o jardim é finalmente descoberto, uma das sobreviventes é levada às autoridades, a fim de prestar seu depoimento. A tarefa de juntar as peças desse complexo quebra-cabeça cabe aos agentes do fbi Victor Hanoverian e Brandon Eddinson, nesse que se tornará o mais chocante e perturbador caso de suas vidas. Mas Maya, a enigmática garota responsável por contar essa história, não parece disposta a esclarecer todos os sórdidos detalhes de sua experiência. Em meio a velhos ressentimentos, novos traumas e o terrível relato sobre um homem obcecado pela beleza, os agentes ficam com a sensação de que ela esconde algum grande segredo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/jardim-das-borboletas-beleza-capturada/dp/6555357215/ref=sr_1_1_sspa?__mk_pt_BR=ÅMÅŽÕÑ&crid=6T7KR0VBPS0Z&keywords=O+jardim+das+borboletas&qid=1669605407&qu=eyJxc2MiOiIyLjMwIiwicXNhIjoiMi4wMSIsInFzcCI6IjEuNTcifQ%3D%3D&sprefix=o+jardim+das+borboletas%2Caps%2C478&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNjE1NElJRUNQUTk3JmVuY3J5cHRlZElkPUEwNjM4MDQ4M0RWMjVHQkdDSUY3TyZlbmNyeXB0ZWRBZElkPUEwNDYxMjg4MVM3NTVOSzRVSDJKUyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=O%20jardim%20das%20borboletas";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/hutchinson-dot/o-jardim-das-borboletas/481846978?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "304";
+        document.getElementById("book-date").innerHTML = "9 maio 2022";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Planeta";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+16 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Leitor compulsivo";
+
+        var bookLinkRese1 = "http://leitorcompulsivo.com.br/2018/05/07/resenha-o-jardim-das-borboletas-dot-hutchison/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Narrado através do interrogatório de uma das vítimas, com passado e presente se alternando, O Jardim das Borboletas consegue prender o leitor. Não há um mistério principal para fisgar nossa curiosidade. Somente o conhecimento dos fatos e da rotina do cativeiro já são suficientes para segurar nossa atenção e caminhar para um desfecho esperado, mas com altos e baixos que decepcionam um pouco. Nada estraga o conjunto horripilante da obra. Dot Hutchison mostra que para um bom thriller nem sempre é preciso ter um mistério como fio condutor. Basta saber trabalhar com o psicológico. E isso o livro faz com maestria.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Minha vida literária";
+
+        var bookLinkRese2 = "https://www.minhavidaliteraria.com.br/2020/09/22/resenha-o-jardim-das-borboletas-dot-hutchinson/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Importante dizer que Jardim das Borboletas é um livro pesado. Temas como pedofilia e violência sexual perduram toda narrativa e criam desconforto pelos horrores retradados, então fica também o aviso para possíveis gatilhos. Contudo, em minha leitura, tais aspectos aparecem bem colocados na narrativa, como parte dela, e não em uma simples tentativa de causar choque pelo choque. Por fim, O Jardim das Borboletas é um livro que o tempo todo contrapõe maldade e bondade, propondo um debate a respeito da relatividade moral, que pode variar de acordo com diferentes perspectivas. Uma leitura ao mesmo tempo chocante, mas frenética, e que me emocionou, em suas últimas páginas, pelo fim guardado à protagonista. Sem dúvida, um thriller memorável.";
+    break;
+
+    case 'ACP':
+        document.getElementById("book-title").innerHTML = "A cor púrpura";
+
+        var bookImg =  "images/genre/genre-drama-purpura.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "29 junho 2009";
+        document.getElementById("book-genre").innerHTML = "Drama";
+        document.getElementById("book-author").innerHTML = "Alice Walker";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "A cor púrpura é a história de Celie – por volta do período de 1900 a 1940 -, pobre, negra e praticamente analfabeta, no Sul dos Estados Unidos. Brutalizada desde a infância, a jovem foi estuprada pelo padrasto e depois forçada a se casar com Albert, um viúvo violento, pai de quatro filhos, que enxergava a esposa como empregada e lhe impunha sofrimentos físicos e morais rotineiramente. Celie escreve cartas para Deus e para a irmã, missionária na África, com uma linguagem peculiar que assume ritmo e cadência próprios e líricos, à medida que a adolescente cresce e começa a arregimentar experiências e amigos. Entre eles, a inesquecível Shug Avery, cantora, amante de Albert e responsável por uma sensível melhora na rotina de Celie. Apesar da dramaticidade de seu enredo, A cor púrpura não se resume às lágrimas derramadas pelo leitor diante das perversidades aqui relatadas – e longe de serem apenas fruto da imaginação de Alice Walker. Por trás de triste história de Celie, há uma crítica à relação entre homens e mulheres, ao poder dado ao homem em uma sociedade que ainda hoje luta por igualdade entre gêneros, etnias e classes sociais. Um livro que retrata um pedaço do mundo no início do século XX, mas que nos mostra a atualidade de determinadas questões.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/cor-púrpura-Alice-Walker/dp/8503010313/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=WARVP8ZHOT22&keywords=A+Cor+Púrpura&qid=1669605740&qu=eyJxc2MiOiIxLjYwIiwicXNhIjoiMS4yNyIsInFzcCI6IjEuMzkifQ%3D%3D&sprefix=a+cor+púrpura%2Caps%2C205&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/walker-alice/a-cor-purpura-edicao-especial-/1298127608?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=A%20Cor%20Púrpura";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "336";
+        document.getElementById("book-date").innerHTML = "29 junho 2009";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "José Olympio";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+16 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2019/03/resenha-cor-purpura.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "A Cor Púrpura fala de uma realidade distante e, ao mesmo tempo, muito próxima. Ela não marca, exatamente, o tempo em que foi escrita. Não cita propriamente datas ou grandes acontecimentos para que possamos nos localizar, mas não é apenas isso que o torna atemporal. Infelizmente, muitas das mazelas vividas por Celie - e pelas mulheres a sua volta - ainda são bastante atuais. No fim de tudo, A Cor Purpura chegou ao topo dos meus favoritos. Celie agora anda de mãos dadas com Mariam, a protagonista de A Cidade do Sol, no meu ranking de protagonistas preferidas, e se tornou uma leitura que eu indico para todo mundo. Uma leitura rápida, direta, o retrato de uma sociedade que ainda, infelizmente, existe, cheia de reflexões tão extraordinárias quanto suas personagens.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Nostalgia cinza";
+
+        var bookLinkRese2 = "https://www.nostalgiacinza.com.br/2019/03/ressenha-cor-purpura.html?m=0"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Ao final do livro somos apresentados a uma informação sutil, mas poderosa dependendo de quem a lê e a absorve. Alice Walker é médium e agradece às pessoas “por terem vindo” para que essa história pudesse nascer. Essa característica sobrenatural dá um toque ainda maior de realismo para a narrativa porque demonstra, caso você acredite, que o que está sendo contado veio de alguém que realmente viveu tudo aquilo. Essa pequena, mas extremamente importante revelação, pode explicar a própria forma que Alice Walker escolheu para narrar os acontecimentos do livro. A falta de explicações detalhadas, sutilezas ao longo de todo o livro, linguagem e narrativa confusa, representam um relato oral de outra pessoa que não tinha a intenção de exemplificar e enfeitar o texto. As palavras são o que são, da forma que são.";
+    break;
+
+    case 'E':
+        document.getElementById("book-title").innerHTML = "Extraordinário";
+
+        var bookImg =  "images/genre/genre-drama-extraodinário.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "31 janeiro 2013";
+        document.getElementById("book-genre").innerHTML = "Drama";
+        document.getElementById("book-author").innerHTML = "R.J Palacio";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Todo mundo sabe que é difícil ser um aluno novo, mais ainda quando se tem um rosto tão diferente. Prestes a começar o quinto ano em um colégio particular em Nova York, Auggie tem uma missão nada fácil pela frente: convencer os colegas de que, apenas da aparência incomum, ele é um menino igual a todos os outros. R.J.Palacio criou uma história edificante, repleta de amor e esperança, em que um grupo de pessoas luta para espalhar compaixão, aceitação e gentileza. Narrado da perspectiva de Auggie e também de seus familiares e amigos, com momentos comoventes e outros descontraídos, Extraordinário consegue captar o impacto que um menino pode causar na vida e no comportamento de todos, família, amigos e comunidade – um impacto forte, comovente e , sem dúvida nenhuma, extraordinariamente positivo, que vai tocar todo tipo de leitor. Para espalhar a mensagem de Extraordinário, Palacio iniciou uma campanha antibullying, da qual milhares de crianças já participaram.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Extraordinário-R-J-Palacio/dp/8580573017/ref=sr_1_5?__mk_pt_BR=ÅMÅŽÕÑ&crid=3AZ97T6U0Q13F&keywords=extraordinário&qid=1669606124&qu=eyJxc2MiOiIxLjU4IiwicXNhIjoiMS4wNyIsInFzcCI6IjAuODQifQ%3D%3D&sprefix=a+cor+púrpura%2Caps%2C690&sr=8-5";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/r-j-palacio/extraordinario/2398396897?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.saraiva.com.br/extraordinario/p";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "31 janeiro 2013";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Intrínseca";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+12 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Unicentro";
+
+        var bookLinkRese1 = "https://www3.unicentro.br/petfisica/2019/10/23/resenha-de-extraordinario/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Desde o início ele mostra que ele é um garoto comum e é isso que ele quer mostrar para as outras pessoas. Diversos comentários narrados por ele mexeu comigo e acredito que mexerão contigo também, como este: “É como aquelas pessoas que às vezes você vê e não consegue imaginar como seria estar no lugar delas, seja alguém em uma cadeira de rodas, ou alguém que não pode falar. Eu sei que sou essa pessoa para os outros. Para mim, porém, sou apenas eu. Um garoto comum.” Toda essa história é contada como uma escrita simples, mas acredito que todos irão se identificar com o texto, por terem vivido ou vivenciado algo parecido. Por ser “diferente” das outras pessoas, seja por sua aparência física, gostos; por querer ser aceito por aquilo que é… Este livro quer mostrar, também, que precisamos ser gentis, tolerante… humanos!";
+        
+        document.getElementById("rese-2-name").innerHTML = "Portal Sorocaba";
+
+        var bookLinkRese2 = "https://escolaportalsorocaba.com.br/blog/resenha-extraordinario/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Esta incrível obra fala sobre respeito, aceitação, amizade, superação, a maldade presente no mundo nos tempos atuais e enfatiza a forma das pessoas se relacionarem com outras que são diferentes delas. Nosso protagonista ensina que mesmo com uma aparência incomum é um garoto normal, como todos os outros, além de ser muito gentil. Amei o livro! É uma narrativa envolvente, emocionante, com personagens bem desenvolvidos e histórias únicas.";
+    break;
+
+    case 'HR':
+        document.getElementById("book-title").innerHTML = "Hibisco Roxo";
+
+        var bookImg =  "images/genre/genre-drama-hibisco.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "1 janeiro 2011";
+        document.getElementById("book-genre").innerHTML = "Drama";
+        document.getElementById("book-author").innerHTML = "Chimamanda Ngozi Adichie";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Protagonista e narradora de Hibisco roxo, a adolescente Kambili mostra como a religiosidade extremamente “branca” e católica de seu pai, Eugene, famoso industrial nigeriano, inferniza e destrói lentamente a vida de toda a família. O pavor de Eugene às tradições primitivas do povo nigeriano é tamanho que ele chega a rejeitar o pai, contador de histórias encantador, e a irmã, professora universitária esclarecida, temendo o inferno. Mas, apesar de sua clara violência e opressão, Eugene é benfeitor dos pobres e, estranhamente, apoia o jornal mais progressista do país. Durante uma temporada na casa de sua tia, Kambili acaba se apaixonando por um padre que é obrigado a deixar a Nigéria, por falta de segurança e de perspectiva de futuro. Enquanto narra as aventuras e desventuras de Kambili e de sua família, o romance também apresenta um retrato contundente e original da Nigéria atual, mostrando os remanescentes invasivos da colonização tanto no próprio país, como, certamente, também no resto do continente.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Hibisco-roxo-Chimamanda-Ngozi-Adichie/dp/8535918507/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=2IYQX63DZ4PX1&keywords=Hibisco+Roxo&qid=1669606467&qu=eyJxc2MiOiIxLjM1IiwicXNhIjoiMC44OCIsInFzcCI6IjAuNzEifQ%3D%3D&sprefix=extraordinário%2Caps%2C719&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/italivros/adichie-chimamanda-ngozi-hibisco-roxo-3464809347?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.saraiva.com.br/hibisco-roxo/p";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "328 ";
+        document.getElementById("book-date").innerHTML = "1 janeiro 2011";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Companhia das Letras";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+12 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Além do livro";
+
+        var bookLinkRese1 = "https://alemdolivro.com/2020/08/13/resenha-de-hibisco-roxo-chimamanda-ngozi-adichie/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "As questões de raça não são abordadas de maneira tão objetiva em Hibisco Roxo quanto em Americanah. Mas aparecem sob a perspectiva do pós-colonialismo. Ou seja, na forma das “heranças” deixadas pelos países colonizadores, especialmente em relação à religiosidade branca – o que nos dá muito o que pensar também enquanto brasileiros. Acredito que tenha ficado claro o quanto esta leitura foi rica – tanto em relação aos temas abordados, quanto à história em si. Um livro completo, Hibisco Roxo nos ensina sobre a cultura nigeriana, faz críticas, provoca reflexões e surpreende com um desfecho de tirar o fôlego";
+        
+        document.getElementById("rese-2-name").innerHTML = "Voando com livros";
+
+        var bookLinkRese2 = "https://www.voandocomlivros.com/post/hibisco-roxo-resenha"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "A violência que a mãe de Kambili sofre diariamente é intensa, horrível e triste de acompanhar. Tudo é passado para nós, leitores, pelos olhos e percepções da protagonista. Ela absorve toda a tensão e sofrimento que está a sua volta, e se apega a frágeis fios de esperança de que seu pai está certo e é uma boa pessoa. Para Kambili, Eugene ainda é seu pai herói. Mas por quanto tempo? Eu como leitora, torcia a todo momento para que a máscara social do Eugene caísse, que Kambili trangredisse e se libertasse das garras desse que, para mim,  é um grande monstro. O desfecho não é fácil de aceitar, mas é compreensível. Hibisco Roxo é mais uma obra que ensina muito. Além de trazer elementos históricos, sociais e políticos da Nigéria, o livro nos faz pensar sobre diferentes religiões e culturas, nos faz observar o íntimo e o indivíduo com mais cuidado. O ser humano é único, cada um tem uma vivência, uma história, e é preciso aprender a aceitar e a respeitar a decisão do outro.";
+    break;
+
+    case 'AADG':
+        document.getElementById("book-title").innerHTML = "A Arte da Guerra";
+
+        var bookImg =  "images/genre/genre-guerra-arte.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "20 maio 2015";
+        document.getElementById("book-genre").innerHTML = "Guerra";
+        document.getElementById("book-author").innerHTML = "Sun Tzu";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "O que faz de um tratado militar, escrito por volta de 500 a.C., manter-se atual a ponto de ser publicado praticamente no mundo todo até os dias de hoje? Você verá que, em A arte da guerra, as estratégias transmitidas pelo general chinês Sun Tzu carregam um profundo conhecimento da natureza humana. Elas transcendem os limites dos campos de batalha e alcançam o contexto das pequenas ou grandes lutas cotidianas, sejam em ambientes competitivos – como os do mundo corporativo – sejam nos desafios internos, em que temos de encarar nossas próprias dificuldades. Se você não conhece a si mesmo nem o inimigo, sucumbirá a todas as batalhas.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Arte-Guerra-Sun-Tzu/dp/8542805097/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=2SBWXSFAQ0N20&keywords=A+Arte+da+Guerra&qid=1669606937&qu=eyJxc2MiOiIzLjMzIiwicXNhIjoiMi44MCIsInFzcCI6IjIuODUifQ%3D%3D&sprefix=a+arte+da+guerra%2Caps%2C462&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/sun-tzu/a-arte-da-guerra/336810164?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.saraiva.com.br/a-arte-da-guerra----os-treze-capitulos-originais/p";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "158";
+        document.getElementById("book-date").innerHTML = "20 maio 2015";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Novo Século";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+14 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Unicentro";
+
+        var bookLinkRese1 = "https://www3.unicentro.br/petfisica/2021/12/09/resenha-ansiedade-historias-reais-sobre-como-conviver-com-o-transtorno/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O livro, apesar de ter um aspecto militar, é muito mais sobre liderança que um manual de como ser um bom general. Longe de ser um manual, pois o autor e os comentaristas conseguem fazer o leitor questionar sobre coisas do dia a dia. Apesar da época em que foi escrito, penso ser um livro muito atual para qualquer um que queira entender sobre lideranças. O começo não é uma leitura fácil, devido aos vocabulários militares e metáforas, mas os comentaristas exemplificam bem o significado das metáforas. É um livro que merece uma leitura reflexiva, além de ser um clássico da literatura. ";
+        
+        document.getElementById("rese-2-name").innerHTML = "Recanto das letras";
+
+        var bookLinkRese2 = "https://www.recantodasletras.com.br/resenhasdelivros/7485899"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Em suma, o livro mostra que tudo tem o foco no ser humano. Nas emoções e na razão com que se encara cada etapa da vida. Cada desafio. Que é preciso apostar a vida no conhecimento. Conhecer a si, à sua equipe, mas também ao adversário, ao outro, para saber que tipo de estratégia será usada. O autor acredita, com base na sua experiência militar, que uma guerra é vencida ou perdida, antes de começar. Na estratégia, no planejamento das ações. É, 2500 anos depois, o que dizem sobre as batalhas da vida profissional, os melhores gurus e mentores. Tudo confirma o tratado de “A Arte da Guerra”. Uma bíblia, um livro de cabeceira para quem quer ser um vencedor nas guerras que travamos todos os dias no mundo atual.";
+    break;
+
+    case 'C':
+        document.getElementById("book-title").innerHTML = "Crimeia";
+
+        var bookImg =  "images/genre/genre-guerra-crimeia.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "18 fevereiro 2019";
+        document.getElementById("book-genre").innerHTML = "Guerra";
+        document.getElementById("book-author").innerHTML = "Orlando Figes";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "A Guerra da Crimeia, anterior à Primeira Guerra Mundial, foi o maior conflito do século XIX. No entanto, há poucas obras que se dediquem a detalhar essa história, eclipsada pelas duas guerras mundiais que ocorreram em seguida. Em Crimeia, o renomado historiador Orlando Figes se baseia em fontes russas, francesas, otomanas e britânicas para fornecer um relato completo e preencher essa lacuna. O autor narra os detalhes de uma guerra trágica, motivada pela crença fervorosa e populista, por parte do tsar Nicolau I e de seus ministros, de que era dever da Rússia governar todos os cristãos ortodoxos e controlar a Terra Santa. Após uma contenda com líderes religiosos otomanos em 1853, tropas russas invadiram uma área disputada na atual Romênia, fazendo com que a desavença da Grã-Bretanha e da Turquia com a Rússia atingisse o ponto de ebulição. A opinião francesa era menos apaixonada, mas os anseios de Napoleão III pela glória militar eram fortes o bastante para incentivar sua participação no confronto.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Crimeia-Orlando-Figes/dp/8501097365/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=3NQ98JGZB3RKO&keywords=Crimeia&qid=1669607590&qu=eyJxc2MiOiIyLjE2IiwicXNhIjoiMS4xOSIsInFzcCI6IjAuNzYifQ%3D%3D&sprefix=crimeia+%2Caps%2C434&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/orlando-figes/crimeia/3597021103?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/livros-orlando-figes";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "602";
+        document.getElementById("book-date").innerHTML = "18 fevereiro 2019";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Record";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Record";
+
+        var bookLinkRese1 = "https://www.record.com.br/produto/crimeia/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O extraordinário conflito inflamou a rivalidade entre a Rússia e o Império Otomano em relação aos Bálcãs, desestabilizou as relações entre as potências europeias e acendeu uma fagulha para a Primeira Guerra Mundial. Tendo praticamente redesenhado o mapa da Europa e causado a morte de incontáveis militares e civis, a Guerra da Crimeia foi travada com tecnologia industrial e marcada por soldados entrincheirados na neve, cirurgiões atuando no campo de batalha, cobertura da imprensa por intermédio de repórteres correspondentes e a fanática e assombrada figura do tsar Nicolau I. Por meio de um relato lúcido, vívido e sensível, em Crimeia, Orlando Figes lança luz sobre os fatores geopolíticos, culturais e religiosos que moldaram o envolvimento de cada potência nessa contenda.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Aventuras na história";
+
+        var bookLinkRese2 = "https://aventurasnahistoria.uol.com.br/noticias/historia-hoje/resenha-livro-historia-guerra-crimeia-seculo-19.phtml"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Com base em uma variedade de fontes, Figes oferece uma experiência vivida da guerra - desde a do soldado britânico comum em sua trincheira até a figura sombria do próprio Nicolau I, em sua busca pela salvação religiosa. Segundo o autor, 'Crimeia é a historia de uma guerra trágica, motivada pela crença fervorosa e populista, por parte do tsar Nicolau I e de seus ministros, de que era dever da Rússia governar todos os cristão ortodoxos e controlar a Terra Santa'.";
+    break;
+
+    case 'GEP':
+        document.getElementById("book-title").innerHTML = "Guerra e paz";
+
+        var bookImg =  "images/genre/genre-guerra-paz.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "24 novembro 2022";
+        document.getElementById("book-genre").innerHTML = "Guerra";
+        document.getElementById("book-author").innerHTML = "Lev Tolstoi";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Escrito entre 1865 e 1869, 'Guerra e Paz' é provavelmente a obra-prima de Tolstoi e uma das maiores criações literárias de sempre. Tendo como pano de fundo um cenário de guerra, com a invasão da Rússia por parte das tropas napoleónicas, esta novela épica surge como uma reflexão sobre a vida humana e a sua frágil existência. Nesta obra grandiosa, as personagens amam, odeiam e lutam, mas acima de tudo anseiam por encontrar o sentido da vida.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Guerra-Paz-Lev-Tolstoi-ebook/dp/B07QGNJD5L/ref=sr_1_2?__mk_pt_BR=ÅMÅŽÕÑ&crid=1QL7P0V89Y0US&keywords=Guerra+e+Paz&qid=1669607967&qu=eyJxc2MiOiIzLjE5IiwicXNhIjoiMi4yNyIsInFzcCI6IjIuMzgifQ%3D%3D&sprefix=guerra+e+paz%2Caps%2C555&sr=8-2";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Guerra%20e%20Paz";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/leon-tolstoi/guerra-e-paz/3790195668?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "1419";
+        document.getElementById("book-date").innerHTML = "24 novembro 2022";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Mimética";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Blog da companhia";
+
+        var bookLinkRese1 = "https://www.blogdacompanhia.com.br/conteudos/visualizar/A-guerra-e-a-paz"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Com seu talento incomparável, Tolstói pinta o íntimo entrelaçamento do homem e da paisagem, tanto a física como a emocional, muitas vezes contrastando a majestade da natureza com a loucura humana, com a mecânica da violência da guerra. Revelar a verdade sobre a guerra é muito difícil, conclui Tolstói, e ele aborda o tema através de outro contraste - com a sua concepção de paz. A “guerra” não é apenas a ação militar dos exércitos em luta, mas também a animosidade e a desunião das pessoas em tempos de paz, separadas por barreiras sociais e morais, pela alienação e isolamento e pelo seu egoísmo. Igualmente, a “paz” aparece no romance se desdobrando nos seus vários significados. A paz nega a guerra porque sua essência está no trabalho e na felicidade, na manifestação livre e natural da personalidade.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Voando com livros";
+
+        var bookLinkRese2 = "https://www.voandocomlivros.com/post/guerra-e-paz-resenha"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Eu gosto muito da técnica de escrita que o autor usa para transitar entre as passagens, ele conseguia aguçar minha curiosidade para os próximos acontecimentos e quebrar uma possível monotonia que uma cena muito longa poderia me causar. Enquanto estava lendo, eu falava para alguns amigos que tinha muita paz no primeiro volume da obra. Cadê a guerra?, perguntava para quem já tinha lido haha... uma brincadeira que expressava o meu deleite ao ler os trechos geniais das batalhas.Mas é claro que essa obra-prima não se resume a lutas. A busca espiritual é um dos fios que tecem essa colcha de tempestades e angústias que permeiam todo o enredo até seus momentos finais, onde a sensação de paz paira no ar.Eu ainda não superei o desfecho e talvez nunca supere. A vida é dura demais e quando encontro recortes fidedignos dela em minhas leituras, principalmente com personagens que estou tão envolvida, é difícil aceitar. Sofri, chorei e amei. Valeu cada minuto dedicado a essa leitura grandiosa em tamanho e qualidade. Se você também tem vontade de ler esse clássico, deixo aqui meu conselho: só se joga, deguste com calma, não tenha pressa em terminar. Vai valer a pena!";
+    break;
+
+    case 'OUDDH':
+        document.getElementById("book-title").innerHTML = "O último dia de Hitler";
+
+        var bookImg =  "images/genre/genre-guerra-dia.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "3 agosto 2016";
+        document.getElementById("book-genre").innerHTML = "Guerra";
+        document.getElementById("book-author").innerHTML = "Jonathan Mayo";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "30 de abril de 1945, a Alemanha está imersa em caos…As tropas russas marcham por Berlim. Em todo o país, as pessoas estão em polvorosa – sobreviventes de campos de concentração, prisioneiros das tropas Aliadas, nazistas fugitivos –, e a população civil está ficando sem comida numa rapidez desoladora. O homem que orquestrou esse pesadelo está em seu bunker no subsolo da capital alemã, ocupando-se de suas despedidas. Esta é a história fascinante das horas finais de Hitler, contadas pelo prisma daqueles que estavam com ele na fortificação, dos que lutaram nas ruas da Alemanha e daqueles que transitavam pelos corredores do poder em Washington, Londres e Moscou. 30 de abril de 1945 foi um dia com o qual milhões de pessoas sonharam, e pelo qual milhões de pessoas morreram.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/último-dia-Hitler-Minuto-minuto/dp/8582863136/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=3OWKB9IID107M&keywords=O+Último+Dia+de+Hitler&qid=1669608479&qu=eyJxc2MiOiIwLjY1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=guerra+e+paz%2Caps%2C745&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=O%20Último%20Dia%20de%20Hitler";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/jonathan-mayo-emma-craigie/o-ultimo-dia-de-hitler-minuto-a-minuto/1012628356?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "419";
+        document.getElementById("book-date").innerHTML = "3 agosto 2016";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Mimética";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+15 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Minuto a minuto";
+
+        var bookLinkRese1 = "https://12min.com/br/o-ultimo-dia-de-hitler-minuto-a-minuto-resumo"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Muito bom! Me interesso bastante por coisas relacionadas a segunda Guerra mundial, então minha professora me emprestou esse livro para que eu lesse. Pelo título, achei que seria focado somente em hitler, mas mostra e fala de várias outras pessoas e lugares. É uma leitura interessante de se fazer, gostei bastante. O livro detalha passo a passo o que acontecia não só com Hitler, mas ao redor dele, em seu último dia de vida. As últimas horas de Hitler contadas por pessoas que estavam dos dois lados da guerra. Gostei bastante dos detalhes narrados. Recomendo muito!";
+        
+        document.getElementById("rese-2-name").innerHTML = "Resenha crítica";
+
+        var bookLinkRese2 = "https://www.resenhacritica.com.br/tag/adolf-hitler/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Meio cansativo! Embora Ohler tenha se valido de fontes documentais inéditas e valiosas, ao não adotar um procedimento teórico-metodológico mínimo, acaba por fazer afirmativas sem respaldo empírico. A polêmica obra descreve em tons fortes e com linguagem jornalística a necessidade crescente da utilização de estimulantes sintéticos pela sociedade alemã em geral e pela cúpula do Terceiro Reich em particular no período de 1933 a 1945. Além disso, o autor apresenta um amplo panorama no qual aborda historiograficamente a grande importância do segmento industrial químico-farmacêutico alemão na síntese de anfetaminas e “narcóticos que marcaram os acontecimentos no Estado nazista e nos campos de batalha da Segunda Guerra Mundial”";
+    break;
+
+    case 'QEH':
+        document.getElementById("book-title").innerHTML = "Querido Evan Hansen";
+
+        var bookImg =  "images/Home/home-acclaimed-hansen.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "26 abril 2019";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "Val Emmich";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Evan Hansen sempre teve muita dificuldade de fazer amigos. Para mudar isso, decide seguir as recomendações de seu psicólogo e escrever cartas encorajadoras para si mesmo, com esperança de que seu último ano na escola seja um pouco melhor. O que não esperava era que uma das cartas fosse parar nas mãos de Connor Murphy, o aluno mais encrenqueiro da turma. Quando Connor comete suicídio e sua família encontra a carta de Evan, todos começam a pensar que os dois eram melhores amigos. Sem conseguir explicar a situação, Evan acaba refém de uma grande mentira. Ao mesmo tempo, graças a essa (falsa) amizade, o garoto finalmente se aproxima de Zoe, a menina de seus sonhos, e passa a ser notado no colégio. No fundo, Evan sabe que não está fazendo a coisa certa, mas se está ajudando a família de Connor a superar a perda, que mal pode ter? Evan agora tem um propósito de vida. Até que a verdade ameaça vir à tona, e ele precisa enfrentar seu maior inimigo: ele mesmo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Querido-Evan-Hansen-Val-Emmich/dp/8555340837/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=32XKMATWYMVXM&keywords=Querido+Evan+Hansen&qid=1669609153&qu=eyJxc2MiOiIxLjAwIiwicXNhIjoiMC41MyIsInFzcCI6IjAuNDkifQ%3D%3D&sprefix=o+último+dia+de+hitler%2Caps%2C679&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Querido%20Evan%20Hansen";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/val-emmich/querido-evan-hansen/3857843493?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "319";
+        document.getElementById("book-date").innerHTML = "26 abril 2019";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Mimética";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+12 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Idris";
+
+        var bookLinkRese1 = "https://idris.com.br/resenhas/2019/06/21/resenha-querido-evan-hansen-val-emmich/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "A sinopse não diz, e eu achei uma ótima surpresa: Temos um ponto de vista de Connor também. Meio que “pós morte”, que explica tudo que o levou até o suicídio e deixa evidente que se algumas coisas tivessem acontecido de maneira diferente, talvez ele não fizesse o que fez. Gostei muito de todos os personagens do livro, Evan, Connor, Zoe, e principalmente de Jared, um amigo de Evan. Adorei a surpresa do ponto de vista de Connor, e adorei as mensagens que o livro passa, e como ele é cheio de frases de efeito desde o começo até o final. ";
+        
+        document.getElementById("rese-2-name").innerHTML = "Mais que livros";
+
+        var bookLinkRese2 = "https://www.maisquelivros.com/2021/12/resenha-querido-evan-hansen-val-emmich.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Connor também é um personagem incrível. Temos algumas passagens do livro narradas pelo 'fantasma' do garoto, que acompanha de perto todos os acontecimentos que envolvem sua família após sua morte. Achei essa jogada sensacional e só consigo imaginar como deve ser legal de assistir isso ao vivo. O suicídio é um tema muito importante, que é abordado em inúmeros livros voltados para o público mais jovem. Contudo, são poucos os livros que eu, como leitor, realmente consegui sentir a mensagem sendo passada da forma correta e aqui foi assim. Terminei o livro com água nos olhos e inúmeros questionamentos e certezas na mente. Querido Evan Hansen é um livro lindo, poético e importante, que com certeza vale a pena a leitura. Quero muito que o musical também seja adaptado para as telonas, para ter ainda mais divulgação e acesso na mídia. Mas, por enquanto, se joguem nessa leitura e se apaixonem por essa lição de vida assim como eu.";
+    break;
+
+    case 'AGNTRDM':
+        document.getElementById("book-title").innerHTML = "A Guerra Não Tem Rosto de Mulher";
+
+        var bookImg =  "images/genre/genre-guerra-mulher.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "17 junho 2016";
+        document.getElementById("book-genre").innerHTML = "Guerra";
+        document.getElementById("book-author").innerHTML = "Svetlana Aleksiévitch";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "A história das guerras costuma ser contada sob o ponto de vista masculino: soldados e generais, algozes e libertadores. Trata-se, porém, de um equívoco e de uma injustiça. Se em muitos conflitos as mulheres ficaram na retaguarda, em outros estiveram na linha de frente. É esse capítulo de bravura feminina que Svetlana Aleksiévitch reconstrói neste livro absolutamente apaixonante e forte. Quase um milhão de mulheres lutaram no Exército Vermelho durante a Segunda Guerra Mundial, mas a sua história nunca foi contada. Svetlana Aleksiévitch deixa que as vozes dessas mulheres ressoem de forma angustiante e arrebatadora, em memórias que evocam frio, fome, violência sexual e a sombra onipresente da morte.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/guerra-não-tem-rosto-mulher/dp/8535927433/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&keywords=A+Guerra+Não+Tem+Rosto+de+Mulher&qid=1669607239&qu=eyJxc2MiOiIxLjM4IiwicXNhIjoiMC45NSIsInFzcCI6IjAuNjUifQ%3D%3D&sr=8-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/svetlana-aleksievitch/a-guerra-nao-tem-rosto-de-mulher/365032899?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/svetlana-alexievitch";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "392";
+        document.getElementById("book-date").innerHTML = "17 junho 2016";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Companhia das Letras";
+        document.getElementById("book-height").innerHTML = "21 x 13.6 x 2.2 cm";
+        document.getElementById("book-kid").innerHTML = "+14 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2020/04/resenha-guerra-nao-tem-rosto-de-mulher_21.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "As histórias contadas trazem uma visão real da guerra. Elas falam não só sobre vitórias e derrotas, falam também sobre o amor e a importância dele para que fossem capazes de suportar tudo o que se passava. Nenhuma delas fala sobre armamentos, não da maneira como estamos acostumadas, e em todo o livro um tema permeia os capítulos: a morte. A morte neste livro é a coisa mais verdadeira que eu já li. O retrato da pequenez a qual nos resumimos. Outras coisas que jamais imaginaríamos também são postas às claras, como as vestimentas. Esse foi inclusive o motivo que sugiro ali em cima que a palavra soldada deva ser relativamente nova, porque simplesmente não haviam roupas para mulheres no exército. Elas eram obrigadas a usar roupas masculinas e jamais pude imaginar o quanto isso pode ser devastador para a autoestima de uma mulher.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Mafua";
+
+        var bookLinkRese2 = "https://mafua.ufsc.br/2020/a-guerra-no-feminino-por-svetlana-aleksievitch-uma-leitura-de-a-guerra-nao-tem-rosto-de-mulher/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Apesar dessa impossibilidade, o testemunho ainda possui uma “finalidade de liberação anterior”, nas palavras de Levi (1988, p.8). Nesse contexto, Aleksiévitch designa-se não apenas como ouvinte, mas também como testemunha dos relatos da Segunda Guerra Mundial, a partir da visão feminina. Como reporta Seligmann-Silva (2008), o ouvinte se faz necessário pois o testemunho apenas vive se composto de um dialogismo, em que se deve existir a vontade de escutar e o desejo de portar aquele testemunho que se escuta. Escutando essas histórias, a escritora compartilha a companhia do narrador, exercendo um papel denominado por Shoshana Felman (1992, p. 213) como o de “testemunha de segundo grau” ou “testemunha dos testemunhos”. Ainda, para Benjamin (2012, p. 230), “mesmo quem a[s] lê partilha dessa companhia”. Como testemunha, Aleksiévitch transforma a história da guerra em uma vivência. Em suas próprias palavras:";
+    break;
+
+    case 'GQVEA':
+        document.getElementById("book-title").innerHTML = "Gostaria que você estivesse aqui";
+
+        var bookImg =  "images/genre/genre-lgbt-gostaria.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = " 31 agosto 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Fernando Scheller";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Quando a década de 1980 começa a dar as caras no Rio de Janeiro, o tempo é de contradições. À efervescência musical e a uma febril vontadede viver, unem-se a instabilidade política, a aterrorizadora epidemia de aids e o aumento do tráfico nas favelas. E cinco personagens, de idades diferentes, aspirações diferentes, mundos diferentes, veem a vida mudar completamente. Inácio, apaixonado por Baby, larga a faculdade de engenharia quando conhece César, produtor musical gay que, como Baby, busca encontrar o próprio lugar no mundo. Selma, mãe de César, lida com o abandono do marido e o medo de perder o filho. Em seu prédio, trabalha Rosalvo, paraibano recém-chegado à Rocinha em busca do assassino de sua filha trans.Gostaria que você estivesse aqui é um romance sobre perder a inocência e entregar-se ao mundo por inteiro.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Gostaria-que-você-estivesse-aqui/dp/6555111917/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&keywords=Gostaria+que+Você+Estivesse+Aqui&qid=1669602938&qu=eyJxc2MiOiIwLjUwIiwicXNhIjoiMC4xNCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/fernando-scheller/gostaria-que-voce-estivesse-aqui/3520552453?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/livro-queria-que-voce-estivesse-aqui-francesc-miralles";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "31 agosto 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "HarperCollins";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+14 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenha dos sonhos";
+
+        var bookLinkRese1 = "https://resenhandosonhos.com/gostaria-que-voce-estivesse-aqui-fernando-scheller/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "2,5 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Em minha concepção, já que o autor escreveu em terceira pessoa, não havia necessidade de ter narrado através de pontos de vista, e sim priorizar os principais assuntos do livro, e todo o restante em segundo plano, como uma forma de complementar e aprofundar o enredo. Acredito que por não ter interesse na maioria dos personagens e mais no que envolvia César e Inácio, o livro não funcionou para mim, assim como alguns outros motivos que apontei, mas sem dúvidas pode funcionar para outras pessoas.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Ler pra quê?";
+
+        var bookLinkRese2 = "https://lerpraque.com.br/gostaria-que-voce-estivesse-aqui-┃resenha/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Achei incrível a forma que o autor consegue nos transportar para o Rio de Janeiro da década de 80. O enredo mostra bastante os conflitos que fazemos todos os dias sobre as escolhas cotidianas. Mesmo que eu tenha gostado da leitura senti falta de uma amarração que instiga entre os capítulos. O final de quase todos os personagens era meio previsível. Um livro lindo, profundo, muito bem escrito e de uma delicadeza única. A literatura nacional agradece por essa obra prima. Os espaços vazios fazem parte das nossas vidas. A montanha-russa diária dos envolvidos, de mais descidas que subidas, nos envolve demais, desde o começo do livro. Pausei a leitura por um tempo, pois alguns assuntos ativaram gatilhos, mas pude saborear cada pedacinho da história com todo amor que ela merece.";
+    break;
+
+    case 'HT1':
+        document.getElementById("book-title").innerHTML = "Heartstopper: Dois garotos, um encontro";
+
+        var bookImg =  "images/Home/home-saga-H1.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "14 setembro 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Alice Oseman";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Charlie Spring e Nick Nelson não têm quase nada em comum. Charlie é um aluno dedicado e bastante inseguro por conta do bullying que sofre no colégio desde que se assumiu gay. Já Nick é superpopular, especialmente querido por ser um ótimo jogador de rúgbi. Quando os dois passam a sentar um ao lado do outro toda manhã, uma amizade intensa se desenvolve, e eles ficam cada vez mais próximos. Charlie logo começa a se sentir diferente a respeito do novo amigo, apesar de saber que se apaixonar por um garoto hétero só vai gerar frustrações. Mas o próprio Nick está em dúvida sobre o que sente ― e talvez os garotos estejam prestes a descobrir que, quando menos se espera, o amor pode funcionar das formas mais incríveis e surpreendentes.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Heartstopper-Dois-garotos-encontro-vol/dp/8555341612/ref=sr_1_3_sspa?__mk_pt_BR=ÅMÅŽÕÑ&crid=129KWPBSZIAN9&keywords=heartstopper&qid=1669609581&qu=eyJxc2MiOiIzLjgwIiwicXNhIjoiMi44OCIsInFzcCI6IjIuNTIifQ%3D%3D&sprefix=heartstopper+%2Caps%2C436&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyS0ZBWVBCTkYxRlpGJmVuY3J5cHRlZElkPUEwODA3MTU1MjBZTDFEQTVZRlNVVCZlbmNyeXB0ZWRBZElkPUEwNDM3MzUyMjU1SlRFWkxDVEtIMCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/alice-oseman/heartstopper-dois-garotos-um-encontro-vol-1/2436393153?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/heartstopper";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "14 setembro 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese1 = "http://www.delivroemlivro.com.br/2020/08/resenha-heartstopper-vol-1-alice-oseman.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Li Heartstopper (vol. 1) em inglês (no tapas), pois infelizmente, ainda não tem tradução brasileira, porém, acredito que qualquer pessoa que saiba o básico de inglês consegue desenrolar essa leitura, primeiro porque é uma linguagem super jovem e segundo porque é uma História em Quadrinhos, então, por favor, não deixem a oportunidade passar! Heartstopper (vol. 1) é o primeiro contato que tenho com livros da escritora britânica Alice Oseman, famosa por escrever ficção para jovens, e embora Heartstopper não tenha sido traduzido no Brasil (ainda) a autora tem outros livros já traduzidos, como Um Ano Solitário e Rádio Silêncio. É interessante observar que é em Um Ano Solitário que temos a primeira aparição dos protagonistas dessa HQSó consegui amar Heartstopper (vol. 1) e acho que é uma HQ maravilhosa tanto no quesito gráfico como nas mensagens que passou. Já até li o segundo volume,então aguardem que trago o veredito da continuação logo mais.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2021/11/02/resenha-heartstopper-1-dois-garotos-um-encontro-alice-oseman/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Confesso que quando eu peguei os livros para ler, eu não imaginava que ia ficar tão cativada pela história dos dois. Tá, eu imaginava que seria fofinho, mas nunca pensei que seria uma história sobre dois adolescentes escrita de uma forma tão sensível assim, que me faria ficar com um sorriso bobo nos lábios enquanto via o desenrolar do que estava acontecendo ali e que estava bem claro pra mim – e imagino que para as outras pessoas que leram o livro também. Nós vamos seguindo com eles por todas as páginas, vendo as coisas mais do ponto de vista de Charlie do que de Nick nesse primeiro volume e eu imagino que foi essa mesma a ideia da autora, que nós pudéssemos ver e ter uma pequena duvida sobre onde aquilo levaria (apesar de não deixar tanta margem para duvida assim) e foi tudo acontecendo de uma forma tão natural que é impossivel não se apaixonar pelos dois perdidamente.";
+    break;
+
+    case 'HT2':
+        document.getElementById("book-title").innerHTML = "Heartstopper: Minha pessoa favorita";
+
+        var bookImg =  "images/Home/home-saga-H2.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "14 setembro 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Alice Oseman";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "No segundo volume da série Heartstopper, Charlie e Nick precisam entender o que um beijo significa para a relação dos dois — e, principalmente, para eles mesmos. Charlie e Nick são melhores amigos, mas tudo muda depois que eles se beijam em uma festa. Charlie acredita que cometeu um grande erro e arruinou a amizade dos dois para sempre, e Nick está mais confuso do que nunca. Mas aos poucos Nick começa a enxergar o mundo sob uma nova perspectiva e, com a ajuda de Charlie, descobre muitas coisas sobre o mundo que o cerca, sobre seus amigos — e, principalmente, sobre ele mesmo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Heartstopper-Dois-garotos-encontro-vol/dp/8555341612/ref=sr_1_3_sspa?__mk_pt_BR=ÅMÅŽÕÑ&crid=129KWPBSZIAN9&keywords=heartstopper&qid=1669609581&qu=eyJxc2MiOiIzLjgwIiwicXNhIjoiMi44OCIsInFzcCI6IjIuNTIifQ%3D%3D&sprefix=heartstopper+%2Caps%2C436&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyS0ZBWVBCTkYxRlpGJmVuY3J5cHRlZElkPUEwODA3MTU1MjBZTDFEQTVZRlNVVCZlbmNyeXB0ZWRBZElkPUEwNDM3MzUyMjU1SlRFWkxDVEtIMCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/alice-oseman/heartstopper-dois-garotos-um-encontro-vol-1/2436393153?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/q/heartstopper";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "14 setembro 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese1 = "http://www.delivroemlivro.com.br/2020/08/resenha-heartstopper-vol-2-alice-oseman.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "De fato, não tem como ler Heartstopper (vol. 2) e não se ver nostálgico com o inícios de várias primeiras vezes: primeiro beijo, primeiro encontro, primeiro namorado, primeira vez em que precisa dizer que está saindo com alguém, primeiras vezes que sentimos ciúmes e nos preocupa mais com o outro do que nós mesmos. Heartstopper (vol. 2) é simplesmente uma HQ tão fabulosa e tão inclusiva que nos faz criar uma conexão com os personagens e nos coloca diante de tudo o que eles estão passando tanto como casal, quanto em suas relações familiares e circulo de amizades, então, obviamente, a gente sente dor quando eles são magoados e sente um quentinho no coração quando eles estão felizes.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2021/11/02/resenha-heartstopper-2-minha-pessoa-favorita-alice-oseman/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Eu senti meu coração repleto de amor por todos os dois volumes da HQ, senti conforme Nick e Charlie se apaixonavam um pelo outro, que eu estava aqui do outro lado me apaixonando pelos dois (e pela Nellie!!!) e torcendo pra eles, querendo ver o relacionamento deles se desenvolver ainda mais, assim como as outras pessoas – as que importam pra Nick – reagiriam ao saber sobre a sua verdade e confesso que não me decepcionei. Alice Oseman escreveu uma história tão bonitinha e cativante, capaz de transformar o mais duro dos corações em uma gelatina de tão mole e que nos deixa tristes por acabar, por ser tão pouco e por querer bem mais. E enquanto isso só nos resta ficar aqui, esperando a continuação dessa história maravilhosa – e relendo de novo e de novo e de novo, até se apaixonar ainda mais por Charlie e Nick.";
+    break;
+
+    case 'HT3':
+        document.getElementById("book-title").innerHTML = "Heartstopper: Um passo adiante";
+
+        var bookImg =  "images/Home/home-saga-H3.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "31 março 2022";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Alice Oseman";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "No terceiro volume da série Heartstopper, acompanhamos os primeiros desafios do namoro de Charlie e Nick enquanto os garotos viajam a Paris. A HQ que inspirou a série original da Netflix! Depois de entenderem o que sentiam um pelo outro, Charlie e Nick se tornaram oficialmente namorados, e cada dia é uma nova oportunidade para se conhecerem um pouco mais. Mas nem tudo é fácil, principalmente quando se trata de se assumir enquanto casal para o mundo. Mesmo com medo da reação das pessoas, os garotos sabem que em breve terão de contar a verdade, pelo menos para os amigos mais próximos ― ainda mais quando a turma toda viaja a Paris. Enquanto decidem como dar este próximo passo, os dois vão descobrir que, não importa qual seja o desafio, eles podem sempre contar um com o outro.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Heartstopper-passo-adiante-Inspiração-Netflix/dp/8555341922/ref=pd_bxgy_img_sccl_2/145-4395661-2408356?pd_rd_w=HD4ed&content-id=amzn1.sym.57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_p=57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_r=ZDJB7R3VYDCXTEPM5XC1&pd_rd_wg=w3HnY&pd_rd_r=edb4caf3-86c4-44e9-a0ce-89279b8e8ce3&pd_rd_i=8555341922&psc=1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/oleitorlivraria/alice-oseman-heartstopper-um-passo-radiante-v-3-capa-dura--3504028502?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=heartstopper%203";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "14 setembro 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese1 = "http://www.delivroemlivro.com.br/2020/09/resenha-heartstopper-vol-3-alice-oseman.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Após a leitura de Heartstopper, vol. 1 e Heartstopper, vol. 2 e amar essa HQ da escritora britânica Alice Oseman, não havia algo mais natural do que embarcar em Heartstopper (vol. 3) e OMG, essa HQ só consegue ficar melhor a cada volume! E quando falo isso quero dizer que continua SUPER FOFA e que traz ainda mais temas e reflexões arrebatadoras de uma forma delicada para não tornar a história de Charlie e Nick pesada. Sem dúvida alguma Heartstopper (vol. 3) foi um volume muito intenso e arrebatador, sem contar que amei algumas situações, como a viagem escolar para Paris e as expectativas e anseios em relação a trip, foi tudo muito, muito incrível e estou ainda mais encantada por essa HQ, inclusive já estou acompanhando o volume 4 no tapas e depois venho conversar com vocês a respeito (mas deve demorar um pouco, pois agora tenho que acompanhar na medida que Alice Oseman vai postando os quadros.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2022/05/20/resenha-heartstopper-3-um-passo-adiante-alice-oseman/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Para nossa sorte, a Editora Seguinte já anunciou o quarto volume, então logo mais chega aí para nos deixar sempre nessa bolha de amor proporcionada por Heartstopper. Eu não posso deixar de comentar aqui uma coisa importante que eu notei, que é: o quanto a Alice aborda assuntos importantes. Nos primeiros dois volumes, eu já tinha percebido isso, mas no terceiro volume fica ainda mais evidente pra mim o quanto ela aborda com cuidado e de uma forma tão leve assuntos que deviam ser mais debatidos. Não vou dar muitos detalhes porque isso pode acabar estragando a experiência de leitura e também porque não vou encher de spoilers aqui.";
+    break;
+
+    case 'HT4':
+        document.getElementById("book-title").innerHTML = "Heartstopper: De mãos dadas";
+
+        var bookImg =  "images/Home/home-saga-H4.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "27 junho 2022";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Alice Oseman";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Charlie e Nick já não precisam esconder de ninguém no colégio que estão namorando, e agora, mais do que nunca, Charlie quer finalmente dizer “Eu te amo”. O que parece um gesto simples se torna bem complicado quando sua ansiedade o faz questionar se Nick se sente da mesma forma. Nick, por sua vez, está com a cabeça cheia. Afinal, ele ainda não teve a oportunidade de se assumir para o pai, e se preocupa constantemente com Charlie, que dá sinais claros de ter um transtorno alimentar. Conforme o relacionamento dos dois amadurece, os desafios que vêm pela frente ficam cada vez mais difíceis ― mas os garotos logo vão aprender que amar alguém nada mais é do que estar ao seu lado, juntos, de mãos dadas.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Heartstopper-dadas-Inspiração-série-Netflix/dp/8555342066/ref=pd_bxgy_img_sccl_2/145-4395661-2408356?pd_rd_w=Ohgqi&content-id=amzn1.sym.57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_p=57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_r=HRZC3WK83S0E1KWQ5AX4&pd_rd_wg=zOgGf&pd_rd_r=84fc0ed6-7e6f-47e7-b89d-ea062bdb74eb&pd_rd_i=8555342066&psc=1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/alice-oseman/heartstopper-de-maos-dadas-vol-04-/2398172838?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=Heartstopper%204";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "320";
+        document.getElementById("book-date").innerHTML = "14 julho 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese1 = "http://www.delivroemlivro.com.br/2021/12/heartstopper-vol-4-alice-oseman-resenha.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "HEARTSTOPPER vol. 4 foi um dos volumes mais sensíveis e ao mesmo tempo tristes da série, mas que me encantou por diversos motivos, porque mostra que uma GN não é apenas uma leitura fluída e 'fraquinha' como muita gente pode pensar, mas que pode e deve trazer temas complexos, contemporâneos e envolventes. Se tem uma série de GN que estou apaixonada é a de HEARTSTOPPER e super recomendo, porém, pesquisem os gatilhos, porque tem vários e agora que a série está sendo publicado no Brasil é mais um motivo para que todos os interessados tenham acesso a ela.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2022/09/02/resenha-heartstopper-4-de-maos-dadas-alice-oseman/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Alice consegue, com maestria, não trazer esse assunto de forma leviana, ao mesmo tempo que o trata com cuidado como já mencionei acima, mas também deixar ele resolvido e mostrar que é sim, tudo um dia depois do outro, uma coisa de cada vez e que está tudo bem ser assim. Saber que não está sozinho é muito importante. E você não está sozinho. Se sentir que precisa de alguém para desabafar, que precisa conversar com alguém e não tem coragem de falar com alguém próximo, sempre tem o contato do CVV. Basta ligar 188 ou acessar o site e entrar em contato no chat, que terá alguém lá disposto a te ouvir e te ajudar da melhor forma que puder.";
+    break;
+
+    case 'CO1':
+        document.getElementById("book-title").innerHTML = "Sempre em frente: Carry On";
+
+        var bookImg =  "images/Home/home-autor-CO1.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "9 novembro 2020";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Rainbow Rowell";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Simon Snow é o Escolhido. Segundo as lendas, ele é o feiticeiro que garantirá a paz no Mundo dos Magos. Isso seria extraordinário se Simon não fosse desastrado, esquecido e um feiticeiro pouco habilidoso, incapaz de controlar seus poderes. Ele está no penúltimo ano da Escola de Magia de Watford, e, ao lado de sua melhor amiga Penelope e sua namorada Agatha, já se meteu nas mais variadas aventuras e confusões ― algumas causadas por Baz, seu arqui-inimigo e colega de quarto, outras pelo Oco, um ser maligno que há tempos tenta acabar com Simon. Quando chega o novo ano letivo e Baz não aparece na escola, Simon suspeita que o garoto esteja tramando alguma coisa contra ele. As coisas começam a tomar um rumo ainda mais estranho quando o espírito da mãe de Baz, antiga diretora de Watford, aparece para Simon afirmando que quem a matou continua à solta. Quando Baz finalmente chega a Watford sob circunstâncias misteriosas, Simon não vê alternativa a não ser ajudá-lo a vingar a morte da mãe ― o que pode ser o primeiro passo para que verdades avassaladoras sobre o Mundo dos Magos sejam reveladas. E para que tudo mude entre os dois garotos.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Sempre-em-frente-Carry-1/dp/8555341167/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=1G3EALLTPHSK4&keywords=Carry+On&qid=1669610894&qu=eyJxc2MiOiIyLjg3IiwicXNhIjoiMi4yMCIsInFzcCI6IjEuOTUifQ%3D%3D&s=books&sprefix=%2Cstripbooks%2C182&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/livros/rainbow-rowell/sempre-em-frente/54501375?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=Carry%20On";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "504";
+        document.getElementById("book-date").innerHTML = "9 novembro 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2016/07/resenha-carry-on.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Sempre em Frente é o quinto livro da escritora Rainbow Rowell, e o primeiro a se passar em um universo fantástico. Quem já leu Fangirl, outro livro da autora, sabe que Carry On (Sempre em Frente) é o nome da fanfic que Cath escrevia sobre uma série de livros chamada Simon Snow - o queria o equivalente a Harry Potter para nós. Sempre em Frente me fez sorrir, chorar e ficar absolutamente sem saber o que fazer com tantos sentimentos. Queria poder apaga-lo da minha mente só para poder ler de novo, como se fosse a primeira vez. Este é o nível de quão bom o livro é!";
+        
+        document.getElementById("rese-2-name").innerHTML = "Rapoisisses";
+
+        var bookLinkRese2 = "https://raposisses.wordpress.com/2015/10/18/carry-on-de-rainbow-rowell/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "A minha opinião é a de que Carry On é bem-sucedido em ser apenas um livro, mas têm seus pontos fracos: entre eles, seu início, o que é preocupante. Carry On é dividido em quatro Livros e um Epílogo, e o Livro Um é onde as semelhanças com Harry Potter são mais óbvias. Como é o ínicio do livro, e começamos a acompanhar Simon quando ele já está no último ano de Watford, há bastante explicações sobre seu passado, a história do mundo mágico, e os personagens do livro. Enquanto Watford e o Mundo Mágico de Carry On não são cópias de Hogwarts e o Mundo Mágico de Harry Potter – a escola não é dividida em casas, o mundo mágico não é realmente um “mundo” com governo centralizado, até a mágica funciona de um jeito diferente (mas genial) -, mesmo assim a influência de Harry Potter é facilmente notada.";
+    break;
+
+    case 'CO2':
+        document.getElementById("book-title").innerHTML = "O filho rebelde: Wayward Son";
+
+        var bookImg =  "images/Home/home-autor-CO2.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "9 novembro 2020";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Rainbow Rowell";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Simon Snow venceu. Ele pôs fim às forças do mal que ameaçavam destruir o Mundo dos Magos. Tudo deu certo. Ou quase. Porque, agora, Simon perdeu toda a sua magia. Ele não passa de um normal… Bom, tirando o fato de ter asas e um rabo de dragão. Vendo o melhor amigo mergulhar em um desânimo cada vez maior, Penelope decide levar Simon e Baz em uma viagem de carro para visitarem Agatha, que agora mora na Califórnia. O que era para ser um passeio divertido se mostra muito mais desafiador do que imaginavam. Afinal, os Estados Unidos abrigam todo tipo de criatura mágica mal-intencionada e disposta a causar problemas. Em meio a uma confusão enorme com uma legião de vampiros e outros seres malignos, talvez Simon finalmente seja capaz de reunir a força necessária para seguir em frente ― e deixar algumas pessoas para trás.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/filho-rebelde-Wayward-Son/dp/8555341175/ref=pd_bxgy_img_sccl_1/145-4395661-2408356?pd_rd_w=tSb52&content-id=amzn1.sym.57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_p=57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_r=DDVTBVX0DRGZK01R7ZT7&pd_rd_wg=yKlMc&pd_rd_r=d8d9c3c0-1618-4286-86a2-17ee3b155a41&pd_rd_i=8555341175&psc=1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://www.estantevirtual.com.br/aquarios-books/rainbow-rowell-filho-rebelde-wayward-son-2-3473732181?show_suggestion=0";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://busca.saraiva.com.br/busca?q=O%20filho%20rebelde%3A%20Wayward%20Son";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "504";
+        document.getElementById("book-date").innerHTML = "9 novembro 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2021/02/resenha-o-filho-rebelde-rainbow-rowell.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O Filho Rebelde explora bastante o mundo mágico além das fronteiras da escola e da Inglaterra, e gostei de como aqui na América é tudo uma bagunça, mas uma bagunça organizada. Tem regras, mas também tem caos. A questão com os vampiros, principalmente, até levantou umas discussões bacanas. Eu gostei de como os ingleses receberam uns tapões verbais sobre como a Inglaterra não é o centro do universo e seu mundo mágico não passa de uma bolha; que eles preferem ignorar o resto do mundo do que lidar com esse. A diagramação tá muito boa. Eu ainda não gosto muito das adaptações dos feitiços, ainda que nesse volume tenha usado mais referências a cantigas e ditados conhecidos da nossa língua. A magia só funciona assim, no fim das contas.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Moonlight books";
+
+        var bookLinkRese2 = "http://www.moonlightbooks.net/2021/01/resenha-o-filho-rebelde-wayward-son.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Tinha vontade de reler esse livro desde o momento em que o terminei de ler pela primeira vez, há um ano. Senti que não tinha entendido muita coisa e que deixei passar alguns acontecimentos importantes com os personagens. E eu estava certa. Como uma releitura, sabendo para onde a história está indo e o seu final, foi mais fácil me focar em outras coisas. Principalmente nas que aconteciam nas entrelinhas, como o relacionamento do casal principal e até mesmo a própria luta interna dos personagens, separadamente. Todos estão procurando se encontrar e caminhando em uma longa estrada de aceitação e descobrimento. Os personagens são muito mais desenvolvidos nesse livro, muito mais aprofundados. Ainda é um livro que eu acho um pouco arrastado até boa parte da história, e as cenas de luta, principalmente no final, são um pouco confusas, porém nada de ruim tenho a falar sobre os vários pontos de vista em primeira pessoa dos personagens que é a minha coisa preferida desses livros. E nesse é muito mais esclarecedor. Eu aprendi a ter mais paciência com livros de transição, da qual é o segundo de uma trilogia, e me apegar mais nas pistas que são deixadas ao longo da leitura... mas, é claro, isso não me impede de sofrer. E muito.";
+    break;
+
+    case 'CO3':
+        document.getElementById("book-title").innerHTML = "Venha o que vier: Any Way the Wind Blows";
+
+        var bookImg =  "images/Home/home-autor-CO3.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 julho 2021";
+        document.getElementById("book-genre").innerHTML = "LGBTQIA+";
+        document.getElementById("book-author").innerHTML = "Rainbow Rowell";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Em Venha o que vier, Simon, Baz, Penelope e Agatha procuram um jeito de seguir em frente. Para Simon, isso significa decidir se ainda quer fazer parte do Mundo dos Magos ― e, se não quiser, o que isso representa para seu relacionamento com Baz? Enquanto isso, Baz está dividido entre duas crises familiares e sem tempo algum para compartilhar com alguém seus novos conhecimentos sobre vampiros. Penelope adoraria ajudar, mas trouxe um americano normal para Londres e não tem ideia do que fazer com ele. E Agatha? Bom, Agatha Wellbelove já está farta de aventuras. Venha o que vier leva os quatro amigos de volta à Inglaterra e à Watford e às suas famílias. Cada um a seu modo, todos estão prestes a viver a aventura mais longa e emocionalmente dolorosa de todos os tempos. A conclusão dessa saga, que começou como uma história sobre o Escolhido, chega revelando segredos, dando as respostas que faltavam e resolvendo todos os mistérios. Venha o que vier é um livro sobre colocar um ponto-final nos lugares certos, sobre catarse e conclusão, sobre escolher seguir em frente apesar dos traumas e dos triunfos que tentam nos definir.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Venha-que-vier-Wind-Blows/dp/8555341604/ref=pd_bxgy_img_sccl_1/145-4395661-2408356?pd_rd_w=QgsNX&content-id=amzn1.sym.57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_p=57f5b0c5-8f2e-45a4-8595-2eb0fcbe85cd&pf_rd_r=M5BHHKW7P2G5VV8JB8JA&pd_rd_wg=ItPw6&pd_rd_r=c561c3b1-3387-458e-9ee3-e9ff7eb8b9c9&pd_rd_i=8555341604&psc=1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=venha%20o%20que%20vier";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/rainbow-rowell/venha-o-que-vier/2239079813?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "504";
+        document.getElementById("book-date").innerHTML = "19 julho 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2021/07/resenha-venha-o-que-vier-rainbow-rowell.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "3,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Venha o que vier poderia ter sido um desfecho interessante, mas acabou se agarrando a plots novos e vazios de carisma e deixando para trás coisas que teriam sido relevantes e ótimas para a história. As reviravoltas, por exemplo, por causa de todo esse núcleo novo, não causaram o devido efeito na narrativa. E nem nos personagens. O final foi tão corrido para a revelação bombástica que entrega que eu fiquei procurando mais páginas porque não era possível ela terminar daquele jeito.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Ler para divertir";
+
+        var bookLinkRese2 = "http://www.lerparadivertir.com/2022/03/venha-o-que-vier-any-way-wind-blows-vol.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "3,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Entremeado a uma narrativa cheia ação, mistério e magia, encontramos os romances homossexual e birracial que são tratados de uma maneira leve e lindíssima, sem discriminação. Só não favoritei este livro porque achei o final, onde a principal revelação, já realizada no primeiro livro para os leitores, mas ainda um segredo para o Simon, foi muito rápida. Sabe quando uma trilogia acaba, mas algum tempo depois o autor lança mais um livro? Pois bem, gostaria que Simon Snow fosse uma série, onde poderíamos acompanhar um pouco mais dos personagens e suas aventuras. Quem sabe né, sonhar é de graça.";
+    break;
+
+    case 'EP':
+        document.getElementById("book-title").innerHTML = "Eleanor & Park";
+
+        var bookImg =  "images/Home/home-autor-EP.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "29 junho 2020";
+        document.getElementById("book-genre").innerHTML = "Romance";
+        document.getElementById("book-author").innerHTML = "Rainbow Rowell";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Eleanor é nova na cidade. Com roupas inusitadas, cachos ruivos indomáveis e uma família problemática, ela sente que nunca vai conseguir se encaixar. Park senta sozinho no ônibus da escola. Sempre de camiseta preta, fones de ouvido e a cabeça enfiada num livro, acha que consegue passar despercebido. Mas não para Eleanor. Aos poucos, entre fitas cassetes gravadas, pilhas de histórias em quadrinhos e conversas até tarde da noite, Eleanor e Park se apaixonam. Narrada durante o ano letivo de 1986, essa é a história de dois jovens de dezesseis anos que, mesmo sabendo que o primeiro amor quase nunca é para sempre, têm coragem e esperança suficientes para tentar.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Eleanor-Park-Rainbow-Rowell/dp/8555341000/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=FNZSLW9S534V&keywords=Eleanor+%26+Park&qid=1669611847&qu=eyJxc2MiOiIxLjcyIiwicXNhIjoiMC42MCIsInFzcCI6IjAuODIifQ%3D%3D&s=books&sprefix=%2Cstripbooks%2C205&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Eleanor+%26+Park";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/rainbow-rowell/eleanor-park/2005066393?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "360 ";
+        document.getElementById("book-date").innerHTML = "29 junho 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2020/08/resenha-eleanor-park_10.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "2,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = " Eleanor & Park tem uma construção boa e por isso consegue mascarar o abismo discutível de esteriótipos e fetichização a respeito do Park. Eu acho uma pena, porque a história da Eleanor é muito bem feita e traz mensagens importantes a respeito de abuso familiar, abandono e gordofobia. Três temáticas pesadas, mas que são sensíveis e equilibradas na narrativa. Mas não acho que seja um livro a se louvar e nem indicar. Tem muitos outros títulos sobre gordofobia a serem lidos, histórias que são impecáveis dentro de suas narrativas. Queria muito que a autora tivesse ouvido a comunidade que foi atingida por essas problemáticas e tivesse se retratado e melhorado, mas nunca fez isso - é só olhar comentários nos posts dela, qualquer crítica é completamente ignorada.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Guia do estudante";
+
+        var bookLinkRese2 = "https://guiadoestudante.abril.com.br/coluna/estante/resenha-do-leitor-eleanor-amp-park/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Difícil definir o que eu senti lendo esse livro. Foi um misto de emoções tão grande… Sabe quando você quer entrar na história e interferir, dar um empurrãozinho ou mudar alguma coisa? Acho que me sentti basicamente assim! O jeito com que a autora escreveu o livro é simplesmente perfeito. Ela soube apresentar os sentimentos e os anseios de cada personagem tão bem, que muitas vezes me sentia parte da história, sentia vontade de chorar e rir junto com eles. Em terceira pessoa, ele é composto por capítulos curtos, com o foco da narrativa alternada entres os dois, ou seja, facilita muito a leitura.";
+    break;
+
+    case 'FG':
+        document.getElementById("book-title").innerHTML = "Fan girl ";
+
+        var bookImg =  "images/Home/home-autor-FG.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "30 novembro 2020";
+        document.getElementById("book-genre").innerHTML = "Romance";
+        document.getElementById("book-author").innerHTML = "Rainbow Rowell";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Cath é fã de Simon Snow, uma série de livros que faz sucesso no mundo todo sobre um garoto feiticeiro. Mergulhar nessas histórias foi a única maneira que ela encontrou de lidar, junto com sua irmã gêmea, Wren, com a partida da mãe quando eram crianças. Desde então, a vida da garota se resume a ler, participar de fóruns sobre Simon Snow na internet, escrever fanfics, fazer cosplay dos personagens… Sempre ao lado da irmã. Mas agora Wren parece pronta para se distanciar do fandom de Simon Snow ― e da própria Cath. Afinal, ela deixou bem claro que é hora de cada uma trilhar seu próprio caminho quando avisou que não queria dividir o mesmo quarto na faculdade. Pela primeira vez, Cath se vê sozinha ― e totalmente fora de sua zona de conforto ―, e com uma colega de quarto mal-humorada que tem um namorado (bem fofo) que não sai do dormitório das duas. Para completar, ela também precisa se preocupar com o pai solitário e com sua professora de escrita literária, que abomina fanfics. Será que ela vai conseguir sobreviver a tantas mudanças e começar a viver a própria vida? E será que seguir em frente significa deixar Simon Snow para trás?";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Fangirl-Rainbow-Rowell/dp/8555341159/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=21KP54RUOEAIS&keywords=fangirl&qid=1669612169&qu=eyJxc2MiOiIyLjA1IiwicXNhIjoiMS40MSIsInFzcCI6IjEuMjkifQ%3D%3D&s=books&sprefix=eleanor+%26+park%2Cstripbooks%2C698&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=fan%20girl";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/rainbow-rowell/fangirl/1423439055?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "464";
+        document.getElementById("book-date").innerHTML = "30 novembro 2020";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Seguinte";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2014/07/resenha-fangirl.html?showComment=1614797477338"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "A escrita de Rainbow flui muito bem, do tipo que fisga e te prende desde o começo. É uma narrativa sensível, tocante e que você mal vê passar. A edição nova da Seguinte está linda como sempre. Eu amei que mantiveram a capa e, de quebra, ainda vem um marcador com ilustrações de todo mundo na orelha, caso você queira recortar. A tradução e diagramação, tá tudo muito agradável de ler. É meu YA mais queridinho do mundo e o que eu mais indico para todo mundo ler. Uma história sobre família, sobre independência e sobre encontrar coragem para tentar coisas novas.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Idris";
+
+        var bookLinkRese2 = "https://idris.com.br/blog/2020/12/22/resenha-fangirl-rainbow-rowell/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Agora que já li os outros livros da Rainbow Rowell publicados aqui no Brasil, posso garantir sem sombra de dúvidas que “Fangirl” ainda é meu favorito. É uma história que fala sobre crescer, acima de tudo, que fala sobre a família, sobre amor e amizade e também fala sobre como a saúde mental é importante. Se você está querendo ler um romance levezinho e bonitinho com uma personagem muito identificável (certeza que muitos leitores se identificam com Cath também), dê uma chance para esse livro e venha amar ele junto comigo.";
+    break;
+
+    case '9N':
+        document.getElementById("book-title").innerHTML = "Novembro, 9";
+
+        var bookImg =  "images/Home/home-autor-9.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "6 setembro 2016";
+        document.getElementById("book-genre").innerHTML = "Romance";
+        document.getElementById("book-author").innerHTML = "Colleen Hoover";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Apesar de ter apenas 18 anos, Fallon já passou por muita coisa. Sobreviveu a um incêndio que a deixou desfigurada, e viu a carreira de atriz desmoronar por conta das cicatrizes. Agora, no aniversário do fatídico acidente, ela finalmente se sente pronta para sair de Los Angeles e recomeçar a vida em Nova York. No almoço de despedida com o pai, bem na véspera da mudança, Fallon conhece Ben, um aspirante a escritor. A atração entre os dois faz com que passem o dia inteiro juntos, mas a partida iminente de Fallon os impede de viver esse amor. Decididos a vencer o destino, fazem uma promessa: se encontrar todo ano nessa mesma data. Ao longo do tempo, muitas coisas mudam na vida dos dois, mas o ritual dos encontros e sua história de amor viram enredo do livro de Ben. E, quando parece que o destino finalmente conspira para que fiquem juntos, Fallon descobre algo que a faz questionar as motivações do homem por quem está apaixonada. Será que ela não passa de mais uma personagem na trama de Ben?";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Novembro-9-Colleen-Hoover/dp/8501076252/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=1N4E4VUJZL6IF&keywords=Novembro%2C+9&qid=1669612505&qu=eyJxc2MiOiIwLjY0IiwicXNhIjoiMC41OSIsInFzcCI6IjAuNTEifQ%3D%3D&s=books&sprefix=fangirl%2Cstripbooks%2C199&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Novembro%2C%209";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/colleen-hoover/novembro-9/540331775?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "352";
+        document.getElementById("book-date").innerHTML = "6 setembro 2016";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Galera";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Queria estar lendo";
+
+        var bookLinkRese1 = "https://www.queriaestarlendo.com.br/2018/06/resenha-novembro-9.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "0,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "'Eu preciso lembrar que há mais de uma maneira de as pessoas demonstrarem amor. E mesmo que seu caminho e o meu caminho são completamente opostos, ainda é amor.' NÃO, FALLON, NÃO É. ÀS VEZES A PESSOA É SÓ UMA ABUSADORA. Às vezes a pessoa só se aproveita de você. Às vezes ela só está destruindo seu psicológico e emocional e fazendo você acreditar que o amor perdoa tudo, o amor salva todos.  PARA DE USAR ESSA DROGA DE DISCURSO DE QUE O AMOR CURA TUDO. O AMOR NÃO É SOLUÇÃO MÁGICA PARA NADA. É por isso que tem tanto relacionamento abusivo sendo minimizado, porque existem discursos como esse, que dizem que é ok ficar com uma pessoa violenta e opressora e controladora e ciumenta, afinal, 'ela ama você'. 'O amor vai salvar ela em algum momento, certo?' NÃO. NÃO ESTÁ CERTO. PARA DE ROMANTIZAR ESSA P*&%#$. Eu realmente não tenho palavras para expressar meu descontentamento com essa atrocidade. Se você tirar o romance, esse livro é basicamente um thriller/terror psicológico. E o Ben é um maldito stalker bizarro que precisava ir pra cadeia.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Minha vida literária";
+
+        var bookLinkRese2 = "https://www.minhavidaliteraria.com.br/2016/11/09/resenha-novembro-9-colleen-hoover/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Novembro, 9 se tornou um dos meus livros favoritos de Colleen Hoover pela maneira intensa com que me envolveu. Adorei as personagens e o impacto que exercem uma na outra, e adorei a força dos sentimentos despertados entre elas. Mesmo que tudo aconteça, cronologicamente, em um curto espaço de tempo, meu envolvimento foi tamanho que tudo me soou verossímil. Aos que procuram romances arrebatadores, Hoover não decepciona, e Novembro, 9 é mais uma prova disso.";
+    break;
+
+    case 'AOVT':
+        document.getElementById("book-title").innerHTML = "Até o verão terminar";
+
+        var bookImg =  "images/Home/home-autor-verao.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "30 agosto 2021";
+        document.getElementById("book-genre").innerHTML = "Romance";
+        document.getElementById("book-author").innerHTML = "Colleen Hoover";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora. Sem opção, ela recorre ao último recurso que tem e precisará passar o resto do verão na casa de praia do pai que mal conhece, da nova esposa e da filha dela que nem ao menos ouvira falar. O plano de Beyah é se manter quase invisível até poder ir para a faculdade. Mas o vizinho da casa ao lado torna tudo muito mais complicado. Afinal, é difícil ignorar o rico, bonito e misterioso Samson. Os dois parecem não ter nada em comum. Ela viveu uma vida sem dinheiro ou amor enquanto ele tem uma família rica e privilegiada. Mas no olhar dele vive uma tristeza que apenas quem também a carrega dentro de si consegue reconhecer. E isso os torna irresístiveis um para o outro. Sem terem como fugir da atração que sentem, Beyah e Samson resolvem se dar uma chance, mas apenas até o verão terminar.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Até-verão-terminar-Colleen-Hoover/dp/6559810372/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=2ZQFLH79L6WZ1&keywords=Até+o+verão+terminar&qid=1669612871&qu=eyJxc2MiOiIyLjIzIiwicXNhIjoiMS4xNyIsInFzcCI6IjAuNjAifQ%3D%3D&s=books&sprefix=novembro+9%2Cstripbooks%2C659&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Até%20o%20verão%20terminar";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/colleen-hoover/ate-o-verao-terminar/1421234511?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "352";
+        document.getElementById("book-date").innerHTML = "30 agosto 2021";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Galera";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenha dos sonhos";
+
+        var bookLinkRese1 = "https://resenhandosonhos.com/ate-o-verao-terminar-colleen-hoover/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "O ponto alto do livro para mim foi a relação entre a Beyah e a Sara. Vi na Sarah tudo que a Beyah precisava, e vice-versa também: uma amizade honesta, com bastante sororidade, madureza e muitoa cumplicidade. Em várias vezes fiquei esperando que a Beyah entendesse como era incrível a segunda chance na vida que ela estava recebendo ao encontrar uma nova família para chamar de lar. Gostei muito do final, de como com alguma ajuda a Beyah se colocou em primeira plano na própria vida pela primeira vez e não ficou estagnada esperando por outros. E de modo geral, esse livro não é um dos melhores da autora, mas é uma boa pedida para quem curte personagens quebrados e uma boa dose de drama familiar.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Dicas de Malu";
+
+        var bookLinkRese2 = "http://www.dicasdemalu.com.br/2021/10/resenha-ate-o-verao-terminar.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Mas não pensem que não tem drama nesse livro. Afinal, estamos falando da Colleen Hoover e ela tem o dom de pisar nos nossos sentimentos. Então, quando eu menos esperava, ela atacou novamente e deixou meu coração pequenininho, sofrendo muito por esses personagens. Confesso que não esperava ficar tão apegada a eles, mas quando dei por mim, já estava com os olhos cheios de lágrimas e querendo proteger Beyah e Samson do mundo. Eu posso ter começado Até o verão terminar de forma despretensiosa, mas ele se tornou um dos meus favoritos da autora. Apesar de ter sentido falta de um final mais detalhado, esse livro me trouxe uma montanha-russa de emoções que eu não esperava. Ele fala sobre perda, abandono e abuso, mas também sobre recomeços, família, amizade, amor e, principalmente, esperança. É um livro que mostra a capacidade da Colleen de partir o coração do leitor, mas também de juntar os pedaços e deixá-lo cheio de amor.";
+    break;
+
+    case 'HP1':
+        document.getElementById("book-title").innerHTML = "Harry Potter: A pedra filosofal";
+
+        var bookImg =  "images/Home/home-saga-HP1.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=RI4XHG1L93Q0&keywords=Harry+Potter%3A+A+pedra+filosofal&qid=1669613182&qu=eyJxc2MiOiIxLjU1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=até+o+verão+terminar%2Cstripbooks%2C193&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Harry%20Potter%3A%20A%20pedra%20filosofal";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/busca?q=Harry%20Potter%3A%20A%20pedra%20filosofal";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Livro bingo";
+
+        var bookLinkRese1 = "https://www.livrobingo.com.br/resenha-harry-potter-e-a-pedra-filosofal"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Independente qual for a sua idade, este livro vale à pena. E muito. Harry Potter é um marco na cultura pop e os livros são apenas uma parte de toda essa transformação que houve nos últimos 20 anos no ramo do entretenimento. Se você nunca leu, leia. E se você leu na época do lançamento, assim como eu, leia novamente. Certamente a sua experiência será gratificante. O último capítulo é dedicado a essa aventura em busca da Pedra filosofal. É emocionante e com uma reviravolta incrível. Não era Snape o interessado nela. Era Quirell, um professor de pouca importância, que nunca tivera sido cogitado como possível interessado nela. Voldemort, ainda muito fraco, apossou do corpo do professor e tenta roubar a Pedra, que estranhamente caiu no bolso de Harry. O vilão não consegue e, novamente, perde uma batalha para Harry Potter.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Leitor compulsivo";
+
+        var bookLinkRese2 = "http://leitorcompulsivo.com.br/2019/01/08/resenha-harry-potter-e-a-pedra-filosofal-vol-01-j-k-rowling/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = " ‘Harry Potter e a Pedra Filosofal’ foi um lar para mim. Eu gostei de muitas coisas, para não dizer todas, desse livro. Primeiramente, a simplicidade. Obviamente estamos falando de um livro voltado, a princípio, para crianças, portanto a linguagem precisa se adequar ao seu público-alvo, sendo bem direta e simples, sem muitas descrições e devaneios. Mas, sabe aquela sensação de que existe algo a mais? Gostei também da ambientação e de cada detalhe deste mundo criado pela J.K. Rowling – e quem não gostaria de ir até Hogwarts jogar um pouco de quadribol ou ir à procura de unicórnios ao lado de Hagrid à noite na Floresta Proibida, mesmo que dê arrepios na espinha, ou até mesmo jogar uma partida de xadrez de bruxo? Volto a repetir, este livro é mágico. A imersão é tão poderosa que faz você desejar que tudo seja verdadeiro, além dos limites da ficção. Faz você voltar a ser criança, a sonhar com um lugar em que voar em vassouras é legal e que existe uma aula de poções. Somado a tudo isso, a amizade que eu vi crescer, aos poucos, entre os personagens aqueceu meu coração e, talvez, seja o ápice de tudo. Porque é isso que a autora quis passar, ao meu ver. Que não importa onde você esteja ou o quanto de dinheiro você tenha ou qual nome/legado você carrega. Se não tiver a quem confiar, ou a quem dividir, então não terá nada.";
+    break;
+
+    case 'HP2':
+        document.getElementById("book-title").innerHTML = "Harry Potter: A câmara secreta";
+
+        var bookImg =  "images/Home/home-saga-HP2.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry. Persistente e astuto, o herói não se deixa intimidar pelos obstáculos e, com a ajuda dos fiéis amigos Weasley, começa o ano letivo na Escola de Magia e Bruxaria de Hogwarts. As novidades não são poucas. Novos colegas, novos professores, muitas e boas descobertas e um grande e perigosos desafio. Alguém ou alguma coisa ameaça a segurança e a tranquilidade dos membros de Hogwarts.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Câmara-Secreta-Rowling/dp/8532530796/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=UWXNZTLR0X8C&keywords=Harry+Potter%3A+A+câmara+secreta&qid=1669613531&qu=eyJxc2MiOiIxLjM4IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=harry+potter+a+pedra+filosofal%2Cstripbooks%2C329&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Harry%20Potter%3A%20A%20câmara%20secreta";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-a-camara-secreta/2467774582?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenhando";
+
+        var bookLinkRese1 = "https://resenhandopormarina.com/harry-potter-e-a-camara-secreta/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Sobre a diagramação do livro, mantenho o que disse na resenha do primeiro livro… Como disse lá em cima, eu estou lendo os livros que são do Box com a lombada de Hogwarts. Ele é bem bonito, a capa é soft touch, com uma ilustração linda da capa, o título é mais brilhante e em relevo. Por dentro, que eu já achei um problema. O livro não tem orelha, o que acaba fazendo com que ele fique um pouco mole, com mais facilidade para dar aqueles amassadinhos, sabe? Minha impressão é que é um livro frágil. As folhas são amareladas, mas um pouco finas demais, e dependendo da luz, a gente enxerga do outro lado. Mas, cada abertura de capítulo tem uma ilustração condizente e fica muito fofo! Não comentei ainda, mas a narrativa do livro é em terceira pessoa.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Plano crítico";
+
+        var bookLinkRese2 = "https://www.planocritico.com/critica-harry-potter-e-a-camara-secreta-de-j-k-rowling/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Felizmente, apesar de seus deslizes, Harry Potter e a Câmara Secreta nos deixa com uma percepção bastante positiva sobre esse mundo de magia e bruxaria. Temos aqui um romance que se aprofunda não somente no universo criado por J.K. Rowling, como nos seus personagens (ainda que haja o problema das falas). Goste ou não, é inegável que a autora sabia o que fazia desde cedo e seu temor inicial acerca das expectativas criadas pelo primeiro livro certamente foram infundadas, visto que ela conseguiu nos trazer uma história tão boa quanto a primeira.";
+    break;
+
+    case 'HP3':
+        document.getElementById("book-title").innerHTML = "Harry Potter: O prisoneiro Azkban";
+
+        var bookImg =  "images/Home/home-saga-HP3.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/853253080X/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=22JV9913EB2OB&keywords=o+prisioneiro+azkaban&qid=1669614119&qu=eyJxc2MiOiIxLjA3IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=harry+potter+e+a+câmara+secreta%2Cstripbooks%2C215&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=O%20prisoneiro%20Azkban";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-o-prisioneiro-de-azkaban/2788130786?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenhando";
+
+        var bookLinkRese1 = "https://resenhandopormarina.com/harry-potter-e-o-prisioneiro-de-azkaban/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Confesso que esse terceiro livro é um dos meus preferidos. A gente descobre bastante coisa sobre o passado dos pais de Harry e seus amigos. A história do Mundo Bruxo também vai se tornando mais sombria, séria e mais adulta. Podemos sentir que a volta de Voldemort está perto. Lembrando que a narrativa dos livros é feita em terceira pessoa.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Balaio de babados";
+
+        var bookLinkRese2 = "https://www.balaiodebabados.com.br/2018/12/resenha-338-harry-potter-e-o-prisioneiro-de-azkaban.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Agora um detalhe que me deixou bem revoltada nesse livro é o modo que Rony trata Hermione. Desde o primeiro livro, vemos que ela sofre um bullying bem velado entre seus companheiros de escola (Harry e Rony incluídos) por ser uma garota inteligente e bastante dedicada aos estudos. Nos outros livros não foram muitas situações em que o Rony maltratou a garota com palavras, mas nesse livro a situação chegou num limite que deu vontade de chegar e dar um murro na cara dele.";
+    break;
+
+    case 'HP4':
+        document.getElementById("book-title").innerHTML = "Harry Potter: O cálice de fogo";
+
+        var bookImg =  "images/Home/home-saga-HP4.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry. Persistente e astuto, o herói não se deixa intimidar pelos obstáculos e, com a ajuda dos fiéis amigos Weasley, começa o ano letivo na Escola de Magia e Bruxaria de Hogwarts. As novidades não são poucas. Novos colegas, novos professores, muitas e boas descobertas e um grande e perigosos desafio. Alguém ou alguma coisa ameaça a segurança e a tranquilidade dos membros de Hogwarts.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Câmara-Secreta-Rowling/dp/8532530796/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=UWXNZTLR0X8C&keywords=Harry+Potter%3A+A+câmara+secreta&qid=1669613531&qu=eyJxc2MiOiIxLjM4IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=harry+potter+a+pedra+filosofal%2Cstripbooks%2C329&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=Harry%20Potter%3A%20A%20câmara%20secreta";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-a-camara-secreta/2467774582?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenhando";
+
+        var bookLinkRese1 = "https://resenhandopormarina.com/harry-potter-e-a-camara-secreta/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Sobre a diagramação do livro, mantenho o que disse na resenha do primeiro livro… Como disse lá em cima, eu estou lendo os livros que são do Box com a lombada de Hogwarts. Ele é bem bonito, a capa é soft touch, com uma ilustração linda da capa, o título é mais brilhante e em relevo. Por dentro, que eu já achei um problema. O livro não tem orelha, o que acaba fazendo com que ele fique um pouco mole, com mais facilidade para dar aqueles amassadinhos, sabe? Minha impressão é que é um livro frágil. As folhas são amareladas, mas um pouco finas demais, e dependendo da luz, a gente enxerga do outro lado. Mas, cada abertura de capítulo tem uma ilustração condizente e fica muito fofo! Não comentei ainda, mas a narrativa do livro é em terceira pessoa.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Plano crítico";
+
+        var bookLinkRese2 = "https://www.planocritico.com/critica-harry-potter-e-a-camara-secreta-de-j-k-rowling/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Felizmente, apesar de seus deslizes, Harry Potter e a Câmara Secreta nos deixa com uma percepção bastante positiva sobre esse mundo de magia e bruxaria. Temos aqui um romance que se aprofunda não somente no universo criado por J.K. Rowling, como nos seus personagens (ainda que haja o problema das falas). Goste ou não, é inegável que a autora sabia o que fazia desde cedo e seu temor inicial acerca das expectativas criadas pelo primeiro livro certamente foram infundadas, visto que ela conseguiu nos trazer uma história tão boa quanto a primeira.";
+    break;
+
+    case 'HP5':
+        document.getElementById("book-title").innerHTML = "Harry Potter: A ordem da fênix";
+
+        var bookImg =  "images/Home/home-saga-HP5.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Harry não é mais um garoto. Aos 15 anos, continua sofrendo a rejeição dos Dursdley, sua estranha família no mundo dos 'trouxas'. Também continua contando com Rony Weasley e Hermione Granger, seus melhores amigos em Hogwarts, para levar adiante suas investigações e aventuras. Mas o bruxinho começa a sentir e descobrir coisas novas, como o primeiro amor e a sexualidade. Nos volumes anteriores, J. K. Rowling mostrou como Harry foi transformado em celebridade no mundo da magia por ter derrotado, ainda bebê, Voldemort, o todopoderoso bruxo das trevas que assassinou seus pais. Neste quinto livro da saga, o protagonista, numa crise típica da adolescência, tem ataques de mau humor com a perseguição da imprensa, que o segue por todos os lugares e chega a inventar declarações que nunca deu. Harry vai enfrentar as investidas de Voldemort sem a proteção de Dumbledore, já que o diretor de Hogwarts é afastado da escola. E vai ser sem a ajuda de seu protetor que o jovem herói enfrentará descobertas sobre a personalidade controversa de seu pai, Tiago Potter, e a morte de alguém muito próximo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Ordem-Fênix-Rowling/dp/8532530826/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=19XKXOV60IAGT&keywords=A+ordem+da+fênix&qid=1669614350&qu=eyJxc2MiOiIwLjYxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=o+prisioneiro+azkaban%2Cstripbooks%2C261&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=A%20ordem%20da%20fênix";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-a-ordem-da-fenix/3917209032?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Resenhando";
+
+        var bookLinkRese1 = "https://resenhandopormarina.com/harry-potter-e-a-ordem-da-fenix/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Harry, definitivamente, não é uma pessoa perfeita. E este seja talvez um dos motivos de seu sucesso. Crescer é algo que não acontece só com ele, e os leitores podem esperar mudanças dramáticas também na família Weasley, com Neville e, como era de se esperar, uma Hermione bem mais crescida que seus dois amigos. Pelo menos no que diz respeito a entender o que se passa na cabeça de Cho Chang e Harry. Como sempre, a história começa durante as férias, quando Harry está na casa dos tios. Reler os últimos capítulos de O Cálice de Fogo antes de começar pode ser uma boa idéia para compreender seu estado de espírito. A vida suburbana, no entanto, logo é abandonada com o primeiro atentado à vida de Harry, o que faz com que ele seja escoltado para longe da casa dos tios por Lupin, Olho Tonto Moody e uns novos personagens.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Balaio de babados";
+
+        var bookLinkRese2 = "https://www.balaiodebabados.com.br/2019/03/resenha-368-harry-potter-e-ordem-da-fenix.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "A Ordem da Fênix é o maior livro da série, com suas setecentas e tantas páginas, porém há algumas situações ali que poderiam ter sido retiradas que nem iriam fazer falta, como toda a faxina e a preparação natalina na casa dos Black. Felizmente a autora compensa em outros detalhes, como o capítulo dedicado somente aos Níveis Ordinários de Magia (N.O.M.s), que juro pra vocês que achava que tomava uma grande parte do livro. Gostei muito das organizações apresentadas - Ordem da Fênix e Armada de Dumbledore - apesar de achar que deveriam ter tido um pouco mais de foco. A reta final, como as dos outros livros, também é de tirar o fôlego. Confesso que não achei a morte de tal personagem tãão impactante assim. Primeiro porque eu fiquei bem confusa da primeira vez que li e segundo, eu achava que era realmente mais impactante pelo jeito que todos comentam. No caso, é uma opinião particular já que nunca fui muito partidária do personagem..";
+    break;
+
+    case 'HP6':
+        document.getElementById("book-title").innerHTML = "Harry Potter: O enigma do príncipe";
+
+        var bookImg =  "images/Home/home-saga-HP6.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Harry Potter e o enigma do príncipe' dá continuidade à saga do jovem bruxo Harry Potter a partir do ponto em que o livro anterior parou o momento em que fica provado que o poder de Voldemort e dos Comensais da Morte, seus seguidores, cresce mais a cada dia, em meio à batalha entre o bem e o mal. A onda de terror provocada pelo Lorde das Trevas estaria afetando, até mesmo, o mundo dos trouxas (nãobruxos), e sendo agravada pela ação dos dementadores, criaturas mágicas aterrorizantes que 'sugam' a esperança e a felicidade das pessoas. Harry, que acabou de completar 16 anos, parte rumo ao sexto ano na Escola de Magia e Bruxaria de Hogwarts, animado e ao mesmo tempo apreensivo com a perspectiva de ter aulas particulares com o professor Dumbledore, o diretor da escola e o bruxo mais respeitado em toda comunidade mágica. Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida que os rumores de que ele é O Eleito o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo dos bruxos. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período. Apesar de tudo isso, Harry e os amigos são adolescentes típicos dividem tarefas escolares e dormitórios bagunçados, correm das aulas para os treinos de quadribol, e namoram.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-Enigma-do-Príncipe/dp/8532530834/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=2159XR5HLCH7Y&keywords=O+enigma+do+príncipe&qid=1669614614&qu=eyJxc2MiOiIwLjg5IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=a+ordem+da+fênix%2Cstripbooks%2C359&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=O%20enigma%20do%20príncipe";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-o-enigma-do-principe/1568524959?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Minha vida literaria";
+
+        var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2020/06/11/video-harry-potter-e-o-enigma-do-principe-redescobrindo-hogwarts/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida que os rumores de que ele é O Eleito, o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo dos bruxos. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período.  Apesar de tudo isso, Harry e os amigos são adolescentes típicos: dividem tarefas escolares e dormitórios bagunçados, correm das aulas para os treinos de quadribol, e namoram. Rony e Hermione os melhores amigos de Harry, se dão conta (finalmente!) da atração que sentem um pelo outro; Harry e Gina, a irmã mais nova de Rony, também.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Balaio de babados";
+
+        var bookLinkRese2 = "https://www.balaiodebabados.com.br/2019/04/resenha-381-harry-potter-e-o-enigma-do-principe.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "De resto, tudo continua o mesmo dos outros livros. JK narrando o dia-a-dia e a vida escolar de Harry, ao mesmo tempo que vai destrinchando as informações sobre Voldemort e as sombrias horcruxes. Não sei se foi por conta da experiência com OdF, mas achei que nesse aqui JK foi mais direto ao ponto em algumas situações. Nesse livro também temos hormônios à flor da pele nos personagens. Confesso que essas picuinhas de ciúmes meio que quebraram o clima da história, mas levei em consideração quando a história foi escrita e que ali são tudo um bando de adolescente. Com o final de quebrar corações, Harry se encontra cada mais próximo de enfrentar Voldemort, criando todo o clímax para o desfecho da série em As Relíquias da Morte.";
+    break;
+
+    case 'HP7':
+        document.getElementById("book-title").innerHTML = "Harry Potter: As relíquias da morte";
+
+        var bookImg =  "images/Home/home-saga-HP7.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Harry Potter e as relíquias da morte', de J.K. Rowling, é o sétimo e último livro da série. Voldemorte está cada vez mais forte e Harry Potter precisa encontrar e aniquilar as Horcruxes para enfraquecer o lorde e poder enfrentálo. Nessa busca desenfreada, contando apenas com os amigos Rony e Hermione, Harry descobre as Relíquias da Morte, que serão úteis na batalha do bem contra o mal. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período. Apesar de tudo isso, Harry e os amigos são adolescentes típicos dividem tarefas escolares e dormitórios bagunçados, correm das aulas para os treinos de quadribol, e namoram.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Harry-Potter-as-Relíquias-Morte/dp/8532530842/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&crid=26KCATD8CL9SA&keywords=As+relíquias+da+morte&qid=1669614821&qu=eyJxc2MiOiIxLjM5IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=as+relíquias+da+morte%2Cstripbooks%2C213&sr=1-1";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=As%20relíquias%20da%20morte";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-as-reliquias-da-morte/4008097210?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "De livro em livro";
+
+        var bookLinkRese1 = "http://www.delivroemlivro.com.br/2012/01/resenha-36-harry-potter-e-as-reliquias.html"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "3,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Cheguei ao fim da leitura da série Harry Potter, e agora percebo que sete livros se tornaram pouco para quem realmente se deixou cativar pelo bruxinho. É com alegria que vejo o desenrolar da história, mas foi com pesar que li a última frase do livro, porque vou ficar morrendo de saudades já não há outro em seguida. Espero poder reler a série novamente e assistir aos filmes (nunca assisti nenhum). Bem, estou aqui tentando escrever uma resenha sobre esse livro e percebo o quanto é dificil por tamanha complexidade e inumeras informações contidas nele e, tenho convicção, de que nenhuma resenha, feita por mim ou por qualquer outra pessoa será suficientemente fiel ao desejo de poder expor todo o prazer que o resenhista sentiu ao realizar a leitura da série. Não obstante, vou tentar ser objetiva, mas tenho certeza que poderia passar o dia todo falado do livro que não me cansaria. Acho que a resenha será não só de uma fã, mas de garota que se deixou cativar e apaixonar por Harry Potter. ";
+        
+        document.getElementById("rese-2-name").innerHTML = "Balaio de babados";
+
+        var bookLinkRese2 = "https://www.balaiodebabados.com.br/2019/06/resenha-399-harry-potter-e-as-reliquias-da-morte.html"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "4,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Um dos pontos fortes do livro são as informações reveladas sobre o passado de Dumbledore. O ex-diretor de Hogwarts sempre pareceu ser um personagem com bastante segredos e nesse livro contamos com a versão bruxa de Sônia Abraão para explorar a morte do diretor, vendendo sua biografia. Um lado positivo dessa releitura foi justamente lembrar desses detalhes e ver como algumas coisas em Animais Fantásticos e Onde Eles Habitam contradizem. Vida que segue…";
+    break;
+
+    case 'HP8':
+        document.getElementById("book-title").innerHTML = "Harry Potter: As relíquias da morte";
+
+        var bookImg =  "images/Home/home-saga-HP8.jpg";
+        var setImg = document.getElementById("book-cover");
+        setImg.setAttribute("src", bookImg);
+
+        document.getElementById("book-data").innerHTML = "19 agosto 2017";
+        document.getElementById("book-genre").innerHTML = "Ficção";
+        document.getElementById("book-author").innerHTML = "J.K. Rowling";
+
+        var firstStar =  "/images/Book/rating-set-star.png";
+        var setFirstStar = document.getElementById("star-1");
+        setFirstStar.setAttribute("src", firstStar);
+        var secondStar =  "/images/Book/rating-set-star.png";
+        var setSecondStar = document.getElementById("star-2");
+        setSecondStar.setAttribute("src", secondStar);
+        var thirdStar =  "/images/Book/rating-set-star.png";
+        var setThirdStar = document.getElementById("star-3");
+        setThirdStar.setAttribute("src", thirdStar);
+        var fourthStar =  "/images/Book/rating-set-star.png";
+        var setFourthStar = document.getElementById("star-4");
+        setFourthStar.setAttribute("src", fourthStar);
+        var fifthStar =  "/images/Book/rating-set-star.png";
+        var setFifthStar = document.getElementById("star-5");
+        setFifthStar.setAttribute("src", fifthStar);
+
+        document.getElementById("book-text").innerHTML = "Faz dezenove anos desde que Harry Potter, Ron Weasley e Hermione Granger salvaram o mundo bruxo e agora eles estão de volta em uma aventura extraordinária, acompanhados de uma nova e corajosa geração que acabou de chegar à Escola de Magia e Bruxaria de Hogwarts. Enquanto Harry lida com um passado que se recusa a ficar onde pertence, seu filho mais novo, Alvo Potter, sofre com o peso de um legado de família que ele nunca desejou. À medida que passado e presente colidem, pai e filho se veem presos em uma corrida contra o tempo, tendo que enfrentar forças misteriosas enquanto o futuro está em jogo.";
+
+        var bookLinkAmazon = "https://www.amazon.com.br/Potter-Criança-Amaldiçoada-Especial-Roteiro-ebook/dp/B01LQM9768/ref=sr_1_2?__mk_pt_BR=ÅMÅŽÕÑ&crid=2NPOG1RDSS8RE&keywords=A+criança+amaldiçoada&qid=1669615020&qu=eyJxc2MiOiIyLjA3IiwicXNhIjoiMS4wOCIsInFzcCI6IjAuODkifQ%3D%3D&s=books&sprefix=a+criança+amaldiçoada%2Cstripbooks%2C199&sr=1-2";
+        var setLinkAmazon = document.getElementById("amazon-btn");
+        setLinkAmazon.setAttribute("href", bookLinkAmazon);
+
+        var bookLinkSaraiva = "https://busca.saraiva.com.br/busca?q=A%20criança%20amaldiçoada";
+        var setLinkSaraiva = document.getElementById("saraiva-btn");
+        setLinkSaraiva.setAttribute("href", bookLinkSaraiva);
+
+        var bookLinkEstante = "https://www.estantevirtual.com.br/livros/j-k-rowling/harry-potter-e-a-crianca-amaldicoada/1411039179?show_suggestion=0";
+        var setLinkEstante = document.getElementById("estante-btn");
+        setLinkEstante.setAttribute("href", bookLinkEstante);
+
+        document.getElementById("book-page").innerHTML = "208 ";
+        document.getElementById("book-date").innerHTML = "19 agosto 2017";
+        document.getElementById("book-lang").innerHTML = "Português";
+        document.getElementById("book-edit").innerHTML = "Rocco";
+        document.getElementById("book-height").innerHTML = "13.5 x 1.6 x 20.8 cm";
+        document.getElementById("book-kid").innerHTML = "+13 anos"; 
+
+        document.getElementById("rese-1-name").innerHTML = "Minha vida literaria";
+
+        var bookLinkRese1 = "https://www.minhavidaliteraria.com.br/2016/12/08/resenha-harry-potter-e-crianca-amaldicoada-j-k-rowling/"; 
+
+        var setLinkRese1 = document.getElementById("rese-1-a");
+        setLinkRese1.setAttribute("href", bookLinkRese1);
+
+        document.getElementById("rese-1-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-1-text").innerHTML = "Falar de Harry Potter e a Criança Amaldiçoada sem falar em nostalgia, para mim, é certamente impossível. Não tenho como descrever a emoção que senti ao abrir a primeira página e compreender que eu finalmente estava de volta, algo que jamais imaginei que aconteceria de maneira inédita. Assim, essa foi uma experiência completamente única e particular, além de intensamente emocional, de forma que teria sido praticamente impossível me desagradar. Senti que esse foi uma homenagem de J.K. Rowling à série, e um presente a ela. E como potterhead da Geração Harry Potter, fiquei mais do que agradecida por ele.";
+        
+        document.getElementById("rese-2-name").innerHTML = "Além do livro";
+
+        var bookLinkRese2 = "https://alemdolivro.com/2017/10/11/resenha-de-harry-potter-e-a-crianca-amaldicoada-harry-potter-8-j-k-rowling-jack-thorne-e-john-tiffany/"; 
+        var setLinkRese2 = document.getElementById("rese-2-a");
+        setLinkRese2.setAttribute("href", bookLinkRese2);
+
+        document.getElementById("rese-2-rate").innerHTML = "5,0 / 5,0";
+
+        document.getElementById("resen-2-text").innerHTML = "Em Criança Amaldiçoada, conhecemos uma nova história do universo HP, mas também revisitamos o passado por meio da viagem no tempo. O recurso já costuma render boas tramas (olá, Teoria do Caos!) e, neste caso, é uma maneira genial de nos reconectar a Harry Potter e cia. – principalmente para quem terminou de ler a série há mais tempo. Apesar de ser muito mais leve do que os outros livros da saga – especialmente os últimos -, Criança Amaldiçoada conta com boas revelações e plot twists. No final, por mais que “não seja a mesma coisa”, é inevitável aquele gostinho de quero mais!";
     break;
 
     case 'AMN':
