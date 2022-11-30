@@ -724,7 +724,7 @@ function calculateQuestion(number) {
             break;
         case 28:
             var elementsQuestion = [
-                "OC","OSMDEH","GE","UDNEM","MPDBC","OS","DFQR","VDDE","NQSCV","AA","ANM","APS","OHDG","TA","MQCCOL","TER","FG","A","ODDAF","1984","ARDB",
+                "OC","OSMDEH","GE","UDNEM","MPDBC","OS","DFQR","VDDE","NQSCV","AA","ANM","APS","OHDG","TA","MQCCOL","TER","FG","A","1984","ARDB",
             ]
             var newAllQuestion = []
             for(var i = 0; i < allBooks.length; i++) {
