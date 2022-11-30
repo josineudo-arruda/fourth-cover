@@ -3985,6 +3985,24 @@ function searchMovie() {
 
             bookSituation[84] = false;
         }  else if(bookSituation[85] == true) {
+            var bookImg =  "images/genre/genre-drama-extraodinário.jpg";
+            var setImg = document.getElementById(poster[i]);
+            setImg.setAttribute("src", bookImg);
+
+            document.getElementById(title[i]).innerHTML = "Extraodinário"
+
+            var bookClass = "line line-sm";
+            var setClass = document.getElementById(title[i]);
+            setClass.setAttribute("class", bookClass);
+
+            searchedBooks.push("E");
+
+            var bookLink = "E";
+            var setLink = document.getElementById(button[i]);
+            setLink.setAttribute("value", bookLink);
+
+            bookSituation[85] = false;
+        }  else if(bookSituation[86] == true) {
             var bookImg =  "images/genre/genre-drama-hibisco.jpg";
             var setImg = document.getElementById(poster[i]);
             setImg.setAttribute("src", bookImg);
@@ -4001,8 +4019,10 @@ function searchMovie() {
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
 
-            bookSituation[85] = false;
-        }  else if(bookSituation[86] == true) {
+            
+
+            bookSituation[86] = false;
+        }  else if(bookSituation[87] == true) {
             var bookImg =  "images/genre/genre-drama-purpura.jpg";
             var setImg = document.getElementById(poster[i]);
             setImg.setAttribute("src", bookImg);
@@ -4016,24 +4036,6 @@ function searchMovie() {
             searchedBooks.push("ACP");
 
             var bookLink = "ACP";
-            var setLink = document.getElementById(button[i]);
-            setLink.setAttribute("value", bookLink);
-
-            bookSituation[86] = false;
-        }  else if(bookSituation[87] == true) {
-            var bookImg =  "images/genre/genre-drama-extraodinário.jpg";
-            var setImg = document.getElementById(poster[i]);
-            setImg.setAttribute("src", bookImg);
-
-            document.getElementById(title[i]).innerHTML = "Extraodinário"
-
-            var bookClass = "line line-sm";
-            var setClass = document.getElementById(title[i]);
-            setClass.setAttribute("class", bookClass);
-
-            searchedBooks.push("E");
-
-            var bookLink = "E";
             var setLink = document.getElementById(button[i]);
             setLink.setAttribute("value", bookLink);
 
