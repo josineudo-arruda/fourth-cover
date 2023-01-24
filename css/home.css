@@ -115,14 +115,14 @@ footer {
 }
 
 section .hearstopper {
-  background-image: url(/images/Home/background-hearstopper.png);
+  background-image: url(../images/Home/background-hearstopper.png);
   border: 10px solid #8fe0e0;
   border-radius: 10px;
   padding: 20px;
 }
 
 section .harry-potter {
-  background-image: url(/images/Home/background-harrypotter.jpg) ;
+  background-image: url(../images/Home/background-harrypotter.jpg) ;
   margin-top: 30px;
   border: 10px solid #302c5c;
   border-radius: 10px;

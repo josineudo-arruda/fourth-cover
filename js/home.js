@@ -53,7 +53,7 @@ function showBook(position, name) {
 
   switch (name) {
     case 'anne':
-      var bookPoster = "/images/Home/home-acclaimed-anne.jpg";
+      var bookPoster = "images//Home/home-acclaimed-anne.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -70,7 +70,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'blood':
-      var bookPoster = "/images/Home/home-acclaimed-blood.jpg";
+      var bookPoster = "images//Home/home-acclaimed-blood.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -87,7 +87,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'two':
-      var bookPoster = "/images/Home/home-acclaimed-two.jpg";
+      var bookPoster = "images//Home/home-acclaimed-two.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -104,7 +104,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'collector':
-      var bookPoster = "/images/Home/home-acclaimed-collector.jpg";
+      var bookPoster = "images//Home/home-acclaimed-collector.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -121,7 +121,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'verity':
-      var bookPoster = "/images/Home/home-acclaimed-verity.jpg";
+      var bookPoster = "images//Home/home-acclaimed-verity.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -138,7 +138,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'evelyn':
-      var bookPoster = "/images/Home/home-acclaimed-evelyn.jpg";
+      var bookPoster = "images//Home/home-acclaimed-evelyn.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -155,7 +155,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'looking':
-      var bookPoster = "/images/Home/home-acclaimed-looking.jpg";
+      var bookPoster = "images//Home/home-acclaimed-looking.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -172,7 +172,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'hansen':
-      var bookPoster = "/images/Home/home-acclaimed-hansen.jpg";
+      var bookPoster = "images//Home/home-acclaimed-hansen.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -189,7 +189,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'girl':
-      var bookPoster = "/images/Home/home-acclaimed-girl.jpg";
+      var bookPoster = "images//Home/home-acclaimed-girl.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -206,7 +206,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'lying':
-      var bookPoster = "/images/Home/home-acclaimed-lying.jpg";
+      var bookPoster = "images//Home/home-acclaimed-lying.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -223,7 +223,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'lake':
-      var bookPoster = "/images/Home/home-acclaimed-lake.jpg";
+      var bookPoster = "images//Home/home-acclaimed-lake.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -240,7 +240,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'boys':
-      var bookPoster = "/images/Home/home-acclaimed-boys.jpg";
+      var bookPoster = "images//Home/home-acclaimed-boys.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -257,7 +257,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'memories':
-      var bookPoster = "/images/Home/home-brazil-memories.jpg";
+      var bookPoster = "images//Home/home-brazil-memories.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -274,7 +274,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'sertoes':
-      var bookPoster = "/images/Home/home-brazil-sertoes.jpg";
+      var bookPoster = "images//Home/home-brazil-sertoes.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -291,7 +291,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'folhas':
-      var bookPoster = "/images/Home/home-brazil-folhas.jpg";
+      var bookPoster = "images//Home/home-brazil-folhas.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -308,7 +308,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'muralha':
-      var bookPoster = "/images/Home/home-brazil-muralha.jpg";
+      var bookPoster = "images//Home/home-brazil-muralha.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -325,7 +325,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'salto':
-      var bookPoster = "/images/Home/home-brazil-salto.jpg";
+      var bookPoster = "images//Home/home-brazil-salto.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -342,7 +342,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'encontro':
-      var bookPoster = "/images/Home/home-brazil-encontro.jpg";
+      var bookPoster = "images//Home/home-brazil-encontro.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -359,7 +359,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'obvio':
-      var bookPoster = "/images/Home/home-brazil-obvio.jpg";
+      var bookPoster = "images//Home/home-brazil-obvio.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -376,7 +376,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'engolir':
-      var bookPoster = "/images/Home/home-brazil-engolir.jpg";
+      var bookPoster = "images//Home/home-brazil-engolir.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -393,7 +393,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'contos':
-      var bookPoster = "/images/Home/home-brazil-contos.jpg";
+      var bookPoster = "images//Home/home-brazil-contos.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -410,7 +410,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'quero':
-      var bookPoster = "/images/Home/home-brazil-quero.jpg";
+      var bookPoster = "images//Home/home-brazil-quero.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -427,7 +427,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'finais':
-      var bookPoster = "/images/Home/home-brazil-finais.jpg";
+      var bookPoster = "images//Home/home-brazil-finais.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -444,7 +444,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'querido':
-      var bookPoster = "/images/Home/home-brazil-ex.jpg";
+      var bookPoster = "images//Home/home-brazil-ex.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -461,7 +461,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'aurora':
-        var bookPoster = "/images/Home/home-popullar-aurora.jpg";
+        var bookPoster = "images//Home/home-popullar-aurora.jpg";
         var setPoster = document.getElementById(poster[position - 1]);
         setPoster.setAttribute("src", bookPoster);
   
@@ -490,7 +490,7 @@ function showBook(position, name) {
         setLink.setAttribute("href", bookLink);
       break;
     case 'mundo':
-      var bookPoster = "/images/Home/home-popullar-mundo.jpg";
+      var bookPoster = "images//Home/home-popullar-mundo.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -519,7 +519,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'royal':
-      var bookPoster = "/images/Home/home-popullar-royal.jpg";
+      var bookPoster = "images//Home/home-popullar-royal.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -548,7 +548,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'gelato':
-      var bookPoster = "/images/Home/home-popullar-gelato.jpg";
+      var bookPoster = "images//Home/home-popullar-gelato.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -577,7 +577,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'acaba':
-      var bookPoster = "/images/Home/home-popullar-acaba.jpg";
+      var bookPoster = "images//Home/home-popullar-acaba.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -606,7 +606,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'silenciosa':
-      var bookPoster = "/images/Home/home-popullar-silenciosa.jpg";
+      var bookPoster = "images//Home/home-popullar-silenciosa.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -635,7 +635,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'giz':
-      var bookPoster = "/images/Home/home-popullar-giz.jpg";
+      var bookPoster = "images//Home/home-popullar-giz.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -664,7 +664,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'tortoarado':
-      var bookPoster = "/images/Home/home-popullar-tortoarado.jpg";
+      var bookPoster = "images//Home/home-popullar-tortoarado.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -693,7 +693,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'imperfeicoes':
-      var bookPoster = "/images/Home/home-popullar-imperfeicoes.jpg";
+      var bookPoster = "images//Home/home-popullar-imperfeicoes.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -722,7 +722,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'lobos':
-      var bookPoster = "/images/Home/home-popullar-lobos.jpg";
+      var bookPoster = "images//Home/home-popullar-lobos.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -751,7 +751,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'rio':
-      var bookPoster = "/images/Home/home-popullar-rio.jpg";
+      var bookPoster = "images//Home/home-popullar-rio.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -780,7 +780,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'hipotese':
-      var bookPoster = "/images/Home/home-popullar-hipotese.jpg";
+      var bookPoster = "images//Home/home-popullar-hipotese.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -809,7 +809,7 @@ function showBook(position, name) {
       setLink.setAttribute("value", bookLink);
       break;
     case 'simon':
-      var bookPoster = "/images/Home/home-adptation-simon.jpg";
+      var bookPoster = "images//Home/home-adptation-simon.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -839,7 +839,7 @@ function showBook(position, name) {
       break;
     case 'stars':
 
-      var bookPoster = "/images/Home/home-adptation-stars.jpg";
+      var bookPoster = "images//Home/home-adptation-stars.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -868,7 +868,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'callme':
-      var bookPoster = "/images/Home/home-adptation-callme.jpg";
+      var bookPoster = "images//Home/home-adptation-callme.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -897,7 +897,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'orgulho':
-      var bookPoster = "/images/Home/home-adptation-orgulho.jpg";
+      var bookPoster = "images//Home/home-adptation-orgulho.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -926,7 +926,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'duna':
-      var bookPoster = "/images/Home/home-adptation-duna.jpg";
+      var bookPoster = "images//Home/home-adptation-duna.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -955,7 +955,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'bird':
-      var bookPoster = "/images/Home/home-adptation-bird.jpg";
+      var bookPoster = "images//Home/home-adptation-bird.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -984,7 +984,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'cinco':
-      var bookPoster = "/images/Home/home-adptation-cinco.jpg";
+      var bookPoster = "images//Home/home-adptation-cinco.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -1013,7 +1013,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'it':
-      var bookPoster = "/images/Home/home-adptation-it.jpg";
+      var bookPoster = "images//Home/home-adptation-it.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -1051,7 +1051,7 @@ function showBook(position, name) {
       break;
 
     case '50':
-      var bookPoster = "/images/Home/home-adptation-50.jpg";
+      var bookPoster = "images//Home/home-adptation-50.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -1096,7 +1096,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case '1':
-      var bookPoster = "/images/Home/home-adptation-1.jpg";
+      var bookPoster = "images//Home/home-adptation-1.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -1133,7 +1133,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'fallen':
-      var bookPoster = "/images/Home/home-adptation-fallen.jpg";
+      var bookPoster = "images//Home/home-adptation-fallen.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 
@@ -1162,7 +1162,7 @@ function showBook(position, name) {
       setLink.setAttribute("src", trailerLink);
       break;
     case 'vinci':
-      var bookPoster = "/images/Home/home-adptation-vinci.jpg";
+      var bookPoster = "images//Home/home-adptation-vinci.jpg";
       var setPoster = document.getElementById(poster[position - 1]);
       setPoster.setAttribute("src", bookPoster);
 

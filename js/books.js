@@ -14,19 +14,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Guerra";
             document.getElementById("book-author").innerHTML = "Anne Frank (biografia)";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-unset-star.png";
+            var fifthStar =  "images/Book/rating-unset-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -81,19 +81,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -148,19 +148,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -215,19 +215,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -282,19 +282,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "André Aciman";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -349,19 +349,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Jane Austen";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -416,19 +416,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Guerra";
             document.getElementById("book-author").innerHTML = "Frank Herbert";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -483,19 +483,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Josh Malerman ";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -550,19 +550,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Rachael Lippincott";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -617,19 +617,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Stephen King";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -684,19 +684,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "E. L. James";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -751,19 +751,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Guerra";
             document.getElementById("book-author").innerHTML = "Ernest Cline";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -818,19 +818,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Lauren Kate";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -885,19 +885,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Dan Brown";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -952,19 +952,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Taylor Jenkins Reid";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1020,19 +1020,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Alyssa Cole";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-unset-star.png";
+            var fifthStar =  "images/Book/rating-unset-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1089,19 +1089,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Val Emmich, Steven Levenson, Justin Paul e Benj Pasek";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-unset-star.png";
+            var fifthStar =  "images/Book/rating-unset-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1158,19 +1158,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Gillian Flynn";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1231,19 +1231,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "John Green";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1300,19 +1300,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Jenna Evans Welch";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1369,19 +1369,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Ali HazelWood";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1438,19 +1438,19 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Karen M. McManus";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
@@ -1531,19 +1531,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Suspense";
         document.getElementById("book-author").innerHTML = "Charlie Donlea";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1601,19 +1601,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1671,19 +1671,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "George Orwell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1741,19 +1741,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Pedro Rhuas";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1811,19 +1811,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Bernardine Evaristo";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1881,19 +1881,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Adam Silvera";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -1951,19 +1951,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Suspense";
         document.getElementById("book-author").innerHTML = "A. J. Finn";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2021,19 +2021,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Suspense";
         document.getElementById("book-author").innerHTML = "Stephen King";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2091,19 +2091,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Suspense";
         document.getElementById("book-author").innerHTML = "John Fowles";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2161,19 +2161,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Suspense";
         document.getElementById("book-author").innerHTML = "Dot Hutchison";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2231,19 +2231,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Drama";
         document.getElementById("book-author").innerHTML = "Alice Walker";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2301,19 +2301,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Drama";
         document.getElementById("book-author").innerHTML = "R.J Palacio";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2371,19 +2371,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Drama";
         document.getElementById("book-author").innerHTML = "Chimamanda Ngozi Adichie";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2441,19 +2441,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Guerra";
         document.getElementById("book-author").innerHTML = "Sun Tzu";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2511,19 +2511,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Guerra";
         document.getElementById("book-author").innerHTML = "Orlando Figes";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2581,19 +2581,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Guerra";
         document.getElementById("book-author").innerHTML = "Lev Tolstoi";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2651,19 +2651,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Guerra";
         document.getElementById("book-author").innerHTML = "Jonathan Mayo";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2721,19 +2721,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "Val Emmich";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2791,19 +2791,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Guerra";
         document.getElementById("book-author").innerHTML = "Svetlana Aleksiévitch";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2861,19 +2861,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Fernando Scheller";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -2931,19 +2931,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Alice Oseman";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3001,19 +3001,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Alice Oseman";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3071,19 +3071,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Alice Oseman";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3141,19 +3141,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Alice Oseman";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3211,19 +3211,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3281,19 +3281,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3351,19 +3351,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "LGBTQIA+";
         document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3421,19 +3421,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3491,19 +3491,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Rainbow Rowell";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3561,19 +3561,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3631,19 +3631,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3701,19 +3701,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3771,19 +3771,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3841,19 +3841,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3911,19 +3911,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -3981,19 +3981,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4051,19 +4051,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4121,19 +4121,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4191,19 +4191,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "J.K. Rowling";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4261,19 +4261,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "Aldous Leonard Huxley";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4331,19 +4331,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = " George Orwell ";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4401,19 +4401,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Ficção";
         document.getElementById("book-author").innerHTML = "Amie Kaufman e Jay Kristoff";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4471,19 +4471,19 @@ function inputBook() {
         document.getElementById("book-genre").innerHTML = "Romance";
         document.getElementById("book-author").innerHTML = "Tillie Cole";
 
-        var firstStar =  "/images/Book/rating-set-star.png";
+        var firstStar =  "images/Book/rating-set-star.png";
         var setFirstStar = document.getElementById("star-1");
         setFirstStar.setAttribute("src", firstStar);
-        var secondStar =  "/images/Book/rating-set-star.png";
+        var secondStar =  "images/Book/rating-set-star.png";
         var setSecondStar = document.getElementById("star-2");
         setSecondStar.setAttribute("src", secondStar);
-        var thirdStar =  "/images/Book/rating-set-star.png";
+        var thirdStar =  "images/Book/rating-set-star.png";
         var setThirdStar = document.getElementById("star-3");
         setThirdStar.setAttribute("src", thirdStar);
-        var fourthStar =  "/images/Book/rating-set-star.png";
+        var fourthStar =  "images/Book/rating-set-star.png";
         var setFourthStar = document.getElementById("star-4");
         setFourthStar.setAttribute("src", fourthStar);
-        var fifthStar =  "/images/Book/rating-set-star.png";
+        var fifthStar =  "images/Book/rating-set-star.png";
         var setFifthStar = document.getElementById("star-5");
         setFifthStar.setAttribute("src", fifthStar);
 
@@ -4540,26 +4540,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Machado de Assis";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Em 1881, Machado de Assis lançou aquele que seria um divisor de águas não só em sua obra, mas na literatura brasileira: Memórias póstumas de Brás Cubas. Ao mesmo tempo em que marca a fase mais madura do autor, o livro é considerado a transição do romantismo para o realismo. Num primeiro momento, a prosa fragmentária e livre de Memórias póstumas, misturando elegância e abuso, refinamento e humor negro, causou estranheza, inclusive entre a crítica. Com o tempo, no entanto, o defunto autor que dedica sua obra ao verme que primeiro roeu as frias carnes de seu cadáver tornou-se um dos personagens mais populares da nossa literatura. Sua história, uma celebração do nada que foi sua vida, foi transformada em filmes, peças e HQs, e teve incontáveis edições no Brasil e no mundo, conquistando admiradores que vão de Susan Sontag a Woody Allen. Esta edição reproduz o prólogo do próprio autor à terceira edição do livro, em que ele responde às dúvidas dos primeiros leitores.";
 
@@ -4617,26 +4617,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Euclides da Cunha";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Publicado pela primeira vez em 1902, Os Sertões de Euclides da Cunha é um retrato do Brasil da época. A obra trata da Guerra de Canudos que aconteceu no interior da Bahia. O autor, que era correspondente do jornal O Estado de São Paulo, presenciou parte dos acontecimentos na região e os descreveu de forma fiel. Além de desenvolver um romance histórico que mistura uma narrativa literária, sociológica e geográfica. Euclides da Cunha nos deixa uma obra que se baseia em três pilares: a terra, o homem e a luta. Um livro telúrico.";
 
@@ -4694,26 +4694,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama e Suspense";
             document.getElementById("book-author").innerHTML = "Raïssa Lettiére";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Um enigma na curva de uma estrada e os quatro braços de uma cruz. Um homem que vê a mãe perder a sanidade aos poucos. Outro que confere o obituário de jornais em busca de um nome conhecido. Uma refeição que evoca todas as últimas ceias. Uma amizade de infância, em meio a empurrões e quedas, leva a uma decisão irreversível.";
 
@@ -4771,26 +4771,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama e Romance";
             document.getElementById("book-author").innerHTML = "Dinah Silveira de Queiroz";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Cristina é a jovem romântica que vem de Portugal para casar-se com Tiago. Decepciona-se logo ao desembarcar do navio: seu prometido não a aguarda. E, para chegar a Lagoa Serena, a propriedade da família do noivo, precisa enfrentar dificuldades a fim de transpor a muralha da Serra do Mar, que separa o litoral da vila de São Paulo de Piratininga. Mas Cristina terá de lidar com muito mais do que as vicissitudes de uma terra selvagem: a indiferença de Tiago, que parece só querer bem às estrelas, e os hábitos tão distintos daqueles do Reino. A paisagem e os costumes do tempo colonial são reconstituídos por Dinah Silveira de Queiroz ― ela própria descendente do bandeirante Carlos Pedroso da Silveira ―, com destaque para as enérgicas personagens femininas: afinal, eram as mulheres que administravam e defendiam a casa enquanto os homens partiam nas bandeiras.";
 
@@ -4848,26 +4848,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Aione Simões";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Um salto para o amor é o primeiro romance de Aione Simões, criadora do blog Minha Vida Literária, na Harlequin. Numa comédia romântica com pontos importantes sobre representatividade, acompanhamos a trajetória de Lily, uma jovem determinada a fazer qualquer coisa para evitar a falência de seu negócio – inclusive virar influencer — e que carrega grandes traumas de seu passado. O propósito da vida de Lily é desafiar as leis de Newton. Quanto mais forças tentam colocá-la para baixo, menos ela se deixa abater. Ao menos tem sido assim nos últimos anos, desde que enfrentou a desestruturação de sua família e optou por mudar sua vida por completo. Lily pediu demissão de seu trabalho para aventurar-se como mulher empreendedora e abrir uma loja de roupa — a Frida —, decidida a transformá-la num espaço para todos os tipos de mulheres. Depois de um ano da abertura da loja, ela sente que realmente superou o passado. Ou, pelo menos, era o que achava.";
 
@@ -4925,26 +4925,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Pedro Rhuas";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "A vida tem sido boa para Lucas. Ele passou no Enem para estudar publicidade; se mudou com Eric, seu melhor amigo, do interior do Rio Grande do Norte para a capital; e conseguiu sua tão aguardada liberdade. Mas, no amor, Lucas é um desastre. O maior fã de Katy Perry no Nordeste tem certeza de que nem toda a sorte do mundo poderia fazer com que ele finalmente se apaixonasse pela primeira vez. Até que, em uma despretensiosa noite de sábado em 2015, tudo muda. Quando Lucas e Eric vão na inauguração do Titanic, a mais nova balada da cidade, Lucas esbarra (literalmente!) em Pierre, um lindo garoto francês que parece ter saído dos seus sonhos. Em meio a drinques, segredos e sonhos partilhados, Lucas e Pierre se conectam instantaneamente. Eles vivem o encontro mais especial de suas vidas, mas o Universo tem outros planos para o futuro… Até a noite acabar, o que será que vai acontecer com eles?";
 
@@ -5002,26 +5002,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Elayne Baeta";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "O amor não é óbvio. Ele está presente quando você se senta com a sua vizinha idosa para assistir a um novo capítulo da sua novela favorita. Ele é posto à prova quando você escuta as histórias mirabolantes da sua melhor amiga, ainda que nenhuma delas lhe interesse. E, às vezes, ele aparece quando você menos espera e te leva a fazer experimentos científicos munida de binóculos e uma bicicleta amarela. Íris tem 17 anos e está viciada na novela Amor em atos. Ela e sua vizinha, Dona Símia, de 68 anos, não perdem um episódio. Na escola, parece que todo mundo só pensa em duas coisas: na festa de formatura e em perder a virgindade. Só que a vida de Íris está prestes a mudar: Cadu Sena, sua paixão platônica desde a oitava série, está solteiro. Essa é a chance de Íris. Mas antes ela precisa entender o que levou a namorada de Cadu a deixá-lo por uma garota, Édra Norr. Montada em sua bicicleta, Íris vai cruzar São Patrique para descobrir tudo sobre Édra, e não vai demorar para se enredar também nos encantos da garota. A gente pode achar que sabe por quem vai se apaixonar, mas o amor não é óbvio.";
 
@@ -5079,26 +5079,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Samantha Silvany";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = " O escritor Dan pensava estar vivendo um verdadeiro romance clichê com seu amor de infância, pelo menos até conhecer Sofia, uma mulher que o faz sentir coisas que nunca sentiu antes. Sofia, uma mulher empoderada e decidida, mas azarada no amor, achava ter encontrado seu par perfeito, até descobrir que seu príncipe encantado era o mesmo de outra pessoa. Já Alicia está convencida de que encontrou o grande amor e que nada e ninguém irão impedi-la de seguir ao altar e ter seu tão sonhado “felizes para sempre”. Mesmo que precise passar por cima de si mesma para isso. Mesmo que tenha que esmagar seu amor-próprio para provar para si e para os outros que aquele homem é a metade que lhe falta. Mas será que as pessoas realmente são incompletas e precisam de outra metade para encontrar a felicidade? O preço para viver um grande amor pode ser a própria dignidade? A sororidade existe mesmo ou é só uma palavra bonita que decidiram acrescentar no dicionário? Sofia tem algumas respostas para essas perguntas, mas Alicia tem outras bem diferentes...";
 
@@ -5156,26 +5156,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Drama e Ficção";
             document.getElementById("book-author").innerHTML = "Italo Moriconi";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Para Júlio Cortazar, conto é aquele texto que corre em poucas linhas e em alta velocidade narrativa, capaz de nocautear o leitor com seu impacto dramático concentrado. Coube ao professor Italo Moriconi o desafio lançado pela Objetiva de garimpar os cem melhores textos do gênero produzidos no Brasil ao longo do século XX. Um trabalho que deixasse de lado os rígidos critérios acadêmicos e fosse pautado somente pela qualidade e sabor dessas pequenas obras-primas. O resultado é a coletânea Os Cem Melhores Contos Brasileiros do Século, um passeio pela mais deliciosa e contundente ficção curta produzida no Brasil entre 1900 e o fim dos anos 90. Uma antologia capaz de traduzir as mudanças do país e as inquietações de várias gerações de brasileiros, em cem anos de produção literária. A prova de que a arte do gênero não cessa de melhorar em nossa literatura.";
 
@@ -5233,26 +5233,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Vinicius Fernandes";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Lucas há tempos se fechou para o amor. Na rotina agitada do psicólogo gato e bem-sucedido, só há espaço para encontros casuais, desde que não durem mais de uma noite. Já Gabriel é o romantismo em pessoa. Mesmo já tendo quebrado a cara algumas vezes, ele sonha em encontrar um grande amor, daquele tipo que faz os olhos revirarem. É claro que as histórias dos dois vão se encontrar... Mas até que ponto duas pessoas tão diferentes podem ser felizes? Uma hora você percebe que a vida não é um conto de fadas (nem perto disso!), e é preciso amadurecer. Mas, também, chega um momento em que você tem que abrir a porta e deixar alguém entrar. Será que ambos estão dispostos a isso?";
 
@@ -5310,26 +5310,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Juan Jullian";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "A única coisa pior e mais desastrosa do que levar um pé na bunda, é levar um pé na bunda e ver seu ex se tornar a maior subcelebridade do Brasil. Não só isso, mas assistir em tempo real enquanto ele se apaixona por outro cara em TV nacional. Poucas palavras conseguem expressar esse nível de decepção amorosa. Nem mesmo Taylor Swift seria capaz de entender. Mas é justamente a tentativa de colocar a dor em palavras, reunidas em cartas para o maldito ex, que faz com que nosso protagonista repense algumas coisas. Entre crises de luto e saudades, existem festas anuais do dia dos ex-namorados com todas as suas amigas que o seu ex detestava. Existe a vida que você deixou para trás enquanto amava alguém que agora é somente um estranho com milhões de seguidores. E talvez por trás daquele amor existisse também um tanto de controle, de gaslighting, de codependência. Além de abordar de forma crua as diferentes nuances de um relacionamento abusivo, Querido ex também traz questionamentos sobre os preconceitos sociais que jovens negros e gays estão sujeitos em nossa sociedade.";
 
@@ -5387,26 +5387,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Vitor Martins";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Jonas não sabe muito bem o que fazer da vida. Entre suas leituras e ideias para livros anotadas em um caderninho de bolso, ele precisa dar conta de seus turnos no Rocket Café e ainda lidar com o conservadorismo de seus pais. Sua mãe alimenta a esperança de que ele volte a frequentar a igreja, e seu pai não faz muito por ele além de trazer problemas. Mas é quando conhece Arthur, um belo garoto de barba ruiva, que Jonas passa a questionar por quanto tempo conseguirá viver sob as expectativas de seus pais, fingindo ser uma pessoa diferente de quem é de verdade. Buscando conforto em seus amigos (e na sua história sobre dois piratas bonitões que se parecem muito com ele e Arthur), Jonas entenderá o verdadeiro significado de família e amizade, e descobrirá o poder de uma boa história.";
 
@@ -5464,26 +5464,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance";
             document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Em É assim que acaba, Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja? É assim que acaba é uma narrativa poderosa sobre a força necessária para fazer as escolhas certas nas situações mais difíceis. Considerada a obra mais pessoal de Hoover, o livro aborda sem medo alguns tabus da sociedade para explorar a complexidade das relações tóxicas, e como o amor e o abuso muitas vezes coexistem em uma confusão de sentimentos.";
 
@@ -5541,26 +5541,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e Ficção";
             document.getElementById("book-author").innerHTML = "Aldous Leonard Huxley";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Em uma sociedade organizada segundo princípios estritamente científicos, Bernard Marx, um psicólogo, sente-se inadequado quando se compara aos outros seres de sua casta. Ao descobrir uma “reserva histórica” que preserva costumes de uma sociedade anterior – muito semelhante à do leitor – Bernard vai perceber as diferenças entre esta civilização e a sua – e a partir de um sentimento de inconformismo ele desafiará o mundo. A história de Bernard se passa em um ambiente em que a literatura, a música e o cinema só têm a função de solidificar a alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade contra a diversidade. Muitas das previsões de Huxley vieram a ser confirmadas anos mais tarde, como a tecnologia reprodutiva, as supostas técnicas de aprendizado durante o sono e a manipulação pelo condicionamento psicológico.";
 
@@ -5618,26 +5618,26 @@ function inputBook() {
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Casey McQuiston";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Quando sua mãe foi eleita presidenta dos Estados Unidos, Alex Claremont-Diaz se tornou o novo queridinho da mídia norte-americana. Bonito, carismático e com personalidade forte, Alex tem tudo para seguir os passos de seus pais e conquistar uma carreira na política, como tanto deseja. Mas quando sua família é convidada para o casamento real do príncipe britânico Philip, Alex tem que encarar o seu primeiro desafio diplomático: lidar com Henry, irmão mais novo de Philip, o príncipe mais adorado do mundo, com quem ele é constantemente comparado ― e que ele não suporta. O encontro entre os dois sai pior do que o esperado, e no dia seguinte todos os jornais do mundo estampam fotos de Alex e Henry caídos em cima do bolo real, insinuando uma briga séria entre os dois. Para evitar um desastre diplomático, eles passam um fim de semana fingindo ser melhores amigos e não demora para que essa relação evolua para algo que nenhum dos dois poderia imaginar ― e que não tem nenhuma chance de dar certo. Ou tem?";
 
@@ -5695,26 +5695,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "Alex Michaelides";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Alicia Berenson tinha uma vida perfeita. Ela era uma pintora famosa casada com um fotógrafo bem-sucedido e morava numa área nobre de Londres que dá para o parque de Hampstead Heath. Certa noite, Gabriel, seu marido, voltou tarde para casa depois de um ensaio para a Vogue, e de repente a vida de Alicia mudou completamente... Alicia tinha 33 anos quando deu cinco tiros no rosto do marido, e ela nunca mais disse uma palavra. A recusa de Alicia a falar ou a dar qualquer explicação transforma essa tragédia doméstica em algo muito maior - um mistério que atrai a atenção do público e aumenta ainda mais a fama da pintora. Entretanto, enquanto seus quadros passam a ser mais valorizados que nunca, ela é levada para o Grove, um hospital psiquiátrico judiciário na zona norte de Londres. Enquanto isso, Theo Faber é um psicoterapeuta forense que espera há muito tempo por uma oportunidade de trabalhar com Alicia. Ele tem certeza de que é a pessoa certa para lidar com o caso. ";
 
@@ -5772,26 +5772,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Suspense";
             document.getElementById("book-author").innerHTML = "C. J. Tudor";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Em 1986, Eddie e os amigos passam a maior parte dos dias andando de bicicleta pela pacata vizinhança em busca de aventuras. Os desenhos a giz são seu código secreto: homenzinhos rabiscados no asfalto; mensagens que só eles entendem. Mas um desenho misterioso leva o grupo de crianças até um corpo desmembrado e espalhado em um bosque. Depois disso, nada mais é como antes. Em 2016, Eddie se esforça para superar o passado, até que um dia ele e os amigos de infância recebem um mesmo aviso: o desenho de um homem de giz enforcado. Quando um dos amigos aparece morto, Eddie tem certeza de que precisa descobrir o que de fato aconteceu trinta anos atrás. Alternando habilidosamente entre presente e passado, O Homem de Giz traz o melhor do suspense: personagens maravilhosamente construídos, mistérios de prender o fôlego e reviravoltas que vão impressionar até os leitores mais escaldados.";
 
@@ -5849,26 +5849,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Itamar Vieira Junior";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social. Um texto épico e lírico, realista e mágico que revela, para além de sua trama, um poderoso elemento de insubordinação social. Nas profundezas do sertão baiano, as irmãs Bibiana e Belonísia encontram uma velha e misteriosa faca na mala guardada sob a cama da avó. Ocorre então um acidente. E para sempre suas vidas estarão ligadas ― a ponto de uma precisar ser a voz da outra. Numa trama conduzida com maestria e com uma prosa melodiosa, o romance conta uma história de vida e morte, de combate e redenção.";
 
@@ -5926,26 +5926,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Romance e Drama";
             document.getElementById("book-author").innerHTML = "Colleen Hoover";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois. Meses mais tarde, os acordes tocam para o casal mais uma vez e eles se reencontram. Graham está convencido de que são almas gêmeas. Quinn jamais se sentiu dessa forma antes. A intensidade do sentimento os assusta, mas eles mergulham de cabeça mesmo assim. O casamento é tudo o que sonhavam, a parceria perfeita. Mesmo nos momentos difíceis, sabem que podem contar com o outro. Nenhum deles desiste do amor que sentem. Até que a primeira nota dissonante abala a sinfonia do casal. Até que Quinn parece estar disposta a trocar tudo o que é pela única coisa que não consegue ser: mãe.";
 
@@ -6003,26 +6003,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Drama";
             document.getElementById("book-author").innerHTML = "Clarissa Pinkola Estés";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Os lobos foram pintados com um pincel negro nos contos de fada e até hoje assustam meninas indefesas. Mas nem sempre eles foram vistos como criaturas terríveis e violentas. Na Grécia antiga e em Roma, o animal era o consorte de Artemis, a caçadora, e carinhosamente amamentava os heróis. A analista junguiana Clarissa Pinkola Estés acredita que na nossa sociedade as mulheres vêm sendo tratadas de uma forma semelhante. Ao investigar o esmagamento da natureza instintiva feminina, Clarissa descobriu a chave da sensação de impotência da mulher moderna. Seu livro, Mulheres que correm com os lobos, ficou durante um ano na lista de mais vendidos nos Estados Unidos. Abordando 19 mitos, lendas e contos de fada, como a história do patinho feio e do Barba-Azul, Estés mostra como a natureza instintiva da mulher foi sendo domesticada ao longo dos tempos, num processo que punia todas aquelas que se rebelavam. Segundo a analista, a exemplo das florestas virgens e dos animais silvestres, os instintos foram devastados e os ciclos naturais femininos transformados à força em ritmos artificiais para agradar aos outros.";
 
@@ -6080,26 +6080,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Drama e Ficção";
             document.getElementById("book-author").innerHTML = "Carla Madeira";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Com uma narrativa madura, precisa e ao mesmo tempo delicada e poética, o romance narra a história do casal Dalva e Venâncio, que tem a vida transformada após uma perda trágica, resultado do ciúme doentio do marido, e de Lucy, a prostituta mais depravada e cobiçada da cidade, que entra no caminho deles, formando um triângulo amoroso. Na orelha do livro, Martha Medeiros escreve: “Tudo é rio é uma obra-prima, e não há exagero no que afirmo. É daqueles livros que, ao ser terminado, dá vontade de começar de novo, no mesmo instante, desta vez para se demorar em cada linha, saborear cada frase, deixar-se abraçar pela poesia da prosa. Na primeira leitura, essa entrega mais lenta é quase impossível, pois a correnteza dos acontecimentos nos leva até a última página sem nos dar chance para respirar. É preciso manter-se à tona ou a gente se afoga.”";
 
@@ -6157,26 +6157,26 @@ document.getElementById("resen-1-text").innerHTML = "Se eu tenho uma crítica a 
             document.getElementById("book-genre").innerHTML = "Romance e LGBTQIA+";
             document.getElementById("book-author").innerHTML = "Becky Albertalli";
 
-            var firstStar =  "/images/Book/rating-set-star.png";
+            var firstStar =  "images/Book/rating-set-star.png";
             var setFirstStar = document.getElementById("star-1");
             setFirstStar.setAttribute("src", firstStar);
-            var secondStar =  "/images/Book/rating-set-star.png";
+            var secondStar =  "images/Book/rating-set-star.png";
             var setSecondStar = document.getElementById("star-2");
             setSecondStar.setAttribute("src", secondStar);
-            var thirdStar =  "/images/Book/rating-set-star.png";
+            var thirdStar =  "images/Book/rating-set-star.png";
             var setThirdStar = document.getElementById("star-3");
             setThirdStar.setAttribute("src", thirdStar);
-            var fourthStar =  "/images/Book/rating-set-star.png";
+            var fourthStar =  "images/Book/rating-set-star.png";
             var setFourthStar = document.getElementById("star-4");
             setFourthStar.setAttribute("src", fourthStar);
-            var fifthStar =  "/images/Book/rating-set-star.png";
+            var fifthStar =  "images/Book/rating-set-star.png";
             var setFifthStar = document.getElementById("star-5");
             setFifthStar.setAttribute("src", fifthStar);
 
             // vai mudar as estelas com o rate online, unset-star é vazia e set-star é cheia 
             // por exemplo: 4,5 (set,set,set,set,unset) - arredonda pra baixa no 0,5
             // por exemplo: 3 (set,set,set,unset,unset)
-            // muda o set e unt na ("/images/Book/rating-(unset)-star.png")
+            // muda o set e unt na ("images/Book/rating-(unset)-star.png")
 
             document.getElementById("book-text").innerHTML = "Simon tem dezesseis anos e é gay, mas ninguém sabe. Sair ou não do armário é um drama que ele prefere deixar para depois. Tudo muda quando Martin, o bobão da escola, descobre uma troca de e-mails entre Simon e um garoto misterioso que se identifica como Blue e que a cada dia faz o coração de Simon bater mais forte. Martin começa a chantageá-lo, e, se Simon não ceder, seu segredo cairá na boca de todos. Pior: sua relação com Blue poderá chegar ao fim, antes mesmo de começar. Agora, o adolescente avesso a mudanças precisará encontrar uma forma de sair de sua zona de conforto e dar uma chance à felicidade ao lado do menino mais confuso e encantador que ele já conheceu. Uma história que trata com naturalidade e bom humor de questões delicadas, explorando a difícil tarefa que é amadurecer e as mudanças e os dilemas pelos quais todos nós, adolescentes ou não, precisamos enfrentar para nos encontramos.";
 
